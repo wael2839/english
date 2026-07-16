@@ -1,0 +1,207 @@
+{
+  "id": "lesson-21",
+  "slug": "passive-voice",
+  "sectionId": "section-03",
+  "order": 21,
+  "titleAr": "المبني للمجهول",
+  "titleEn": "Passive Voice",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "التركيز على الفعل أو النتيجة عندما يكون الفاعل غير مهم أو مجهولًا.",
+  "shortDefinition": "التركيز على الفعل أو النتيجة عندما يكون الفاعل غير مهم أو مجهولًا.",
+  "uses": [
+    "نغيّر زمن be ونحافظ على V3.",
+    "نذكر الفاعل بـ by فقط إذا كان مهمًا.",
+    "شائع في التقارير والعمليات: The data is stored securely."
+  ],
+  "formula": "be in required tense + V3",
+  "affirmative": "",
+  "negative": "be + not + V3 — إضافة أداة النفي المناسبة.",
+  "question": "Be + S + V3? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "by",
+    "be + V3",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "This bridge is used by many travelers.",
+      "arabic": "يستخدم هذا الجسر كثير من المسافرين.",
+      "reason": "حاضر",
+      "highlight": "is"
+    },
+    {
+      "english": "The window was repaired yesterday.",
+      "arabic": "أُصلحت النافذة أمس.",
+      "reason": "ماضٍ",
+      "highlight": "was"
+    },
+    {
+      "english": "The invitations have been sent.",
+      "arabic": "تم إرسال الدعوات.",
+      "reason": "تام",
+      "highlight": "been"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "The cake is make.",
+      "correct": "The cake is made.",
+      "explanationAr": "استخدم V3."
+    },
+    {
+      "wrong": "The road completed last year.",
+      "correct": "The road was completed last year.",
+      "explanationAr": "يلزم be."
+    }
+  ],
+  "memoryTip": "المفعول يصبح فاعلًا، وbe يتبع الزمن المطلوب مع V3.",
+  "comparisons": [
+    {
+      "leftLabel": "Active Voice",
+      "rightLabel": "Passive Voice",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "التركيز على من قام بالفعل",
+          "right": "التركيز على الفعل أو النتيجة"
+        },
+        {
+          "aspect": "مثال",
+          "left": "The chef prepared dinner.",
+          "right": "Dinner was prepared."
+        }
+      ],
+      "keyDifference": "التركيز على من قام بالفعل؛ بينما التركيز على الفعل أو النتيجة."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-21-ex-03",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: The work has ___ (finish).",
+      "options": [],
+      "correctAnswer": "finish",
+      "acceptedAnswers": [
+        "finish",
+        "Finish"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من finish",
+      "lessonId": "lesson-21",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "3. أكمل: The work has ___ (finish).",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-21-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: The cake is make.",
+      "options": [],
+      "correctAnswer": "The cake is made.",
+      "acceptedAnswers": [
+        "The cake is made.",
+        "The cake is made",
+        "The cake is made.",
+        "The cake is made."
+      ],
+      "explanationAr": "استخدم V3.",
+      "lessonId": "lesson-21",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-21-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: The road completed last year.",
+      "options": [],
+      "correctAnswer": "The road was completed last year.",
+      "acceptedAnswers": [
+        "The road was completed last year.",
+        "The road was completed last year",
+        "The road was completed last year.",
+        "The road was completed last year."
+      ],
+      "explanationAr": "يلزم be.",
+      "lessonId": "lesson-21",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-21-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: Th___ bridge is used by many travelers.",
+      "options": [],
+      "correctAnswer": "is",
+      "acceptedAnswers": [
+        "is",
+        "is",
+        "Is"
+      ],
+      "explanationAr": "حاضر",
+      "lessonId": "lesson-21",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-21-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المبني للمجهول؟ «The window was repaired yesterday.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "ماضٍ",
+      "lessonId": "lesson-21",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-21-ex-03",
+      "answer": "finish",
+      "explanationAr": "استخدم الشكل المناسب من finish"
+    },
+    {
+      "exerciseId": "lesson-21-fix-err-01",
+      "answer": "The cake is made.",
+      "explanationAr": "استخدم V3."
+    },
+    {
+      "exerciseId": "lesson-21-fix-err-02",
+      "answer": "The road was completed last year.",
+      "explanationAr": "يلزم be."
+    },
+    {
+      "exerciseId": "lesson-21-fix-fill-01",
+      "answer": "is",
+      "explanationAr": "حاضر"
+    },
+    {
+      "exerciseId": "lesson-21-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "ماضٍ"
+    }
+  ],
+  "relatedLessons": [
+    "conditionals",
+    "relative-clauses"
+  ],
+  "estimatedMinutes": 18
+}

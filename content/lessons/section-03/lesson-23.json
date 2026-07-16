@@ -1,0 +1,161 @@
+{
+  "id": "lesson-23",
+  "slug": "linking-words-and-compound-sentences",
+  "sectionId": "section-03",
+  "order": 23,
+  "titleAr": "الروابط والجمل المركبة",
+  "titleEn": "Linking Words and Compound Sentences",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "ربط الأفكار بوضوح وتجنب الجمل المتلاصقة.",
+  "shortDefinition": "ربط الأفكار بوضوح وتجنب الجمل المتلاصقة.",
+  "uses": [
+    "and إضافة، but/yet تعارض، or خيار، so نتيجة، for سبب رسمي.",
+    "because/although/while/when/if تجعل جملة تابعة.",
+    "however وtherefore ظروف ربط تحتاج ترقيمًا صحيحًا."
+  ],
+  "formula": "independent clause + coordinator + independent clause | subordinator + dependent clause",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "The journey was long, but I enjoyed it.",
+      "arabic": "كانت الرحلة طويلة لكنني استمتعت بها.",
+      "reason": "تعارض",
+      "highlight": "journey"
+    },
+    {
+      "english": "Although it was difficult, I finished it.",
+      "arabic": "مع أنها كانت صعبة، أنهيتها.",
+      "reason": "تنازل",
+      "highlight": "Although"
+    },
+    {
+      "english": "The road was closed; therefore, we waited.",
+      "arabic": "كان الطريق مغلقًا؛ لذلك انتظرنا.",
+      "reason": "نتيجة",
+      "highlight": "road"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Although it was hard, but I finished.",
+      "correct": "Although it was hard, I finished.",
+      "explanationAr": "لا تجمع although وbut."
+    },
+    {
+      "wrong": "Because I was tired.",
+      "correct": "I stopped because I was tired.",
+      "explanationAr": "ليست جملة مكتملة وحدها."
+    }
+  ],
+  "memoryTip": "لا تربط جملتين مستقلتين بفاصلة وحدها؛ استخدم رابطًا مناسبًا.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-23-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Although it was hard, but I finished.",
+      "options": [],
+      "correctAnswer": "Although it was hard, I finished.",
+      "acceptedAnswers": [
+        "Although it was hard, I finished.",
+        "Although it was hard, I finished",
+        "Although it was hard, I finished.",
+        "Although it was hard, I finished."
+      ],
+      "explanationAr": "لا تجمع although وbut.",
+      "lessonId": "lesson-23",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-23-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Because I was tired.",
+      "options": [],
+      "correctAnswer": "I stopped because I was tired.",
+      "acceptedAnswers": [
+        "I stopped because I was tired.",
+        "I stopped because I was tired",
+        "I stopped because I was tired.",
+        "I stopped because I was tired."
+      ],
+      "explanationAr": "ليست جملة مكتملة وحدها.",
+      "lessonId": "lesson-23",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-23-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: The ___ was long, but I enjoyed it.",
+      "options": [],
+      "correctAnswer": "journey",
+      "acceptedAnswers": [
+        "journey",
+        "journey",
+        "Journey"
+      ],
+      "explanationAr": "تعارض",
+      "lessonId": "lesson-23",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-23-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الروابط والجمل المركبة؟ «Although it was difficult, I finished it.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "تنازل",
+      "lessonId": "lesson-23",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-23-fix-err-01",
+      "answer": "Although it was hard, I finished.",
+      "explanationAr": "لا تجمع although وbut."
+    },
+    {
+      "exerciseId": "lesson-23-fix-err-02",
+      "answer": "I stopped because I was tired.",
+      "explanationAr": "ليست جملة مكتملة وحدها."
+    },
+    {
+      "exerciseId": "lesson-23-fix-fill-01",
+      "answer": "journey",
+      "explanationAr": "تعارض"
+    },
+    {
+      "exerciseId": "lesson-23-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "تنازل"
+    }
+  ],
+  "relatedLessons": [
+    "relative-clauses",
+    "present-perfect-continuous"
+  ],
+  "estimatedMinutes": 18
+}

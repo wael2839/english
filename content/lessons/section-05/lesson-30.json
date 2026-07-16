@@ -1,0 +1,162 @@
+{
+  "id": "lesson-30",
+  "slug": "inversion-emphasis-and-ellipsis",
+  "sectionId": "section-05",
+  "order": 30,
+  "titleAr": "القلب والتوكيد والحذف",
+  "titleEn": "Inversion, Emphasis and Ellipsis",
+  "level": "advanced",
+  "ruleType": "بناء لغوي",
+  "goal": "فهم تراكيب متقدمة شائعة في الكتابة الرسمية والتوكيد.",
+  "shortDefinition": "فهم تراكيب متقدمة شائعة في الكتابة الرسمية والتوكيد.",
+  "uses": [
+    "بعد ظروف النفي في بداية الجملة يحدث قلب: Never have I seen...",
+    "Cleft sentences لتوكيد عنصر: It was Sara who solved it.",
+    "So do I للموافقة المثبتة، Neither do I للسلبية.",
+    "الحذف يمنع التكرار: I can sing, and she can too."
+  ],
+  "formula": "Never/Rarely + auxiliary + subject + verb | It is/was X that... | so/neither + auxiliary + subject",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "Never have I seen such a beautiful view.",
+      "arabic": "لم أرَ قط منظرًا بهذا الجمال.",
+      "reason": "قلب",
+      "highlight": "Never"
+    },
+    {
+      "english": "It was the heavy rain that caused the delay.",
+      "arabic": "المطر الغزير تحديدًا سبب التأخير.",
+      "reason": "توكيد",
+      "highlight": "was"
+    },
+    {
+      "english": "I like classical music, and so does she.",
+      "arabic": "أحب الموسيقى الكلاسيكية وكذلك هي.",
+      "reason": "موافقة",
+      "highlight": "like"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Never I have seen",
+      "correct": "Never have I seen",
+      "explanationAr": "قدّم المساعد."
+    },
+    {
+      "wrong": "So I do",
+      "correct": "So do I",
+      "explanationAr": "ترتيب القلب في الموافقة."
+    }
+  ],
+  "memoryTip": "بعد Never/Rarely في البداية يأتي المساعد قبل الفاعل.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-30-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Never I have seen",
+      "options": [],
+      "correctAnswer": "Never have I seen",
+      "acceptedAnswers": [
+        "Never have I seen",
+        "Never have I seen",
+        "Never have I seen",
+        "Never have I seen"
+      ],
+      "explanationAr": "قدّم المساعد.",
+      "lessonId": "lesson-30",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-30-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: So I do",
+      "options": [],
+      "correctAnswer": "So do I",
+      "acceptedAnswers": [
+        "So do I",
+        "So do I",
+        "So do I",
+        "So do I"
+      ],
+      "explanationAr": "ترتيب القلب في الموافقة.",
+      "lessonId": "lesson-30",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-30-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: ___ have I seen such a beautiful view.",
+      "options": [],
+      "correctAnswer": "Never",
+      "acceptedAnswers": [
+        "Never",
+        "never",
+        "Never"
+      ],
+      "explanationAr": "قلب",
+      "lessonId": "lesson-30",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-30-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة القلب والتوكيد والحذف؟ «It was the heavy rain that caused the delay.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "توكيد",
+      "lessonId": "lesson-30",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-30-fix-err-01",
+      "answer": "Never have I seen",
+      "explanationAr": "قدّم المساعد."
+    },
+    {
+      "exerciseId": "lesson-30-fix-err-02",
+      "answer": "So do I",
+      "explanationAr": "ترتيب القلب في الموافقة."
+    },
+    {
+      "exerciseId": "lesson-30-fix-fill-01",
+      "answer": "Never",
+      "explanationAr": "قلب"
+    },
+    {
+      "exerciseId": "lesson-30-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "توكيد"
+    }
+  ],
+  "relatedLessons": [
+    "advanced-determiners-and-agreement",
+    "punctuation-and-writing"
+  ],
+  "estimatedMinutes": 18
+}

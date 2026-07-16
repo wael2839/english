@@ -1,0 +1,162 @@
+{
+  "id": "lesson-15",
+  "slug": "prepositions",
+  "sectionId": "section-02",
+  "order": 15,
+  "titleAr": "حروف الجر",
+  "titleEn": "Prepositions",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "استخدام حروف الزمن والمكان والحركة والتراكيب الشائعة.",
+  "shortDefinition": "استخدام حروف الزمن والمكان والحركة والتراكيب الشائعة.",
+  "uses": [
+    "at 5 o’clock، on Monday، in July/2026.",
+    "at work، on the table، in Riyadh.",
+    "to للحركة نحو، into إلى الداخل، through عبر الداخل، across من جانب لآخر.",
+    "احفظ التراكيب: interested in, good at, responsible for."
+  ],
+  "formula": "at = نقطة | on = سطح/يوم | in = مساحة/شهر/سنة",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "The class is at 5 on Monday.",
+      "arabic": "الحصة الساعة الخامسة يوم الاثنين.",
+      "reason": "زمن",
+      "highlight": "class"
+    },
+    {
+      "english": "The keys are in the drawer.",
+      "arabic": "المفاتيح داخل الدرج.",
+      "reason": "مكان",
+      "highlight": "keys"
+    },
+    {
+      "english": "I am responsible for the children.",
+      "arabic": "أنا مسؤول عن الأطفال.",
+      "reason": "تركيب",
+      "highlight": "am"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "in Monday",
+      "correct": "on Monday",
+      "explanationAr": "الأيام مع on."
+    },
+    {
+      "wrong": "married with",
+      "correct": "married to",
+      "explanationAr": "التعبير الصحيح married to."
+    }
+  ],
+  "memoryTip": "اربط حرف الجر بالمعنى: زمن، مكان، اتجاه، أو علاقة ثابتة.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-15-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: in Monday",
+      "options": [],
+      "correctAnswer": "on Monday",
+      "acceptedAnswers": [
+        "on Monday",
+        "on Monday",
+        "on Monday",
+        "on Monday"
+      ],
+      "explanationAr": "الأيام مع on.",
+      "lessonId": "lesson-15",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-15-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: married with",
+      "options": [],
+      "correctAnswer": "married to",
+      "acceptedAnswers": [
+        "married to",
+        "married to",
+        "married to",
+        "married to"
+      ],
+      "explanationAr": "التعبير الصحيح married to.",
+      "lessonId": "lesson-15",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-15-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: The ___ is at 5 on Monday.",
+      "options": [],
+      "correctAnswer": "class",
+      "acceptedAnswers": [
+        "class",
+        "class",
+        "Class"
+      ],
+      "explanationAr": "زمن",
+      "lessonId": "lesson-15",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-15-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة حروف الجر؟ «The keys are in the drawer.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مكان",
+      "lessonId": "lesson-15",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-15-fix-err-01",
+      "answer": "on Monday",
+      "explanationAr": "الأيام مع on."
+    },
+    {
+      "exerciseId": "lesson-15-fix-err-02",
+      "answer": "married to",
+      "explanationAr": "التعبير الصحيح married to."
+    },
+    {
+      "exerciseId": "lesson-15-fix-fill-01",
+      "answer": "class",
+      "explanationAr": "زمن"
+    },
+    {
+      "exerciseId": "lesson-15-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مكان"
+    }
+  ],
+  "relatedLessons": [
+    "adjectives-and-adverbs",
+    "modal-verbs"
+  ],
+  "estimatedMinutes": 18
+}

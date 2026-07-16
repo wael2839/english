@@ -1,0 +1,345 @@
+[
+  {
+    "id": "compare-present-simple-vs-present-continuous",
+    "slug": "present-simple-vs-present-continuous",
+    "titleAr": "المضارع البسيط مقابل المضارع المستمر",
+    "titleEn": "Present Simple vs Present Continuous",
+    "lessonA": "present-simple",
+    "lessonB": "present-continuous",
+    "usage": {
+      "left": [
+        "العادات والتكرار مع always, usually, often, sometimes, never.",
+        "الحقائق العامة.",
+        "الجداول الثابتة."
+      ],
+      "right": [
+        "حدث يجري الآن.",
+        "حالة مؤقتة هذه الفترة.",
+        "تغيّر تدريجي: The market is growing."
+      ]
+    },
+    "formula": {
+      "left": "S + V1(s/es) | Negative: do/does not + V1 | Question: Do/Does + S + V1?",
+      "right": "S + am/is/are + V-ing"
+    },
+    "keywords": {
+      "left": [
+        "always",
+        "usually",
+        "often",
+        "every day",
+        "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+        "لكنها ليست بديلًا عن فهم معنى الجملة."
+      ],
+      "right": [
+        "now",
+        "at the moment",
+        "currently",
+        "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+        "لكنها ليست بديلًا عن فهم معنى الجملة."
+      ]
+    },
+    "examples": {
+      "left": {
+        "english": "I study English for two hours every day.",
+        "arabic": "أدرس الإنجليزية ساعتين يوميًا.",
+        "reason": "عادة",
+        "highlight": "study"
+      },
+      "right": {
+        "english": "I am reading a story now.",
+        "arabic": "أقرأ قصة الآن.",
+        "reason": "الآن",
+        "highlight": "am"
+      }
+    },
+    "table": {
+      "leftLabel": "Present Simple",
+      "rightLabel": "Present Continuous",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "عادة أو حقيقة ثابتة",
+          "right": "حدث يجري الآن أو وضع مؤقت"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I walk every day.",
+          "right": "I am walking now."
+        }
+      ],
+      "keyDifference": "عادة أو حقيقة ثابتة؛ بينما حدث يجري الآن أو وضع مؤقت."
+    },
+    "keyDifference": "عادة أو حقيقة ثابتة؛ بينما حدث يجري الآن أو وضع مؤقت.",
+    "exercise": {
+      "id": "compare-present-simple-vs-present-continuous-01",
+      "type": "multiple-choice",
+      "question": "ما الفرق الأساسي بين المضارع البسيط مقابل المضارع المستمر؟",
+      "options": [
+        "عادة أو حقيقة ثابتة؛ بينما حدث يجري الآن أو وضع مؤقت.",
+        "لا يوجد فرق",
+        "يستخدمان دائمًا بنفس المعنى"
+      ],
+      "correctAnswer": "عادة أو حقيقة ثابتة؛ بينما حدث يجري الآن أو وضع مؤقت.",
+      "explanationAr": "عادة أو حقيقة ثابتة؛ بينما حدث يجري الآن أو وضع مؤقت.",
+      "source": "generated-from-comparison",
+      "generatedNote": "تمرين قصير مبني على جدول المقارنة في الكتاب."
+    },
+    "sourceLessonId": "lesson-03"
+  },
+  {
+    "id": "compare-past-simple-vs-present-perfect",
+    "slug": "past-simple-vs-present-perfect",
+    "titleAr": "الماضي البسيط مقابل المضارع التام",
+    "titleEn": "Past Simple vs Present Perfect",
+    "lessonA": "past-simple",
+    "lessonB": "present-perfect",
+    "usage": {
+      "left": [
+        "حدث انتهى في وقت محدد: yesterday, last week, in 2025.",
+        "سلسلة أحداث مكتملة.",
+        "عادة قديمة يمكن التعبير عنها أيضًا بـ used to."
+      ],
+      "right": [
+        "خبرة دون وقت محدد.",
+        "حدث قريب له نتيجة الآن مع just/already/yet.",
+        "فترة بدأت في الماضي وما زالت مع since/for."
+      ]
+    },
+    "formula": {
+      "left": "S + V2 | Negative: did not + V1 | Question: Did + S + V1?",
+      "right": "S + have/has + V3"
+    },
+    "keywords": {
+      "left": [
+        "yesterday",
+        "last",
+        "ago",
+        "in 2025",
+        "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+        "لكنها ليست بديلًا عن فهم معنى الجملة."
+      ],
+      "right": [
+        "already",
+        "just",
+        "yet",
+        "ever",
+        "never",
+        "since",
+        "for",
+        "ملاحظة مهمة  هذه الكلمات إشارات مفيدة"
+      ]
+    },
+    "examples": {
+      "left": {
+        "english": "I cleaned my room yesterday.",
+        "arabic": "نظفت غرفتي أمس.",
+        "reason": "حدث",
+        "highlight": "cleaned"
+      },
+      "right": {
+        "english": "I have visited three countries.",
+        "arabic": "زرت ثلاث دول حتى الآن.",
+        "reason": "خبرة",
+        "highlight": "have"
+      }
+    },
+    "table": {
+      "leftLabel": "Past Simple",
+      "rightLabel": "Present Perfect",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "حدث انتهى في وقت ماضٍ محدد",
+          "right": "ماضٍ مرتبط بالحاضر دون وقت منتهٍ"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I visited Jeddah last year.",
+          "right": "I have visited Jeddah twice."
+        }
+      ],
+      "keyDifference": "حدث انتهى في وقت ماضٍ محدد؛ بينما ماضٍ مرتبط بالحاضر دون وقت منتهٍ."
+    },
+    "keyDifference": "حدث انتهى في وقت ماضٍ محدد؛ بينما ماضٍ مرتبط بالحاضر دون وقت منتهٍ.",
+    "exercise": {
+      "id": "compare-past-simple-vs-present-perfect-01",
+      "type": "multiple-choice",
+      "question": "ما الفرق الأساسي بين الماضي البسيط مقابل المضارع التام؟",
+      "options": [
+        "حدث انتهى في وقت ماضٍ محدد؛ بينما ماضٍ مرتبط بالحاضر دون وقت منتهٍ.",
+        "لا يوجد فرق",
+        "يستخدمان دائمًا بنفس المعنى"
+      ],
+      "correctAnswer": "حدث انتهى في وقت ماضٍ محدد؛ بينما ماضٍ مرتبط بالحاضر دون وقت منتهٍ.",
+      "explanationAr": "حدث انتهى في وقت ماضٍ محدد؛ بينما ماضٍ مرتبط بالحاضر دون وقت منتهٍ.",
+      "source": "generated-from-comparison",
+      "generatedNote": "تمرين قصير مبني على جدول المقارنة في الكتاب."
+    },
+    "sourceLessonId": "lesson-05"
+  },
+  {
+    "id": "compare-will-vs-going-to",
+    "slug": "will-vs-going-to",
+    "titleAr": "Will مقابل Going to",
+    "titleEn": "Will vs Going to",
+    "lessonA": "future-forms",
+    "lessonB": "future-forms",
+    "usage": {
+      "left": [
+        "will: قرار لحظي، وعد، عرض، أو توقع رأي.",
+        "going to: خطة سابقة أو توقع بدليل حاضر.",
+        "Present Continuous: ترتيب شخصي محدد بوقت/مكان."
+      ],
+      "right": [
+        "will: قرار لحظي، وعد، عرض، أو توقع رأي.",
+        "going to: خطة سابقة أو توقع بدليل حاضر.",
+        "Present Continuous: ترتيب شخصي محدد بوقت/مكان."
+      ]
+    },
+    "formula": {
+      "left": "will + V1 | am/is/are going to + V1 | am/is/are + V-ing",
+      "right": "will + V1 | am/is/are going to + V1 | am/is/are + V-ing"
+    },
+    "keywords": {
+      "left": [
+        "tomorrow",
+        "next",
+        "soon",
+        "by",
+        "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+        "لكنها ليست بديلًا عن فهم معنى الجملة."
+      ],
+      "right": [
+        "tomorrow",
+        "next",
+        "soon",
+        "by",
+        "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+        "لكنها ليست بديلًا عن فهم معنى الجملة."
+      ]
+    },
+    "examples": {
+      "left": {
+        "english": "I will open the door now.",
+        "arabic": "سأفتح الباب الآن.",
+        "reason": "قرار لحظي",
+        "highlight": "will"
+      },
+      "right": {
+        "english": "I am going to learn Spanish.",
+        "arabic": "سأتعلم الإسبانية وفق خطة.",
+        "reason": "خطة",
+        "highlight": "am"
+      }
+    },
+    "table": {
+      "leftLabel": "will",
+      "rightLabel": "going to",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "قرار لحظي أو وعد أو توقع رأي",
+          "right": "خطة سابقة أو توقع بدليل"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I will answer the phone.",
+          "right": "It is going to rain."
+        }
+      ],
+      "keyDifference": "قرار لحظي أو وعد أو توقع رأي؛ بينما خطة سابقة أو توقع بدليل."
+    },
+    "keyDifference": "قرار لحظي أو وعد أو توقع رأي؛ بينما خطة سابقة أو توقع بدليل.",
+    "exercise": {
+      "id": "compare-will-vs-going-to-01",
+      "type": "multiple-choice",
+      "question": "ما الفرق الأساسي بين Will مقابل Going to؟",
+      "options": [
+        "قرار لحظي أو وعد أو توقع رأي؛ بينما خطة سابقة أو توقع بدليل.",
+        "لا يوجد فرق",
+        "يستخدمان دائمًا بنفس المعنى"
+      ],
+      "correctAnswer": "قرار لحظي أو وعد أو توقع رأي؛ بينما خطة سابقة أو توقع بدليل.",
+      "explanationAr": "قرار لحظي أو وعد أو توقع رأي؛ بينما خطة سابقة أو توقع بدليل.",
+      "source": "generated-from-comparison",
+      "generatedNote": "تمرين قصير مبني على جدول المقارنة في الكتاب."
+    },
+    "sourceLessonId": "lesson-07"
+  },
+  {
+    "id": "compare-some-vs-any",
+    "slug": "some-vs-any",
+    "titleAr": "Some مقابل Any",
+    "titleEn": "Some vs Any",
+    "lessonA": "quantifiers-and-determiners",
+    "lessonB": "quantifiers-and-determiners",
+    "usage": {
+      "left": [
+        "some غالبًا في الإثبات والعروض؛ any غالبًا في النفي والأسئلة.",
+        "a few/a little = بعض (إيجابي)، few/little = قليل بالكاد (سلبي).",
+        "each يركز على الأفراد، every على المجموعة ككل ويتبعهما مفرد."
+      ],
+      "right": [
+        "some غالبًا في الإثبات والعروض؛ any غالبًا في النفي والأسئلة.",
+        "a few/a little = بعض (إيجابي)، few/little = قليل بالكاد (سلبي).",
+        "each يركز على الأفراد، every على المجموعة ككل ويتبعهما مفرد."
+      ]
+    },
+    "formula": {
+      "left": "many/few + countable plural | much/little + uncountable",
+      "right": "many/few + countable plural | much/little + uncountable"
+    },
+    "keywords": {
+      "left": [],
+      "right": []
+    },
+    "examples": {
+      "left": {
+        "english": "We have a few apples.",
+        "arabic": "لدينا بعض التفاحات.",
+        "reason": "معدود",
+        "highlight": "have"
+      },
+      "right": {
+        "english": "I have little time.",
+        "arabic": "لدي وقت قليل جدًا.",
+        "reason": "غير معدود",
+        "highlight": "have"
+      }
+    },
+    "table": {
+      "leftLabel": "some",
+      "rightLabel": "any",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "غالبًا في الإثبات والعروض",
+          "right": "غالبًا في النفي والأسئلة"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I bought some fruit.",
+          "right": "Do you have any water?"
+        }
+      ],
+      "keyDifference": "some: غالبًا في الإثبات والعروض؛ بينما any: غالبًا في النفي والأسئلة."
+    },
+    "keyDifference": "some: غالبًا في الإثبات والعروض؛ بينما any: غالبًا في النفي والأسئلة.",
+    "exercise": {
+      "id": "compare-some-vs-any-01",
+      "type": "multiple-choice",
+      "question": "ما الفرق الأساسي بين Some مقابل Any؟",
+      "options": [
+        "some: غالبًا في الإثبات والعروض؛ بينما any: غالبًا في النفي والأسئلة.",
+        "لا يوجد فرق",
+        "يستخدمان دائمًا بنفس المعنى"
+      ],
+      "correctAnswer": "some: غالبًا في الإثبات والعروض؛ بينما any: غالبًا في النفي والأسئلة.",
+      "explanationAr": "some: غالبًا في الإثبات والعروض؛ بينما any: غالبًا في النفي والأسئلة.",
+      "source": "generated-from-comparison",
+      "generatedNote": "تمرين قصير مبني على جدول المقارنة في الكتاب."
+    },
+    "sourceLessonId": "lesson-13"
+  }
+]

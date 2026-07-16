@@ -1,0 +1,223 @@
+{
+  "id": "lesson-08",
+  "slug": "present-perfect",
+  "sectionId": "section-01",
+  "order": 8,
+  "titleAr": "المضارع التام",
+  "titleEn": "Present Perfect",
+  "level": "beginner",
+  "ruleType": "زمن",
+  "goal": "ربط الماضي بالحاضر: خبرة، نتيجة حالية، أو فترة لم تنتهِ.",
+  "shortDefinition": "ربط الماضي بالحاضر: خبرة، نتيجة حالية، أو فترة لم تنتهِ.",
+  "uses": [
+    "خبرة دون وقت محدد.",
+    "حدث قريب له نتيجة الآن مع just/already/yet.",
+    "فترة بدأت في الماضي وما زالت مع since/for.",
+    "فترة زمنية لم تنتهِ: today, this week."
+  ],
+  "formula": "S + have/has + V3",
+  "affirmative": "",
+  "negative": "S + have/has + not + V3 — إضافة أداة النفي المناسبة.",
+  "question": "Have/Has + S + V3? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "already",
+    "just",
+    "yet",
+    "ever",
+    "never",
+    "since",
+    "for",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "────",
+    "now": "●",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "I have visited three countries.",
+      "arabic": "زرت ثلاث دول حتى الآن.",
+      "reason": "خبرة",
+      "highlight": "visited"
+    },
+    {
+      "english": "She has already finished her homework.",
+      "arabic": "لقد أنهت واجبها بالفعل.",
+      "reason": "نتيجة",
+      "highlight": "finished"
+    },
+    {
+      "english": "We have lived here for three years.",
+      "arabic": "نعيش هنا منذ ثلاث سنوات.",
+      "reason": "مدة",
+      "highlight": "lived"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I have finished yesterday.",
+      "correct": "I finished yesterday.",
+      "explanationAr": "مع وقت ماضٍ منتهٍ استخدم Past Simple."
+    },
+    {
+      "wrong": "He has went.",
+      "correct": "He has gone.",
+      "explanationAr": "استخدم V3."
+    },
+    {
+      "wrong": "I am here since 2023.",
+      "correct": "I have been here since 2023.",
+      "explanationAr": "since يحتاج صيغة تربط الماضي بالحاضر."
+    }
+  ],
+  "memoryTip": "اربط الماضي بالحاضر: have/has + V3 مع since/for أو just/already/yet.",
+  "comparisons": [
+    {
+      "leftLabel": "Present Perfect",
+      "rightLabel": "Past Simple",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "خبرة أو نتيجة مرتبطة بالحاضر",
+          "right": "حدث منتهٍ في وقت محدد"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I have seen this film.",
+          "right": "I saw it yesterday."
+        }
+      ],
+      "keyDifference": "خبرة أو نتيجة مرتبطة بالحاضر؛ بينما حدث منتهٍ في وقت محدد."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-08-ex-02",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: She ___ just ___ (finish).",
+      "options": [],
+      "correctAnswer": "finish",
+      "acceptedAnswers": [
+        "finish",
+        "Finish"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من finish",
+      "lessonId": "lesson-08",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "2. أكمل: She ___ just ___ (finish).",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-08-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I have finished yesterday.",
+      "options": [],
+      "correctAnswer": "I finished yesterday.",
+      "acceptedAnswers": [
+        "I finished yesterday.",
+        "I finished yesterday",
+        "I finished yesterday.",
+        "I finished yesterday."
+      ],
+      "explanationAr": "مع وقت ماضٍ منتهٍ استخدم Past Simple.",
+      "lessonId": "lesson-08",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-08-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: He has went.",
+      "options": [],
+      "correctAnswer": "He has gone.",
+      "acceptedAnswers": [
+        "He has gone.",
+        "He has gone",
+        "He has gone.",
+        "He has gone."
+      ],
+      "explanationAr": "استخدم V3.",
+      "lessonId": "lesson-08",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-08-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I have ___ three countries.",
+      "options": [],
+      "correctAnswer": "visited",
+      "acceptedAnswers": [
+        "visited",
+        "visited",
+        "Visited"
+      ],
+      "explanationAr": "خبرة",
+      "lessonId": "lesson-08",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-08-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المضارع التام؟ «She has already finished her homework.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "نتيجة",
+      "lessonId": "lesson-08",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-08-ex-02",
+      "answer": "finish",
+      "explanationAr": "استخدم الشكل المناسب من finish"
+    },
+    {
+      "exerciseId": "lesson-08-fix-err-01",
+      "answer": "I finished yesterday.",
+      "explanationAr": "مع وقت ماضٍ منتهٍ استخدم Past Simple."
+    },
+    {
+      "exerciseId": "lesson-08-fix-err-02",
+      "answer": "He has gone.",
+      "explanationAr": "استخدم V3."
+    },
+    {
+      "exerciseId": "lesson-08-fix-fill-01",
+      "answer": "visited",
+      "explanationAr": "خبرة"
+    },
+    {
+      "exerciseId": "lesson-08-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "نتيجة"
+    }
+  ],
+  "relatedLessons": [
+    "future-forms",
+    "negatives-and-questions",
+    "past-simple"
+  ],
+  "estimatedMinutes": 18
+}

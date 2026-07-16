@@ -1,0 +1,210 @@
+{
+  "id": "lesson-27",
+  "slug": "reported-speech",
+  "sectionId": "section-04",
+  "order": 27,
+  "titleAr": "الكلام المنقول",
+  "titleEn": "Reported Speech",
+  "level": "advanced",
+  "ruleType": "بناء لغوي",
+  "goal": "نقل كلام أو سؤال أو أمر مع تغيير الضمائر والزمن والوقت عند الحاجة.",
+  "shortDefinition": "نقل كلام أو سؤال أو أمر مع تغيير الضمائر والزمن والوقت عند الحاجة.",
+  "uses": [
+    "عند فعل نقل ماضٍ يحدث backshift غالبًا: present→past، past→past perfect، will→would.",
+    "تتغير كلمات الزمن حسب السياق: now→then، today→that day، tomorrow→the next day.",
+    "السؤال المنقول يأخذ ترتيب الجملة الخبرية ولا يستخدم do/did."
+  ],
+  "formula": "said (that) + clause | told + person + clause | asked + if/wh-clause",
+  "affirmative": "",
+  "negative": "",
+  "question": "asked + if/wh-clause — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "said",
+    "told",
+    "asked",
+    "then",
+    "the next day",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "She said that she was busy.",
+      "arabic": "قالت إنها كانت مشغولة.",
+      "reason": "خبر",
+      "highlight": "said"
+    },
+    {
+      "english": "He asked where I lived.",
+      "arabic": "سأل أين أعيش.",
+      "reason": "سؤال",
+      "highlight": "asked"
+    },
+    {
+      "english": "She told me to wait.",
+      "arabic": "طلبت مني أن أنتظر.",
+      "reason": "أمر",
+      "highlight": "told"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "She said me",
+      "correct": "She told me",
+      "explanationAr": "tell يحتاج مفعولًا، say لا يأخذه مباشرة."
+    },
+    {
+      "wrong": "He asked where did I live.",
+      "correct": "He asked where I lived.",
+      "explanationAr": "ترتيب خبري."
+    }
+  ],
+  "memoryTip": "عند النقل الماضي: غيّر الزمن والضمائر وكلمات الوقت عند الحاجة.",
+  "comparisons": [
+    {
+      "leftLabel": "said",
+      "rightLabel": "told",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "لا يأتي بعده شخص مباشرة",
+          "right": "يأتي بعده شخص"
+        },
+        {
+          "aspect": "مثال",
+          "left": "She said that she was tired.",
+          "right": "She told me that she was tired."
+        }
+      ],
+      "keyDifference": "لا يأتي بعده شخص مباشرة؛ بينما يأتي بعده شخص."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-27-ex-02",
+      "type": "transform-sentence",
+      "question": "حوّل سؤال yes/no.",
+      "options": [],
+      "correctAnswer": "Do yes/no?",
+      "acceptedAnswers": [
+        "Do yes/no?",
+        "Do yes/no"
+      ],
+      "explanationAr": "ضع الفعل المساعد قبل الفاعل لتكوين السؤال.",
+      "lessonId": "lesson-27",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "2. حوّل سؤال yes/no.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-27-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: She said me",
+      "options": [],
+      "correctAnswer": "She told me",
+      "acceptedAnswers": [
+        "She told me",
+        "She told me",
+        "She told me",
+        "She told me"
+      ],
+      "explanationAr": "tell يحتاج مفعولًا، say لا يأخذه مباشرة.",
+      "lessonId": "lesson-27",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-27-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: He asked where did I live.",
+      "options": [],
+      "correctAnswer": "He asked where I lived.",
+      "acceptedAnswers": [
+        "He asked where I lived.",
+        "He asked where I lived",
+        "He asked where I lived.",
+        "He asked where I lived."
+      ],
+      "explanationAr": "ترتيب خبري.",
+      "lessonId": "lesson-27",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-27-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: She ___ that she was busy.",
+      "options": [],
+      "correctAnswer": "said",
+      "acceptedAnswers": [
+        "said",
+        "said",
+        "Said"
+      ],
+      "explanationAr": "خبر",
+      "lessonId": "lesson-27",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-27-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الكلام المنقول؟ «He asked where I lived.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "سؤال",
+      "lessonId": "lesson-27",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-27-ex-02",
+      "answer": "Do yes/no?",
+      "explanationAr": "ضع الفعل المساعد قبل الفاعل لتكوين السؤال."
+    },
+    {
+      "exerciseId": "lesson-27-fix-err-01",
+      "answer": "She told me",
+      "explanationAr": "tell يحتاج مفعولًا، say لا يأخذه مباشرة."
+    },
+    {
+      "exerciseId": "lesson-27-fix-err-02",
+      "answer": "He asked where I lived.",
+      "explanationAr": "ترتيب خبري."
+    },
+    {
+      "exerciseId": "lesson-27-fix-fill-01",
+      "answer": "said",
+      "explanationAr": "خبر"
+    },
+    {
+      "exerciseId": "lesson-27-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "سؤال"
+    }
+  ],
+  "relatedLessons": [
+    "advanced-future-tenses",
+    "causatives-and-subjunctive"
+  ],
+  "estimatedMinutes": 18
+}

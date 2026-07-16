@@ -1,0 +1,415 @@
+{
+  "intro": {
+    "howToUse": [
+      "اقرأ القاعدة وافهم المعنى الذي تعبّر عنه قبل حفظ الصيغة.",
+      "انطق الأمثلة بصوت مرتفع، ثم غيّر الفاعل أو الزمن لتنتج جملًا جديدة.",
+      "حل التدريب من دون النظر إلى الشرح، ثم راجع مفتاح الإجابات في نهاية الملف.",
+      "دوّن أخطاءك المتكررة في صفحة مستقلة وراجعها أسبوعيًا.",
+      "لا تنتقل إلى القواعد المتقدمة قبل إتقان الوحدات الأساسية حتى الوحدة 12."
+    ],
+    "studyMap": [
+      "المرحلة الوحدات الهدف الأساس الحاسم 1–8 تكوين جمل صحيحة والتحدث عن الحاضر والماضي والمستقبل الأساس الموسّع 9–16 الأسئلة والضمائر والأسماء والصفات والأفعال الناقصة المستوى المتوسط 17–24 المصدر والـ gerund، المقارنة، الشرط، المبني للمجهول، والجمل الوصفية المستوى المتقدم 25–32 الكلام المنقول، الأزمنة المتقدمة، الربط، القلب والتوكيد، وعلامات الترقيم"
+    ],
+    "formulaMarks": [
+      [
+        "الرمز",
+        "المعنى",
+        "مثال"
+      ],
+      [
+        "S",
+        "الفاعل Subject",
+        "I / Sara / The team"
+      ],
+      [
+        "V1",
+        "التصريف الأساسي",
+        "work, go, write"
+      ],
+      [
+        "V2",
+        "الماضي",
+        "worked, went, written"
+      ],
+      [
+        "V3",
+        "التصريف الثالث",
+        "worked, gone, written"
+      ],
+      [
+        "O",
+        "المفعول به Object",
+        "the lesson"
+      ],
+      [
+        "Aux",
+        "فعل مساعد",
+        "do, be, have, will"
+      ]
+    ],
+    "author": "وائل محمود العلوش",
+    "edition": "2026",
+    "bookTitleAr": "المرجع الشامل لقواعد اللغة الإنجليزية",
+    "platformTitleAr": "المرجع التفاعلي لقواعد اللغة الإنجليزية"
+  },
+  "sections": [
+    {
+      "id": "section-01",
+      "slug": "foundations-and-tenses",
+      "titleAr": "الأساس وبناء الزمن",
+      "titleEn": "Foundations and Tenses",
+      "description": "بنية الجملة، فعل الكينونة، والأزمنة الأساسية من المضارع إلى المضارع التام.",
+      "lessonNums": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "level": "beginner",
+      "estimatedMinutes": 180,
+      "order": 1,
+      "lessonIds": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "lessonCount": 8,
+      "review": {
+        "differences": [
+          "القاعدة الأولى القاعدة الثانية الفرق الأساسي Present Simple Present Continuous عادة أو حقيقة مقابل حدث جارٍ أو مؤقت. Past Simple Present Perfect وقت ماضٍ منتهٍ مقابل ماضٍ مرتبط بالحاضر. will going to قرار/وعد مقابل خطة سابقة أو دليل."
+        ],
+        "quiz": [
+          {
+            "id": "section-01-quiz-01",
+            "type": "fill-in-the-blank",
+            "question": "She ___ (work) every day.",
+            "correctAnswer": "works: عادة متكررة.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "1. She ___ (work) every day."
+          },
+          {
+            "id": "section-01-quiz-02",
+            "type": "fill-in-the-blank",
+            "question": "I ___ (study) now.",
+            "correctAnswer": "am studying: يحدث الآن.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "2. I ___ (study) now."
+          },
+          {
+            "id": "section-01-quiz-03",
+            "type": "fill-in-the-blank",
+            "question": "I ___ (finish) yesterday.",
+            "correctAnswer": "finished: وقت ماضٍ منتهٍ.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "3. I ___ (finish) yesterday."
+          },
+          {
+            "id": "section-01-quiz-04",
+            "type": "fill-in-the-blank",
+            "question": "Look at the clouds! It ___ rain.",
+            "correctAnswer": "is going to: يوجد دليل حاضر.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "4. Look at the clouds! It ___ rain."
+          }
+        ],
+        "answersRaw": [
+          "1.  works: عادة متكررة.",
+          "2.  am studying: يحدث الآن.",
+          "3.  finished: وقت ماضٍ منتهٍ.",
+          "4.  is going to: يوجد دليل حاضر.",
+          "SECTION 02",
+          "أدوات بناء المعنى",
+          "تعلّم كيف تسأل وتنفي وتصف الأشخاص والأشياء وتعبّر عن الكمية والقدرة.",
+          "ما ستتعلمه  إتقان الأسئلة والضمائر والأسماء والصفات وحروف الجر والأفعال الناقصة."
+        ]
+      }
+    },
+    {
+      "id": "section-02",
+      "slug": "meaning-building-tools",
+      "titleAr": "أدوات بناء المعنى",
+      "titleEn": "Meaning Building Tools",
+      "description": "النفي والأسئلة، الضمائر، الأسماء، الكميات، الصفات، حروف الجر، والأفعال الناقصة.",
+      "lessonNums": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "level": "intermediate",
+      "estimatedMinutes": 200,
+      "order": 2,
+      "lessonIds": [
+        "lesson-09",
+        "lesson-10",
+        "lesson-11",
+        "lesson-12",
+        "lesson-13",
+        "lesson-14",
+        "lesson-15",
+        "lesson-16"
+      ],
+      "lessonCount": 8,
+      "review": {
+        "differences": [
+          "القاعدة الأولى القاعدة الثانية الفرق الأساسي some any some غالبًا في الإثبات؛ any في النفي والأسئلة. adjective adverb الصفة تصف اسمًا؛ الظرف يصف فعلًا. mustn’t don’t have to ممنوع مقابل غير ضروري."
+        ],
+        "quiz": [
+          {
+            "id": "section-02-quiz-01",
+            "type": "fill-in-the-blank",
+            "question": "I need ___ advice.",
+            "correctAnswer": "some advice: advice غير معدود.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "1. I need ___ advice."
+          },
+          {
+            "id": "section-02-quiz-02",
+            "type": "fill-in-the-blank",
+            "question": "She speaks English ___. (good/well)",
+            "correctAnswer": "well: لأنه يصف الفعل speaks.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "2. She speaks English ___. (good/well)"
+          },
+          {
+            "id": "section-02-quiz-03",
+            "type": "fill-in-the-blank",
+            "question": "You ___ practice daily. (نصيحة)",
+            "correctAnswer": "should: للتعبير عن النصيحة.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "3. You ___ practice daily. (نصيحة)"
+          }
+        ],
+        "answersRaw": [
+          "1.  some advice: advice غير معدود.",
+          "2.  well: لأنه يصف الفعل speaks.",
+          "3.  should: للتعبير عن النصيحة.",
+          "SECTION 03",
+          "توسيع الجملة وربط الأفكار",
+          "انتقل من الجمل القصيرة إلى جمل أكثر مرونة ودقة باستخدام الأنماط والشرط والوصف والربط.",
+          "ما ستتعلمه  استخدام المصدر وGerund والمقارنة والشرط والمبني للمجهول والجمل الوصفية والروابط."
+        ]
+      }
+    },
+    {
+      "id": "section-03",
+      "slug": "expanding-and-linking",
+      "titleAr": "توسيع الجملة وربط الأفكار",
+      "titleEn": "Expanding and Linking Ideas",
+      "description": "المصدر وGerund، أنماط الأفعال، المقارنة، الشرط، المبني للمجهول، والجمل الوصفية.",
+      "lessonNums": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "level": "intermediate",
+      "estimatedMinutes": 220,
+      "order": 3,
+      "lessonIds": [
+        "lesson-17",
+        "lesson-18",
+        "lesson-19",
+        "lesson-20",
+        "lesson-21",
+        "lesson-22",
+        "lesson-23",
+        "lesson-24"
+      ],
+      "lessonCount": 8,
+      "review": {
+        "differences": [
+          "القاعدة الأولى القاعدة الثانية الفرق الأساسي to-infinitive gerund يأتي الاختيار بحسب الفعل السابق أو حرف الجر. active passive التركيز على الفاعل مقابل الفعل أو النتيجة. who which who للأشخاص وwhich للأشياء."
+        ],
+        "quiz": [
+          {
+            "id": "section-03-quiz-01",
+            "type": "fill-in-the-blank",
+            "question": "I enjoy ___ (learn).",
+            "correctAnswer": "learning: enjoy يأتي بعدها gerund.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "1. I enjoy ___ (learn)."
+          },
+          {
+            "id": "section-03-quiz-02",
+            "type": "fill-in-the-blank",
+            "question": "The rooms ___ (clean) every day.",
+            "correctAnswer": "is tested: مبني للمجهول في الحاضر.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "2. The rooms ___ (clean) every day."
+          },
+          {
+            "id": "section-03-quiz-03",
+            "type": "fill-in-the-blank",
+            "question": "The doctor ___ called is experienced.",
+            "correctAnswer": "who: المرجع شخص.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "3. The doctor ___ called is experienced."
+          }
+        ],
+        "answersRaw": [
+          "1.  learning: enjoy يأتي بعدها gerund.",
+          "2.  is tested: مبني للمجهول في الحاضر.",
+          "3.  who: المرجع شخص.",
+          "SECTION 04",
+          "الأزمنة والتراكيب المتقدمة",
+          "رتّب الأحداث المعقدة في الماضي والمستقبل، وانقل الكلام واستخدم التراكيب السببية.",
+          "ما ستتعلمه  تمييز الأزمنة التامة المتقدمة، ونقل الكلام، والتعبير عن السببية والتوصيات."
+        ]
+      }
+    },
+    {
+      "id": "section-04",
+      "slug": "advanced-tenses-structures",
+      "titleAr": "الأزمنة والتراكيب المتقدمة",
+      "titleEn": "Advanced Tenses and Structures",
+      "description": "الماضي التام، أزمنة المستقبل المتقدمة، الكلام المنقول، والسببية.",
+      "lessonNums": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "level": "advanced",
+      "estimatedMinutes": 140,
+      "order": 4,
+      "lessonIds": [
+        "lesson-25",
+        "lesson-26",
+        "lesson-27",
+        "lesson-28"
+      ],
+      "lessonCount": 4,
+      "review": {
+        "differences": [
+          "القاعدة الأولى القاعدة الثانية الفرق الأساسي Past Simple Past Perfect حدث ماضٍ مقابل حدث سبق حدثًا ماضيًا آخر. Future Continuous Future Perfect حدث جارٍ مستقبلًا مقابل حدث مكتمل قبل موعد. said told said دون مفعول مباشر؛ told + شخص."
+        ],
+        "quiz": [
+          {
+            "id": "section-04-quiz-01",
+            "type": "fill-in-the-blank",
+            "question": "The meeting ___ before I arrived.",
+            "correctAnswer": "had started: حدث أسبق من الوصول.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "1. The meeting ___ before I arrived."
+          },
+          {
+            "id": "section-04-quiz-02",
+            "type": "fill-in-the-blank",
+            "question": "By Friday, I ___ the task.",
+            "correctAnswer": "will have finished: اكتمال قبل موعد.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "2. By Friday, I ___ the task."
+          },
+          {
+            "id": "section-04-quiz-03",
+            "type": "fill-in-the-blank",
+            "question": "She ___ me that she was ready.",
+            "correctAnswer": "told: يتبعها مفعول me.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "3. She ___ me that she was ready."
+          }
+        ],
+        "answersRaw": [
+          "1.  had started: حدث أسبق من الوصول.",
+          "2.  will have finished: اكتمال قبل موعد.",
+          "3.  told: يتبعها مفعول me.",
+          "SECTION 05",
+          "الدقة والأسلوب والكتابة",
+          "صقّل كتابتك من خلال التوافق والتوكيد والترقيم، ثم راجع النظام كاملًا.",
+          "ما ستتعلمه  تحسين الدقة النحوية، وتجنب الجمل الملتصقة، واستخدام التوكيد والترقيم باحتراف."
+        ]
+      }
+    },
+    {
+      "id": "section-05",
+      "slug": "accuracy-style-writing",
+      "titleAr": "الدقة والأسلوب والكتابة",
+      "titleEn": "Accuracy, Style and Writing",
+      "description": "المحددات المتقدمة، القلب والتوكيد، وعلامات الترقيم والكتابة.",
+      "lessonNums": [
+        29,
+        30,
+        31
+      ],
+      "level": "advanced",
+      "estimatedMinutes": 100,
+      "order": 5,
+      "lessonIds": [
+        "lesson-29",
+        "lesson-30",
+        "lesson-31"
+      ],
+      "lessonCount": 3,
+      "review": {
+        "differences": [
+          "القاعدة الأولى القاعدة الثانية الفرق الأساسي a number of the number of الأول يأخذ فعلًا جمعًا؛ الثاني فعلًا مفردًا. although however الأولى تبدأ جملة تابعة؛ الثانية ظرف ربط يحتاج ترقيمًا. comma semicolon الفاصلة داخل البنية؛ الفاصلة المنقوطة تربط جملتين مستقلتين."
+        ],
+        "quiz": [
+          {
+            "id": "section-05-quiz-01",
+            "type": "fill-in-the-blank",
+            "question": "Each student ___ a task.",
+            "correctAnswer": "has: each يأخذ مفردًا.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "1. Each student ___ a task."
+          },
+          {
+            "id": "section-05-quiz-02",
+            "type": "fill-in-the-blank",
+            "question": "Never ___ I seen this before.",
+            "correctAnswer": "have: بعد Never في البداية يحدث قلب.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "2. Never ___ I seen this before."
+          },
+          {
+            "id": "section-05-quiz-03",
+            "type": "fill-in-the-blank",
+            "question": "صحح: The car stopped we called a mechanic.",
+            "correctAnswer": "The car stopped, so we called a mechanic: أضف رابطًا وترقيمًا.",
+            "explanationAr": "",
+            "source": "docx-section-review",
+            "raw": "3. صحح: The car stopped we called a mechanic."
+          }
+        ],
+        "answersRaw": [
+          "1.  has: each يأخذ مفردًا.",
+          "2.  have: بعد Never في البداية يحدث قلب.",
+          "3.  The car stopped, so we called a mechanic: أضف رابطًا وترقيمًا."
+        ]
+      }
+    }
+  ]
+}

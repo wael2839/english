@@ -1,0 +1,184 @@
+{
+  "id": "lesson-13",
+  "slug": "quantifiers-and-determiners",
+  "sectionId": "section-02",
+  "order": 13,
+  "titleAr": "الكميات والمحددات",
+  "titleEn": "Quantifiers and Determiners",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "اختيار much/many، few/little، some/any، each/every، both/either/neither.",
+  "shortDefinition": "اختيار much/many، few/little، some/any، each/every، both/either/neither.",
+  "uses": [
+    "some غالبًا في الإثبات والعروض؛ any غالبًا في النفي والأسئلة.",
+    "a few/a little = بعض (إيجابي)، few/little = قليل بالكاد (سلبي).",
+    "each يركز على الأفراد، every على المجموعة ككل ويتبعهما مفرد."
+  ],
+  "formula": "many/few + countable plural | much/little + uncountable",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "We have a few apples.",
+      "arabic": "لدينا بعض التفاحات.",
+      "reason": "معدود",
+      "highlight": "have"
+    },
+    {
+      "english": "I have little time.",
+      "arabic": "لدي وقت قليل جدًا.",
+      "reason": "غير معدود",
+      "highlight": "have"
+    },
+    {
+      "english": "Neither option works.",
+      "arabic": "لا يعمل أي من الخيارين.",
+      "reason": "اثنان",
+      "highlight": "Neither"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "many books",
+      "correct": "many books",
+      "explanationAr": "books اسم معدود."
+    },
+    {
+      "wrong": "every student",
+      "correct": "every student",
+      "explanationAr": "بعد every مفرد."
+    },
+    {
+      "wrong": "I don’t have some time.",
+      "correct": "I don’t have any time.",
+      "explanationAr": "any في النفي المعتاد."
+    }
+  ],
+  "memoryTip": "some/any وmuch/many وfew/little تختار حسب المعنى والعدّ.",
+  "comparisons": [
+    {
+      "leftLabel": "some",
+      "rightLabel": "any",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "غالبًا في الإثبات والعروض",
+          "right": "غالبًا في النفي والأسئلة"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I bought some fruit.",
+          "right": "Do you have any water?"
+        }
+      ],
+      "keyDifference": "some: غالبًا في الإثبات والعروض؛ بينما any: غالبًا في النفي والأسئلة."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-13-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: many books",
+      "options": [],
+      "correctAnswer": "many books",
+      "acceptedAnswers": [
+        "many books",
+        "many books",
+        "many books",
+        "many books"
+      ],
+      "explanationAr": "books اسم معدود.",
+      "lessonId": "lesson-13",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-13-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: every student",
+      "options": [],
+      "correctAnswer": "every student",
+      "acceptedAnswers": [
+        "every student",
+        "every student",
+        "every student",
+        "every student"
+      ],
+      "explanationAr": "بعد every مفرد.",
+      "lessonId": "lesson-13",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-13-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: We ___ a few apples.",
+      "options": [],
+      "correctAnswer": "have",
+      "acceptedAnswers": [
+        "have",
+        "have",
+        "Have"
+      ],
+      "explanationAr": "معدود",
+      "lessonId": "lesson-13",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-13-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الكميات والمحددات؟ «I have little time.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "غير معدود",
+      "lessonId": "lesson-13",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-13-fix-err-01",
+      "answer": "many books",
+      "explanationAr": "books اسم معدود."
+    },
+    {
+      "exerciseId": "lesson-13-fix-err-02",
+      "answer": "every student",
+      "explanationAr": "بعد every مفرد."
+    },
+    {
+      "exerciseId": "lesson-13-fix-fill-01",
+      "answer": "have",
+      "explanationAr": "معدود"
+    },
+    {
+      "exerciseId": "lesson-13-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "غير معدود"
+    }
+  ],
+  "relatedLessons": [
+    "nouns-and-articles",
+    "adjectives-and-adverbs"
+  ],
+  "estimatedMinutes": 18
+}

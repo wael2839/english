@@ -1,0 +1,162 @@
+{
+  "id": "lesson-29",
+  "slug": "advanced-determiners-and-agreement",
+  "sectionId": "section-05",
+  "order": 29,
+  "titleAr": "المحددات المتقدمة والتوافق",
+  "titleEn": "Advanced Determiners and Agreement",
+  "level": "advanced",
+  "ruleType": "بناء لغوي",
+  "goal": "مطابقة الفعل مع الفاعل وفهم تراكيب one of, a number of, the number of.",
+  "shortDefinition": "مطابقة الفعل مع الفاعل وفهم تراكيب one of, a number of, the number of.",
+  "uses": [
+    "each/every/either/neither تأخذ فعلًا مفردًا غالبًا.",
+    "one of + plural noun + singular verb.",
+    "a number of + plural verb؛ the number of + singular verb.",
+    "مع either...or يطابق الفعل غالبًا أقرب فاعل."
+  ],
+  "formula": "singular subject + singular verb | plural subject + plural verb",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "Each student has a book.",
+      "arabic": "لكل طالب كتاب.",
+      "reason": "مفرد",
+      "highlight": "Each"
+    },
+    {
+      "english": "A number of passengers are waiting.",
+      "arabic": "عدد من الركاب ينتظرون.",
+      "reason": "عدد",
+      "highlight": "number"
+    },
+    {
+      "english": "The number of visitors is increasing.",
+      "arabic": "عدد الزوار يزداد.",
+      "reason": "العدد",
+      "highlight": "number"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Each users have",
+      "correct": "Each user has",
+      "explanationAr": "بعد each مفرد."
+    },
+    {
+      "wrong": "The number are",
+      "correct": "The number is",
+      "explanationAr": "الرأس هو number مفرد."
+    }
+  ],
+  "memoryTip": "المحدد يفرض التوافق: each/every مفرد، a number of جمع.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-29-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Each users have",
+      "options": [],
+      "correctAnswer": "Each user has",
+      "acceptedAnswers": [
+        "Each user has",
+        "Each user has",
+        "Each user has",
+        "Each user has"
+      ],
+      "explanationAr": "بعد each مفرد.",
+      "lessonId": "lesson-29",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-29-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: The number are",
+      "options": [],
+      "correctAnswer": "The number is",
+      "acceptedAnswers": [
+        "The number is",
+        "The number is",
+        "The number is",
+        "The number is"
+      ],
+      "explanationAr": "الرأس هو number مفرد.",
+      "lessonId": "lesson-29",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-29-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: ___ student has a book.",
+      "options": [],
+      "correctAnswer": "Each",
+      "acceptedAnswers": [
+        "Each",
+        "each",
+        "Each"
+      ],
+      "explanationAr": "مفرد",
+      "lessonId": "lesson-29",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-29-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المحددات المتقدمة والتوافق؟ «A number of passengers are waiting.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "عدد",
+      "lessonId": "lesson-29",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-29-fix-err-01",
+      "answer": "Each user has",
+      "explanationAr": "بعد each مفرد."
+    },
+    {
+      "exerciseId": "lesson-29-fix-err-02",
+      "answer": "The number is",
+      "explanationAr": "الرأس هو number مفرد."
+    },
+    {
+      "exerciseId": "lesson-29-fix-fill-01",
+      "answer": "Each",
+      "explanationAr": "مفرد"
+    },
+    {
+      "exerciseId": "lesson-29-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "عدد"
+    }
+  ],
+  "relatedLessons": [
+    "causatives-and-subjunctive",
+    "inversion-emphasis-and-ellipsis"
+  ],
+  "estimatedMinutes": 18
+}

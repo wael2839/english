@@ -1,0 +1,208 @@
+{
+  "id": "lesson-24",
+  "slug": "present-perfect-continuous",
+  "sectionId": "section-03",
+  "order": 24,
+  "titleAr": "المضارع التام المستمر",
+  "titleEn": "Present Perfect Continuous",
+  "level": "intermediate",
+  "ruleType": "زمن",
+  "goal": "التأكيد على مدة نشاط بدأ في الماضي وما زال، أو أثر نشاط حديث.",
+  "shortDefinition": "التأكيد على مدة نشاط بدأ في الماضي وما زال، أو أثر نشاط حديث.",
+  "uses": [
+    "مع for/since للتأكيد على المدة والنشاط.",
+    "لنتيجة حاضرة واضحة من نشاط حديث.",
+    "أفعال الحالة غالبًا تأخذ Present Perfect البسيط بدل المستمر."
+  ],
+  "formula": "S + have/has been + V-ing",
+  "affirmative": "",
+  "negative": "S + have/has + not + been + V-ing — إضافة أداة النفي المناسبة.",
+  "question": "Have/Has + S + been + V-ing? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "since",
+    "for",
+    "all day",
+    "lately",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "────",
+    "now": "●",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "I have been studying for three hours.",
+      "arabic": "أدرس منذ ثلاث ساعات.",
+      "reason": "مدة",
+      "highlight": "studying"
+    },
+    {
+      "english": "It has been raining, so the roads are wet.",
+      "arabic": "كانت السماء تمطر، لذا الطرق مبتلة.",
+      "reason": "أثر",
+      "highlight": "raining"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I have been knowing him.",
+      "correct": "I have known him.",
+      "explanationAr": "know فعل حالة."
+    },
+    {
+      "wrong": "She has studying.",
+      "correct": "She has been studying.",
+      "explanationAr": "يلزم been."
+    }
+  ],
+  "memoryTip": "have/has been + V-ing لمدة بدأت وما زالت أو لها أثر ظاهر.",
+  "comparisons": [
+    {
+      "leftLabel": "Present Perfect",
+      "rightLabel": "Present Perfect Continuous",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "النتيجة أو العدد",
+          "right": "النشاط أو المدة"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I have read three chapters.",
+          "right": "I have been reading for an hour."
+        }
+      ],
+      "keyDifference": "النتيجة أو العدد؛ بينما النشاط أو المدة."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-24-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: He ___ (work) since 9.",
+      "options": [],
+      "correctAnswer": "work",
+      "acceptedAnswers": [
+        "work",
+        "Work"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من work",
+      "lessonId": "lesson-24",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: He ___ (work) since 9.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-24-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I have been knowing him.",
+      "options": [],
+      "correctAnswer": "I have known him.",
+      "acceptedAnswers": [
+        "I have known him.",
+        "I have known him",
+        "I have known him.",
+        "I have known him."
+      ],
+      "explanationAr": "know فعل حالة.",
+      "lessonId": "lesson-24",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-24-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: She has studying.",
+      "options": [],
+      "correctAnswer": "She has been studying.",
+      "acceptedAnswers": [
+        "She has been studying.",
+        "She has been studying",
+        "She has been studying.",
+        "She has been studying."
+      ],
+      "explanationAr": "يلزم been.",
+      "lessonId": "lesson-24",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-24-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I have been ___ for three hours.",
+      "options": [],
+      "correctAnswer": "studying",
+      "acceptedAnswers": [
+        "studying",
+        "studying",
+        "Studying"
+      ],
+      "explanationAr": "مدة",
+      "lessonId": "lesson-24",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-24-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المضارع التام المستمر؟ «It has been raining, so the roads are wet.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "أثر",
+      "lessonId": "lesson-24",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-24-ex-01",
+      "answer": "work",
+      "explanationAr": "استخدم الشكل المناسب من work"
+    },
+    {
+      "exerciseId": "lesson-24-fix-err-01",
+      "answer": "I have known him.",
+      "explanationAr": "know فعل حالة."
+    },
+    {
+      "exerciseId": "lesson-24-fix-err-02",
+      "answer": "She has been studying.",
+      "explanationAr": "يلزم been."
+    },
+    {
+      "exerciseId": "lesson-24-fix-fill-01",
+      "answer": "studying",
+      "explanationAr": "مدة"
+    },
+    {
+      "exerciseId": "lesson-24-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "أثر"
+    }
+  ],
+  "relatedLessons": [
+    "linking-words-and-compound-sentences",
+    "past-perfect-forms",
+    "present-perfect"
+  ],
+  "estimatedMinutes": 17
+}

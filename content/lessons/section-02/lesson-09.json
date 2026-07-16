@@ -1,0 +1,191 @@
+{
+  "id": "lesson-09",
+  "slug": "negatives-and-questions",
+  "sectionId": "section-02",
+  "order": 9,
+  "titleAr": "النفي والأسئلة",
+  "titleEn": "Negatives and Questions",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "إتقان بناء النفي والأسئلة مع be والأفعال العادية والأزمنة التامة والناقصة.",
+  "shortDefinition": "إتقان بناء النفي والأسئلة مع be والأفعال العادية والأزمنة التامة والناقصة.",
+  "uses": [
+    "الفعل المساعد ينتقل قبل الفاعل في سؤال نعم/لا.",
+    "إذا لم يوجد مساعد في المضارع أو الماضي البسيط نستخدم do/does/did."
+  ],
+  "formula": "be + not | do/does/did + not + V1 | have/has + not + V3 | modal + not + V1",
+  "affirmative": "",
+  "negative": "",
+  "question": "Am/Is/Are + S + ...? | Do/Does/Did + S + V1? | Have/Has + S + V3? | Modal + S + V1? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "not",
+    "never",
+    "do",
+    "does",
+    "did",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "Is the museum open?",
+      "arabic": "هل المتحف مفتوح؟",
+      "reason": "مع be",
+      "highlight": "Is"
+    },
+    {
+      "english": "Why did the bus stop?",
+      "arabic": "لماذا توقفت الحافلة؟",
+      "reason": "مع فعل عادي",
+      "highlight": "Why"
+    },
+    {
+      "english": "Can you help me?",
+      "arabic": "هل تستطيع مساعدتي؟",
+      "reason": "مع modal",
+      "highlight": "Can"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Why you are late?",
+      "correct": "Why are you late?",
+      "explanationAr": "قدّم be على الفاعل."
+    },
+    {
+      "wrong": "Did you worked?",
+      "correct": "Did you work?",
+      "explanationAr": "بعد did استخدم V1."
+    }
+  ],
+  "memoryTip": "ضع المساعد قبل الفاعل في السؤال، وnot بعد المساعد في النفي.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-09-ex-01",
+      "type": "transform-sentence",
+      "question": "حوّل إلى سؤال: She can drive.",
+      "options": [],
+      "correctAnswer": "Does She can drive?",
+      "acceptedAnswers": [
+        "Does She can drive?",
+        "Does She can drive"
+      ],
+      "explanationAr": "ضع الفعل المساعد قبل الفاعل لتكوين السؤال.",
+      "lessonId": "lesson-09",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "1. حوّل إلى سؤال: She can drive.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-09-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Why you are late?",
+      "options": [],
+      "correctAnswer": "Why are you late?",
+      "acceptedAnswers": [
+        "Why are you late?",
+        "Why are you late?",
+        "Why are you late?",
+        "Why are you late?"
+      ],
+      "explanationAr": "قدّم be على الفاعل.",
+      "lessonId": "lesson-09",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-09-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Did you worked?",
+      "options": [],
+      "correctAnswer": "Did you work?",
+      "acceptedAnswers": [
+        "Did you work?",
+        "Did you work?",
+        "Did you work?",
+        "Did you work?"
+      ],
+      "explanationAr": "بعد did استخدم V1.",
+      "lessonId": "lesson-09",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-09-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: ___ the museum open?",
+      "options": [],
+      "correctAnswer": "Is",
+      "acceptedAnswers": [
+        "Is",
+        "is",
+        "Is"
+      ],
+      "explanationAr": "مع be",
+      "lessonId": "lesson-09",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-09-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة النفي والأسئلة؟ «Why did the bus stop?»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مع فعل عادي",
+      "lessonId": "lesson-09",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-09-ex-01",
+      "answer": "Does She can drive?",
+      "explanationAr": "ضع الفعل المساعد قبل الفاعل لتكوين السؤال."
+    },
+    {
+      "exerciseId": "lesson-09-fix-err-01",
+      "answer": "Why are you late?",
+      "explanationAr": "قدّم be على الفاعل."
+    },
+    {
+      "exerciseId": "lesson-09-fix-err-02",
+      "answer": "Did you work?",
+      "explanationAr": "بعد did استخدم V1."
+    },
+    {
+      "exerciseId": "lesson-09-fix-fill-01",
+      "answer": "Is",
+      "explanationAr": "مع be"
+    },
+    {
+      "exerciseId": "lesson-09-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مع فعل عادي"
+    }
+  ],
+  "relatedLessons": [
+    "present-perfect",
+    "wh--questions"
+  ],
+  "estimatedMinutes": 18
+}

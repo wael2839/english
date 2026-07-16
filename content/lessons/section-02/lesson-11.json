@@ -1,0 +1,161 @@
+{
+  "id": "lesson-11",
+  "slug": "pronouns-and-possessives",
+  "sectionId": "section-02",
+  "order": 11,
+  "titleAr": "الضمائر والملكية",
+  "titleEn": "Pronouns and Possessives",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "التمييز بين ضمير الفاعل والمفعول وصفة الملكية وضمير الملكية والمنعكس.",
+  "shortDefinition": "التمييز بين ضمير الفاعل والمفعول وصفة الملكية وضمير الملكية والمنعكس.",
+  "uses": [
+    "ضمير الفاعل قبل الفعل، وضمير المفعول بعد الفعل أو حرف الجر.",
+    "صفة الملكية قبل اسم، وضمير الملكية يقف وحده.",
+    "الضمير المنعكس عندما يعود الفعل على الفاعل أو للتوكيد."
+  ],
+  "formula": "I/me/my/mine/myself — he/him/his/his/himself",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "She called me.",
+      "arabic": "هي اتصلت بي.",
+      "reason": "فاعل/مفعول",
+      "highlight": "called"
+    },
+    {
+      "english": "This is my umbrella; that one is yours.",
+      "arabic": "هذه مظلتي؛ وتلك مظلتك.",
+      "reason": "ملكية",
+      "highlight": "is"
+    },
+    {
+      "english": "I made it myself.",
+      "arabic": "صنعته بنفسي.",
+      "reason": "منعكس",
+      "highlight": "made"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Me am ready.",
+      "correct": "I am ready.",
+      "explanationAr": "استخدم ضمير الفاعل."
+    },
+    {
+      "wrong": "This is mine bag.",
+      "correct": "This is my bag.",
+      "explanationAr": "mine لا يأتي قبل اسم."
+    }
+  ],
+  "memoryTip": "ميّز بين ضمير الفاعل والمفعول وصيغة الملكية قبل الاسم وبعده.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-11-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Me am ready.",
+      "options": [],
+      "correctAnswer": "I am ready.",
+      "acceptedAnswers": [
+        "I am ready.",
+        "I am ready",
+        "I am ready.",
+        "I am ready."
+      ],
+      "explanationAr": "استخدم ضمير الفاعل.",
+      "lessonId": "lesson-11",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-11-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: This is mine bag.",
+      "options": [],
+      "correctAnswer": "This is my bag.",
+      "acceptedAnswers": [
+        "This is my bag.",
+        "This is my bag",
+        "This is my bag.",
+        "This is my bag."
+      ],
+      "explanationAr": "mine لا يأتي قبل اسم.",
+      "lessonId": "lesson-11",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-11-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: She ___ me.",
+      "options": [],
+      "correctAnswer": "called",
+      "acceptedAnswers": [
+        "called",
+        "called",
+        "Called"
+      ],
+      "explanationAr": "فاعل/مفعول",
+      "lessonId": "lesson-11",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-11-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الضمائر والملكية؟ «This is my umbrella; that one is yours.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "ملكية",
+      "lessonId": "lesson-11",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-11-fix-err-01",
+      "answer": "I am ready.",
+      "explanationAr": "استخدم ضمير الفاعل."
+    },
+    {
+      "exerciseId": "lesson-11-fix-err-02",
+      "answer": "This is my bag.",
+      "explanationAr": "mine لا يأتي قبل اسم."
+    },
+    {
+      "exerciseId": "lesson-11-fix-fill-01",
+      "answer": "called",
+      "explanationAr": "فاعل/مفعول"
+    },
+    {
+      "exerciseId": "lesson-11-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "ملكية"
+    }
+  ],
+  "relatedLessons": [
+    "wh--questions",
+    "nouns-and-articles"
+  ],
+  "estimatedMinutes": 18
+}

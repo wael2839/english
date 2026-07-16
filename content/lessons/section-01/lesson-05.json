@@ -1,0 +1,196 @@
+{
+  "id": "lesson-05",
+  "slug": "past-simple",
+  "sectionId": "section-01",
+  "order": 5,
+  "titleAr": "الماضي البسيط",
+  "titleEn": "Past Simple",
+  "level": "beginner",
+  "ruleType": "زمن",
+  "goal": "وصف حدث مكتمل في وقت منتهٍ في الماضي.",
+  "shortDefinition": "وصف حدث مكتمل في وقت منتهٍ في الماضي.",
+  "uses": [
+    "حدث انتهى في وقت محدد: yesterday, last week, in 2025.",
+    "سلسلة أحداث مكتملة.",
+    "عادة قديمة يمكن التعبير عنها أيضًا بـ used to."
+  ],
+  "formula": "S + V2 | Negative: did not + V1 | Question: Did + S + V1?",
+  "affirmative": "",
+  "negative": "She did not work. — إضافة أداة النفي المناسبة.",
+  "question": "Did she work? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "yesterday",
+    "last",
+    "ago",
+    "in 2025",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "●",
+    "now": "────",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "I cleaned my room yesterday.",
+      "arabic": "نظفت غرفتي أمس.",
+      "reason": "حدث",
+      "highlight": "cleaned"
+    },
+    {
+      "english": "She went to the market.",
+      "arabic": "ذهبت إلى السوق.",
+      "reason": "غير منتظم",
+      "highlight": "went"
+    },
+    {
+      "english": "Did they call you?",
+      "arabic": "هل اتصلوا بك؟",
+      "reason": "سؤال",
+      "highlight": "Did"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I did not finished.",
+      "correct": "I did not finish.",
+      "explanationAr": "بعد did استخدم V1."
+    },
+    {
+      "wrong": "Did he went?",
+      "correct": "Did he go?",
+      "explanationAr": "السؤال يعيد الفعل إلى الأصل."
+    },
+    {
+      "wrong": "I have seen him yesterday.",
+      "correct": "I saw him yesterday.",
+      "explanationAr": "الوقت المنتهي يأخذ Past Simple."
+    }
+  ],
+  "memoryTip": "وقت منتهٍ = ماضٍ بسيط: V2 في الإثبات، وdid + V1 في النفي والسؤال.",
+  "comparisons": [
+    {
+      "leftLabel": "Past Simple",
+      "rightLabel": "Present Perfect",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "حدث انتهى في وقت ماضٍ محدد",
+          "right": "ماضٍ مرتبط بالحاضر دون وقت منتهٍ"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I visited Jeddah last year.",
+          "right": "I have visited Jeddah twice."
+        }
+      ],
+      "keyDifference": "حدث انتهى في وقت ماضٍ محدد؛ بينما ماضٍ مرتبط بالحاضر دون وقت منتهٍ."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-05-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I did not finished.",
+      "options": [],
+      "correctAnswer": "I did not finish.",
+      "acceptedAnswers": [
+        "I did not finish.",
+        "I did not finish",
+        "I did not finish.",
+        "I did not finish."
+      ],
+      "explanationAr": "بعد did استخدم V1.",
+      "lessonId": "lesson-05",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-05-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Did he went?",
+      "options": [],
+      "correctAnswer": "Did he go?",
+      "acceptedAnswers": [
+        "Did he go?",
+        "Did he go?",
+        "Did he go?",
+        "Did he go?"
+      ],
+      "explanationAr": "السؤال يعيد الفعل إلى الأصل.",
+      "lessonId": "lesson-05",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-05-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ my room yesterday.",
+      "options": [],
+      "correctAnswer": "cleaned",
+      "acceptedAnswers": [
+        "cleaned",
+        "cleaned",
+        "Cleaned"
+      ],
+      "explanationAr": "حدث",
+      "lessonId": "lesson-05",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-05-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الماضي البسيط؟ «She went to the market.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "غير منتظم",
+      "lessonId": "lesson-05",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-05-fix-err-01",
+      "answer": "I did not finish.",
+      "explanationAr": "بعد did استخدم V1."
+    },
+    {
+      "exerciseId": "lesson-05-fix-err-02",
+      "answer": "Did he go?",
+      "explanationAr": "السؤال يعيد الفعل إلى الأصل."
+    },
+    {
+      "exerciseId": "lesson-05-fix-fill-01",
+      "answer": "cleaned",
+      "explanationAr": "حدث"
+    },
+    {
+      "exerciseId": "lesson-05-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "غير منتظم"
+    }
+  ],
+  "relatedLessons": [
+    "present-continuous",
+    "past-continuous",
+    "present-perfect"
+  ],
+  "estimatedMinutes": 18
+}

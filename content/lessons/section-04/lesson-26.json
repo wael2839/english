@@ -1,0 +1,212 @@
+{
+  "id": "lesson-26",
+  "slug": "advanced-future-tenses",
+  "sectionId": "section-04",
+  "order": 26,
+  "titleAr": "أزمنة المستقبل المتقدمة",
+  "titleEn": "Advanced Future Tenses",
+  "level": "advanced",
+  "ruleType": "زمن",
+  "goal": "وصف حدث سيكون مستمرًا أو مكتملًا قبل وقت مستقبلي.",
+  "shortDefinition": "وصف حدث سيكون مستمرًا أو مكتملًا قبل وقت مستقبلي.",
+  "uses": [
+    "Future Continuous لحدث جارٍ في وقت مستقبلي أو سؤال مهذب عن خطة.",
+    "Future Perfect لحدث سيكتمل قبل موعد.",
+    "Future Perfect Continuous للتأكيد على المدة حتى موعد مستقبلي."
+  ],
+  "formula": "will be + V-ing | will have + V3 | will have been + V-ing",
+  "affirmative": "",
+  "negative": "S + will + not + be + V-ing | S + will + not + have + V3 | S + will + not + have + been + V-ing — إضافة أداة النفي المناسبة.",
+  "question": "Will + S + be + V-ing? | Will + S + have + V3? | Will + S + have + been + V-ing? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "by",
+    "by the time",
+    "this time tomorrow",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "────",
+    "now": "────",
+    "future": "●"
+  },
+  "examples": [
+    {
+      "english": "This time tomorrow, I will be traveling.",
+      "arabic": "في مثل هذا الوقت غدًا سأكون مسافرًا.",
+      "reason": "مستمر",
+      "highlight": "will"
+    },
+    {
+      "english": "By Friday, I will have finished.",
+      "arabic": "بحلول الجمعة سأكون قد انتهيت.",
+      "reason": "مكتمل",
+      "highlight": "will"
+    },
+    {
+      "english": "By June, I will have been working here for a year.",
+      "arabic": "بحلول يونيو سأكون قد عملت هنا سنة.",
+      "reason": "مدة",
+      "highlight": "will"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "By Friday I will finish already.",
+      "correct": "By Friday, I will have finished.",
+      "explanationAr": "by + موعد يناسب Future Perfect."
+    },
+    {
+      "wrong": "will be work",
+      "correct": "will be working",
+      "explanationAr": "استخدم ing."
+    }
+  ],
+  "memoryTip": "by + وقت غالبًا يشير إلى will have + V3.",
+  "comparisons": [
+    {
+      "leftLabel": "Future Continuous",
+      "rightLabel": "Future Perfect",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "حدث سيكون جاريًا",
+          "right": "حدث سيكتمل قبل موعد"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I will be traveling at noon.",
+          "right": "I will have arrived by noon."
+        }
+      ],
+      "keyDifference": "حدث سيكون جاريًا؛ بينما حدث سيكتمل قبل موعد."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-26-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: By 8, she ___ (leave).",
+      "options": [],
+      "correctAnswer": "leave",
+      "acceptedAnswers": [
+        "leave",
+        "Leave"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من leave",
+      "lessonId": "lesson-26",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: By 8, she ___ (leave).",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-26-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: By Friday I will finish already.",
+      "options": [],
+      "correctAnswer": "By Friday, I will have finished.",
+      "acceptedAnswers": [
+        "By Friday, I will have finished.",
+        "By Friday, I will have finished",
+        "By Friday, I will have finished.",
+        "By Friday, I will have finished."
+      ],
+      "explanationAr": "by + موعد يناسب Future Perfect.",
+      "lessonId": "lesson-26",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-26-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: will be work",
+      "options": [],
+      "correctAnswer": "will be working",
+      "acceptedAnswers": [
+        "will be working",
+        "will be working",
+        "will be working",
+        "will be working"
+      ],
+      "explanationAr": "استخدم ing.",
+      "lessonId": "lesson-26",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-26-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: This time tomorrow, I ___ be traveling.",
+      "options": [],
+      "correctAnswer": "will",
+      "acceptedAnswers": [
+        "will",
+        "will",
+        "Will"
+      ],
+      "explanationAr": "مستمر",
+      "lessonId": "lesson-26",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-26-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة أزمنة المستقبل المتقدمة؟ «By Friday, I will have finished.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مكتمل",
+      "lessonId": "lesson-26",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-26-ex-01",
+      "answer": "leave",
+      "explanationAr": "استخدم الشكل المناسب من leave"
+    },
+    {
+      "exerciseId": "lesson-26-fix-err-01",
+      "answer": "By Friday, I will have finished.",
+      "explanationAr": "by + موعد يناسب Future Perfect."
+    },
+    {
+      "exerciseId": "lesson-26-fix-err-02",
+      "answer": "will be working",
+      "explanationAr": "استخدم ing."
+    },
+    {
+      "exerciseId": "lesson-26-fix-fill-01",
+      "answer": "will",
+      "explanationAr": "مستمر"
+    },
+    {
+      "exerciseId": "lesson-26-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مكتمل"
+    }
+  ],
+  "relatedLessons": [
+    "past-perfect-forms",
+    "reported-speech"
+  ],
+  "estimatedMinutes": 18
+}

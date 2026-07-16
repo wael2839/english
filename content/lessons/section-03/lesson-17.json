@@ -1,0 +1,226 @@
+{
+  "id": "lesson-17",
+  "slug": "infinitive-and-gerund",
+  "sectionId": "section-03",
+  "order": 17,
+  "titleAr": "المصدر وGerund",
+  "titleEn": "Infinitive and Gerund",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "معرفة متى يأتي to + verb ومتى يأتي verb-ing.",
+  "shortDefinition": "معرفة متى يأتي to + verb ومتى يأتي verb-ing.",
+  "uses": [
+    "أفعال شائعة مع to: want, decide, hope, plan, need.",
+    "أفعال شائعة مع ing: enjoy, avoid, finish, suggest, mind.",
+    "بعد حرف الجر استخدم ing.",
+    "بعض الأفعال يتغير معناها: stop doing / stop to do، remember doing / remember to do."
+  ],
+  "formula": "verb + to-infinitive | verb/preposition + gerund",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "I decided to apply.",
+      "arabic": "قررت أن أقدّم.",
+      "reason": "مصدر",
+      "highlight": "decided"
+    },
+    {
+      "english": "I enjoy learning English.",
+      "arabic": "أستمتع بتعلم الإنجليزية.",
+      "reason": "Gerund",
+      "highlight": "enjoy"
+    },
+    {
+      "english": "She is good at solving problems.",
+      "arabic": "هي جيدة في حل المشكلات.",
+      "reason": "بعد حرف جر",
+      "highlight": "is"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I enjoy to dance.",
+      "correct": "I enjoy dancing.",
+      "explanationAr": "enjoy معها ing."
+    },
+    {
+      "wrong": "I want learning.",
+      "correct": "I want to learn.",
+      "explanationAr": "want معها to."
+    }
+  ],
+  "memoryTip": "بعض الأفعال تأخذ to-V1 وبعضها V-ing؛ احفظها بالأمثلة لا بالحفظ الأصم.",
+  "comparisons": [
+    {
+      "leftLabel": "to-infinitive",
+      "rightLabel": "gerund (-ing)",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "بعد أفعال مثل want وplan",
+          "right": "بعد أفعال مثل enjoy وavoid"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I want to travel.",
+          "right": "I enjoy traveling."
+        }
+      ],
+      "keyDifference": "بعد أفعال مثل want وplan؛ بينما بعد أفعال مثل enjoy وavoid."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-17-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: avoid ___ (make) mistakes.",
+      "options": [],
+      "correctAnswer": "make",
+      "acceptedAnswers": [
+        "make",
+        "Make"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من make",
+      "lessonId": "lesson-17",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: avoid ___ (make) mistakes.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-17-ex-02",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: plan ___ (study).",
+      "options": [],
+      "correctAnswer": "study",
+      "acceptedAnswers": [
+        "study",
+        "Study"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من study",
+      "lessonId": "lesson-17",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "2. أكمل: plan ___ (study).",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-17-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I enjoy to dance.",
+      "options": [],
+      "correctAnswer": "I enjoy dancing.",
+      "acceptedAnswers": [
+        "I enjoy dancing.",
+        "I enjoy dancing",
+        "I enjoy dancing.",
+        "I enjoy dancing."
+      ],
+      "explanationAr": "enjoy معها ing.",
+      "lessonId": "lesson-17",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-17-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I want learning.",
+      "options": [],
+      "correctAnswer": "I want to learn.",
+      "acceptedAnswers": [
+        "I want to learn.",
+        "I want to learn",
+        "I want to learn.",
+        "I want to learn."
+      ],
+      "explanationAr": "want معها to.",
+      "lessonId": "lesson-17",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-17-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ to apply.",
+      "options": [],
+      "correctAnswer": "decided",
+      "acceptedAnswers": [
+        "decided",
+        "decided",
+        "Decided"
+      ],
+      "explanationAr": "مصدر",
+      "lessonId": "lesson-17",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-17-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المصدر وGerund؟ «I enjoy learning English.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "Gerund",
+      "lessonId": "lesson-17",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-17-ex-01",
+      "answer": "make",
+      "explanationAr": "استخدم الشكل المناسب من make"
+    },
+    {
+      "exerciseId": "lesson-17-ex-02",
+      "answer": "study",
+      "explanationAr": "استخدم الشكل المناسب من study"
+    },
+    {
+      "exerciseId": "lesson-17-fix-err-01",
+      "answer": "I enjoy dancing.",
+      "explanationAr": "enjoy معها ing."
+    },
+    {
+      "exerciseId": "lesson-17-fix-err-02",
+      "answer": "I want to learn.",
+      "explanationAr": "want معها to."
+    },
+    {
+      "exerciseId": "lesson-17-fix-fill-01",
+      "answer": "decided",
+      "explanationAr": "مصدر"
+    },
+    {
+      "exerciseId": "lesson-17-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "Gerund"
+    }
+  ],
+  "relatedLessons": [
+    "modal-verbs",
+    "verb-patterns-and-phrasal-verbs"
+  ],
+  "estimatedMinutes": 18
+}

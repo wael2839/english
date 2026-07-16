@@ -1,0 +1,195 @@
+{
+  "id": "lesson-06",
+  "slug": "past-continuous",
+  "sectionId": "section-01",
+  "order": 6,
+  "titleAr": "الماضي المستمر",
+  "titleEn": "Past Continuous",
+  "level": "beginner",
+  "ruleType": "زمن",
+  "goal": "وصف حدث كان مستمرًا عند لحظة ماضية أو قطعه حدث قصير.",
+  "shortDefinition": "وصف حدث كان مستمرًا عند لحظة ماضية أو قطعه حدث قصير.",
+  "uses": [
+    "حدث مستمر عند وقت محدد في الماضي.",
+    "خلفية لقصة.",
+    "حدثان متزامنان مع while.",
+    "حدث طويل قطعه Past Simple مع when."
+  ],
+  "formula": "S + was/were + V-ing",
+  "affirmative": "",
+  "negative": "S + was/were + not + V-ing — إضافة أداة النفي المناسبة.",
+  "question": "Was/Were + S + V-ing? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "while",
+    "when",
+    "at 8 p.m.",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "●",
+    "now": "────",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "I was studying at 8 p.m.",
+      "arabic": "كنت أدرس الساعة الثامنة.",
+      "reason": "لحظة",
+      "highlight": "studying"
+    },
+    {
+      "english": "I was cooking when the power went out.",
+      "arabic": "كنت أطبخ عندما انقطعت الكهرباء.",
+      "reason": "مقاطعة",
+      "highlight": "cooking"
+    },
+    {
+      "english": "While I was reading, he was drawing.",
+      "arabic": "بينما كنت أقرأ، كان هو يرسم.",
+      "reason": "تزامن",
+      "highlight": "reading"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I was study.",
+      "correct": "I was studying.",
+      "explanationAr": "استخدم ing."
+    },
+    {
+      "wrong": "When I was arriving, he called.",
+      "correct": "When I arrived, he called.",
+      "explanationAr": "الحدث القصير غالبًا Past Simple."
+    }
+  ],
+  "memoryTip": "was/were + V-ing لحدث كان جاريًا، وغالبًا مع when/while.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-06-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: We ___ (talk) when she arrived.",
+      "options": [],
+      "correctAnswer": "talk",
+      "acceptedAnswers": [
+        "talk",
+        "Talk"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من talk",
+      "lessonId": "lesson-06",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: We ___ (talk) when she arrived.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-06-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I was study.",
+      "options": [],
+      "correctAnswer": "I was studying.",
+      "acceptedAnswers": [
+        "I was studying.",
+        "I was studying",
+        "I was studying.",
+        "I was studying."
+      ],
+      "explanationAr": "استخدم ing.",
+      "lessonId": "lesson-06",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-06-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: When I was arriving, he called.",
+      "options": [],
+      "correctAnswer": "When I arrived, he called.",
+      "acceptedAnswers": [
+        "When I arrived, he called.",
+        "When I arrived, he called",
+        "When I arrived, he called.",
+        "When I arrived, he called."
+      ],
+      "explanationAr": "الحدث القصير غالبًا Past Simple.",
+      "lessonId": "lesson-06",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-06-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I was ___ at 8 p.m.",
+      "options": [],
+      "correctAnswer": "studying",
+      "acceptedAnswers": [
+        "studying",
+        "studying",
+        "Studying"
+      ],
+      "explanationAr": "لحظة",
+      "lessonId": "lesson-06",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-06-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الماضي المستمر؟ «I was cooking when the power went out.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مقاطعة",
+      "lessonId": "lesson-06",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-06-ex-01",
+      "answer": "talk",
+      "explanationAr": "استخدم الشكل المناسب من talk"
+    },
+    {
+      "exerciseId": "lesson-06-fix-err-01",
+      "answer": "I was studying.",
+      "explanationAr": "استخدم ing."
+    },
+    {
+      "exerciseId": "lesson-06-fix-err-02",
+      "answer": "When I arrived, he called.",
+      "explanationAr": "الحدث القصير غالبًا Past Simple."
+    },
+    {
+      "exerciseId": "lesson-06-fix-fill-01",
+      "answer": "studying",
+      "explanationAr": "لحظة"
+    },
+    {
+      "exerciseId": "lesson-06-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مقاطعة"
+    }
+  ],
+  "relatedLessons": [
+    "past-simple",
+    "future-forms"
+  ],
+  "estimatedMinutes": 18
+}

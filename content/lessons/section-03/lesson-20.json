@@ -1,0 +1,184 @@
+{
+  "id": "lesson-20",
+  "slug": "conditionals",
+  "sectionId": "section-03",
+  "order": 20,
+  "titleAr": "الجمل الشرطية",
+  "titleEn": "Conditionals",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "التعبير عن الحقائق والاحتمالات والافتراضات والندم.",
+  "shortDefinition": "التعبير عن الحقائق والاحتمالات والافتراضات والندم.",
+  "uses": [
+    "Zero للحقائق. First لاحتمال واقعي مستقبلي. Second لافتراض غير واقعي حاضر/مستقبلي. Third لماضٍ لم يحدث ونتيجته المتخيلة.",
+    "Mixed conditional يربط سببًا ماضيًا بنتيجة حاضرة."
+  ],
+  "formula": "Zero: if + present, present | First: if + present, will + V1 | Second: if + past, would + V1 | Third: if + had V3, would have V3",
+  "affirmative": "",
+  "negative": "",
+  "question": "What will happen if I study? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "if",
+    "unless",
+    "provided that",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "If I practice, I will improve.",
+      "arabic": "إذا تدربت فسأتحسن.",
+      "reason": "أول",
+      "highlight": "will"
+    },
+    {
+      "english": "If I had more time, I would study more.",
+      "arabic": "لو كان لدي وقت أكثر لدرست أكثر.",
+      "reason": "ثانٍ",
+      "highlight": "had"
+    },
+    {
+      "english": "If I had prepared, I would have passed.",
+      "arabic": "لو استعددت لنجحت.",
+      "reason": "ثالث",
+      "highlight": "had"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "If I will study, I will improve.",
+      "correct": "If I study, I will improve.",
+      "explanationAr": "لا will عادة في if-clause."
+    },
+    {
+      "wrong": "If I was you",
+      "correct": "If I were you",
+      "explanationAr": "were هي الصيغة القياسية في الافتراض."
+    }
+  ],
+  "memoryTip": "المعنى أولًا: حقيقة / احتمال / افتراض / ندم، ثم اختر الصيغة المناسبة.",
+  "comparisons": [
+    {
+      "leftLabel": "Second Conditional",
+      "rightLabel": "Third Conditional",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "افتراض غير واقعي الآن أو مستقبلًا",
+          "right": "ندم أو تخيل لماضٍ لم يحدث"
+        },
+        {
+          "aspect": "مثال",
+          "left": "If I had time, I would read.",
+          "right": "If I had studied, I would have passed."
+        }
+      ],
+      "keyDifference": "افتراض غير واقعي الآن أو مستقبلًا؛ بينما ندم أو تخيل لماضٍ لم يحدث."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-20-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: If I will study, I will improve.",
+      "options": [],
+      "correctAnswer": "If I study, I will improve.",
+      "acceptedAnswers": [
+        "If I study, I will improve.",
+        "If I study, I will improve",
+        "If I study, I will improve.",
+        "If I study, I will improve."
+      ],
+      "explanationAr": "لا will عادة في if-clause.",
+      "lessonId": "lesson-20",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-20-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: If I was you",
+      "options": [],
+      "correctAnswer": "If I were you",
+      "acceptedAnswers": [
+        "If I were you",
+        "If I were you",
+        "If I were you",
+        "If I were you"
+      ],
+      "explanationAr": "were هي الصيغة القياسية في الافتراض.",
+      "lessonId": "lesson-20",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-20-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: If I practice, I ___ improve.",
+      "options": [],
+      "correctAnswer": "will",
+      "acceptedAnswers": [
+        "will",
+        "will",
+        "Will"
+      ],
+      "explanationAr": "أول",
+      "lessonId": "lesson-20",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-20-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الجمل الشرطية؟ «If I had more time, I would study more.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "ثانٍ",
+      "lessonId": "lesson-20",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-20-fix-err-01",
+      "answer": "If I study, I will improve.",
+      "explanationAr": "لا will عادة في if-clause."
+    },
+    {
+      "exerciseId": "lesson-20-fix-err-02",
+      "answer": "If I were you",
+      "explanationAr": "were هي الصيغة القياسية في الافتراض."
+    },
+    {
+      "exerciseId": "lesson-20-fix-fill-01",
+      "answer": "will",
+      "explanationAr": "أول"
+    },
+    {
+      "exerciseId": "lesson-20-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "ثانٍ"
+    }
+  ],
+  "relatedLessons": [
+    "comparison-and-superlative",
+    "passive-voice"
+  ],
+  "estimatedMinutes": 18
+}

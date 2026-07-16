@@ -1,0 +1,395 @@
+{
+  "irregularVerbs": [
+    [
+      "be",
+      "was/were",
+      "been",
+      "يكون"
+    ],
+    [
+      "become",
+      "became",
+      "become",
+      "يصبح"
+    ],
+    [
+      "begin",
+      "began",
+      "begun",
+      "يبدأ"
+    ],
+    [
+      "break",
+      "broke",
+      "broken",
+      "يكسر"
+    ],
+    [
+      "bring",
+      "brought",
+      "brought",
+      "يحضر"
+    ],
+    [
+      "build",
+      "built",
+      "built",
+      "يبني"
+    ],
+    [
+      "buy",
+      "bought",
+      "bought",
+      "يشتري"
+    ],
+    [
+      "choose",
+      "chose",
+      "chosen",
+      "يختار"
+    ],
+    [
+      "come",
+      "came",
+      "come",
+      "يأتي"
+    ],
+    [
+      "do",
+      "did",
+      "done",
+      "يفعل"
+    ],
+    [
+      "drink",
+      "drank",
+      "drunk",
+      "يشرب"
+    ],
+    [
+      "drive",
+      "drove",
+      "driven",
+      "يقود"
+    ],
+    [
+      "eat",
+      "ate",
+      "eaten",
+      "يأكل"
+    ],
+    [
+      "feel",
+      "felt",
+      "felt",
+      "يشعر"
+    ],
+    [
+      "find",
+      "found",
+      "found",
+      "يجد"
+    ],
+    [
+      "get",
+      "got",
+      "got/gotten",
+      "يحصل"
+    ],
+    [
+      "give",
+      "gave",
+      "given",
+      "يعطي"
+    ],
+    [
+      "go",
+      "went",
+      "gone",
+      "يذهب"
+    ],
+    [
+      "have",
+      "had",
+      "had",
+      "يملك"
+    ],
+    [
+      "know",
+      "knew",
+      "known",
+      "يعرف"
+    ],
+    [
+      "leave",
+      "left",
+      "left",
+      "يغادر"
+    ],
+    [
+      "make",
+      "made",
+      "made",
+      "يصنع"
+    ],
+    [
+      "meet",
+      "met",
+      "met",
+      "يقابل"
+    ],
+    [
+      "read",
+      "read",
+      "read",
+      "يقرأ"
+    ],
+    [
+      "run",
+      "ran",
+      "run",
+      "يركض/يشغّل"
+    ],
+    [
+      "say",
+      "said",
+      "said",
+      "يقول"
+    ],
+    [
+      "see",
+      "saw",
+      "seen",
+      "يرى"
+    ],
+    [
+      "send",
+      "sent",
+      "sent",
+      "يرسل"
+    ],
+    [
+      "speak",
+      "spoke",
+      "spoken",
+      "يتحدث"
+    ],
+    [
+      "take",
+      "took",
+      "taken",
+      "يأخذ"
+    ],
+    [
+      "think",
+      "thought",
+      "thought",
+      "يفكر"
+    ],
+    [
+      "understand",
+      "understood",
+      "understood",
+      "يفهم"
+    ],
+    [
+      "write",
+      "wrote",
+      "written",
+      "يكتب"
+    ]
+  ],
+  "commonArabicSpeakerMistakes": [
+    [
+      [
+        "خطأ",
+        "الصحيح",
+        "القاعدة"
+      ],
+      [
+        "I have 26 years.",
+        "I am 26 years old.",
+        "العمر مع be."
+      ],
+      [
+        "He is engineer.",
+        "He is an engineer.",
+        "المهنة المفردة تحتاج a/an."
+      ],
+      [
+        "I am agree.",
+        "I agree.",
+        "agree فعل لا صفة."
+      ],
+      [
+        "Open the camera.",
+        "Turn on the camera.",
+        "استخدم collocation صحيحًا."
+      ],
+      [
+        "I didn’t went.",
+        "I didn’t go.",
+        "بعد did استخدم V1."
+      ],
+      [
+        "She work.",
+        "She works.",
+        "s مع المفرد الغائب."
+      ],
+      [
+        "I am here since 2024.",
+        "I have been here since 2024.",
+        "since يربط الماضي بالحاضر."
+      ],
+      [
+        "He explained me.",
+        "He explained it to me.",
+        "explain + thing + to person."
+      ],
+      [
+        "I look forward to meet.",
+        "I look forward to meeting.",
+        "to هنا حرف جر وبعده ing."
+      ],
+      [
+        "Despite he was tired...",
+        "Although he was tired... / Despite being tired...",
+        "despite + noun/gerund؛ although + clause."
+      ]
+    ]
+  ],
+  "tenseChoiceSheet": [
+    [
+      [
+        "اسأل نفسك",
+        "إذا كانت الإجابة نعم",
+        "الزمن المرجح"
+      ],
+      [
+        "هل هي عادة أو حقيقة؟",
+        "حدث متكرر/ثابت",
+        "Present Simple"
+      ],
+      [
+        "هل يحدث الآن أو مؤقتًا؟",
+        "نشاط جارٍ",
+        "Present Continuous"
+      ],
+      [
+        "هل انتهى في وقت ماضٍ محدد؟",
+        "yesterday/last/in 2025",
+        "Past Simple"
+      ],
+      [
+        "هل كان جاريًا عند لحظة ماضية؟",
+        "خلفية أو مقاطعة",
+        "Past Continuous"
+      ],
+      [
+        "هل الماضي مرتبط بالحاضر دون وقت منتهٍ؟",
+        "خبرة/نتيجة/منذ",
+        "Present Perfect"
+      ],
+      [
+        "هل المدة أو النشاط هو المهم؟",
+        "for/since مع استمرار",
+        "Present Perfect Continuous"
+      ],
+      [
+        "هل حدث قبل حدث ماضٍ آخر؟",
+        "الأسبق في الماضي",
+        "Past Perfect"
+      ],
+      [
+        "هل هو قرار لحظي أو وعد؟",
+        "قرار/وعد/توقع رأي",
+        "will"
+      ],
+      [
+        "هل هي خطة أو يوجد دليل؟",
+        "نية سابقة/دليل",
+        "going to"
+      ],
+      [
+        "هل سيكتمل قبل موعد؟",
+        "by + future time",
+        "Future Perfect"
+      ]
+    ]
+  ],
+  "twelveWeekPlan": [
+    [
+      [
+        "الأسبوع",
+        "الوحدات",
+        "مهمة التطبيق"
+      ],
+      [
+        "1",
+        "1–3",
+        "20 جملة عن يومك وعملك"
+      ],
+      [
+        "2",
+        "4–6",
+        "قصة قصيرة عن يوم سابق"
+      ],
+      [
+        "3",
+        "7–8",
+        "خططك وخبراتك"
+      ],
+      [
+        "4",
+        "9–12",
+        "50 سؤالًا ووصف أشياء حولك"
+      ],
+      [
+        "5",
+        "13–16",
+        "نصائح ووصف وكميات"
+      ],
+      [
+        "6",
+        "17–19",
+        "فقرة عن التعلم والمقارنة"
+      ],
+      [
+        "7",
+        "20–21",
+        "احتمالات وشرح عملية"
+      ],
+      [
+        "8",
+        "22–23",
+        "دمج جمل وكتابة فقرة مترابطة"
+      ],
+      [
+        "9",
+        "24–26",
+        "المدة وتسلسل الماضي والمستقبل"
+      ],
+      [
+        "10",
+        "27–28",
+        "نقل حوار وطلبات رسمية"
+      ],
+      [
+        "11",
+        "29–31",
+        "كتابة رسمية وتدقيق"
+      ],
+      [
+        "12",
+        "32 والملاحق",
+        "اختبار شامل وإعادة نقاط الضعف"
+      ]
+    ],
+    [
+      [
+        "قاعدة الإتقان  لا يكفي أن تتعرف على القاعدة عند رؤيتها. اعتبرها متقنة عندما تستطيع إنتاج خمس جمل صحيحة بها، وسؤال، ونفي، واستخدامها في فقرة دون الرجوع إلى الصيغة."
+      ]
+    ]
+  ],
+  "notes": []
+}

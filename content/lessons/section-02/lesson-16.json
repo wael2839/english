@@ -1,0 +1,189 @@
+{
+  "id": "lesson-16",
+  "slug": "modal-verbs",
+  "sectionId": "section-02",
+  "order": 16,
+  "titleAr": "الأفعال الناقصة",
+  "titleEn": "Modal Verbs",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "التعبير عن القدرة والاحتمال والنصيحة والالتزام والإذن.",
+  "shortDefinition": "التعبير عن القدرة والاحتمال والنصيحة والالتزام والإذن.",
+  "uses": [
+    "can قدرة/إذن؛ could قدرة ماضية أو طلب مهذب.",
+    "may/might احتمال؛ might أضعف غالبًا.",
+    "must التزام قوي أو استنتاج؛ have to ضرورة خارجية.",
+    "should نصيحة؛ mustn’t منع؛ don’t have to عدم ضرورة."
+  ],
+  "formula": "modal + V1 (can, could, may, might, must, should, would)",
+  "affirmative": "",
+  "negative": "S + modal + not + V1 — إضافة أداة النفي المناسبة.",
+  "question": "Modal + S + V1? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "can",
+    "could",
+    "may",
+    "might",
+    "must",
+    "should",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "I can swim across the pool.",
+      "arabic": "أستطيع السباحة عبر المسبح.",
+      "reason": "قدرة",
+      "highlight": "can"
+    },
+    {
+      "english": "You should practice daily.",
+      "arabic": "ينبغي أن تتدرب يوميًا.",
+      "reason": "نصيحة",
+      "highlight": "should"
+    },
+    {
+      "english": "You don’t have to come early.",
+      "arabic": "ليس عليك أن تأتي مبكرًا.",
+      "reason": "عدم ضرورة",
+      "highlight": "don"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "He can to swim.",
+      "correct": "He can swim.",
+      "explanationAr": "لا to بعد modal."
+    },
+    {
+      "wrong": "You mustn’t finish today.",
+      "correct": "You don’t have to finish today.",
+      "explanationAr": "mustn’t تعني ممنوع، لا غير ضروري."
+    }
+  ],
+  "memoryTip": "الناقص لا يأخذ to، ومعناه يتغيّر: قدرة، احتمال، نصيحة، أو التزام.",
+  "comparisons": [
+    {
+      "leftLabel": "mustn’t",
+      "rightLabel": "don’t have to",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "ممنوع",
+          "right": "غير ضروري"
+        },
+        {
+          "aspect": "مثال",
+          "left": "You mustn’t touch this.",
+          "right": "You don’t have to wait."
+        }
+      ],
+      "keyDifference": "ممنوع؛ بينما غير ضروري."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-16-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: He can to swim.",
+      "options": [],
+      "correctAnswer": "He can swim.",
+      "acceptedAnswers": [
+        "He can swim.",
+        "He can swim",
+        "He can swim.",
+        "He can swim."
+      ],
+      "explanationAr": "لا to بعد modal.",
+      "lessonId": "lesson-16",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-16-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: You mustn’t finish today.",
+      "options": [],
+      "correctAnswer": "You don’t have to finish today.",
+      "acceptedAnswers": [
+        "You don’t have to finish today.",
+        "You don’t have to finish today",
+        "You don't have to finish today.",
+        "You don’t have to finish today."
+      ],
+      "explanationAr": "mustn’t تعني ممنوع، لا غير ضروري.",
+      "lessonId": "lesson-16",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-16-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ swim across the pool.",
+      "options": [],
+      "correctAnswer": "can",
+      "acceptedAnswers": [
+        "can",
+        "can",
+        "Can"
+      ],
+      "explanationAr": "قدرة",
+      "lessonId": "lesson-16",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-16-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الأفعال الناقصة؟ «You should practice daily.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "نصيحة",
+      "lessonId": "lesson-16",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-16-fix-err-01",
+      "answer": "He can swim.",
+      "explanationAr": "لا to بعد modal."
+    },
+    {
+      "exerciseId": "lesson-16-fix-err-02",
+      "answer": "You don’t have to finish today.",
+      "explanationAr": "mustn’t تعني ممنوع، لا غير ضروري."
+    },
+    {
+      "exerciseId": "lesson-16-fix-fill-01",
+      "answer": "can",
+      "explanationAr": "قدرة"
+    },
+    {
+      "exerciseId": "lesson-16-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "نصيحة"
+    }
+  ],
+  "relatedLessons": [
+    "prepositions",
+    "infinitive-and-gerund"
+  ],
+  "estimatedMinutes": 18
+}

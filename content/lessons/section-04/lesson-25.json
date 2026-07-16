@@ -1,0 +1,185 @@
+{
+  "id": "lesson-25",
+  "slug": "past-perfect-forms",
+  "sectionId": "section-04",
+  "order": 25,
+  "titleAr": "صيغ الماضي التام",
+  "titleEn": "Past Perfect Forms",
+  "level": "advanced",
+  "ruleType": "زمن",
+  "goal": "ترتيب حدثين في الماضي وإبراز المدة قبل نقطة ماضية.",
+  "shortDefinition": "ترتيب حدثين في الماضي وإبراز المدة قبل نقطة ماضية.",
+  "uses": [
+    "Past Perfect للحدث الأسبق من حدث ماضٍ آخر.",
+    "Past Perfect Continuous للمدة أو النشاط المستمر قبل نقطة ماضية.",
+    "لا يلزم استخدامه إذا كان الترتيب واضحًا جدًا من after/before، لكنه مفيد للتأكيد."
+  ],
+  "formula": "had + V3 | had been + V-ing",
+  "affirmative": "",
+  "negative": "S + had + not + V3 | S + had + not + been + V-ing — إضافة أداة النفي المناسبة.",
+  "question": "Had + S + V3? | Had + S + been + V-ing? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "before",
+    "after",
+    "by the time",
+    "already",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "●",
+    "now": "────",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "The meeting had started before I arrived.",
+      "arabic": "كان الاجتماع قد بدأ قبل وصولي.",
+      "reason": "أسبق",
+      "highlight": "started"
+    },
+    {
+      "english": "I had been working for hours when she called.",
+      "arabic": "كنت أعمل منذ ساعات عندما اتصلت.",
+      "reason": "مدة",
+      "highlight": "been"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "When I arrived, he has left.",
+      "correct": "When I arrived, he had left.",
+      "explanationAr": "السياق ماضٍ."
+    },
+    {
+      "wrong": "had been work",
+      "correct": "had been working",
+      "explanationAr": "استخدم ing."
+    }
+  ],
+  "memoryTip": "had + V3 للحدث الأسبق بين حدثين ماضيين.",
+  "comparisons": [
+    {
+      "leftLabel": "Past Simple",
+      "rightLabel": "Past Perfect",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "حدث ماضٍ",
+          "right": "حدث وقع قبل حدث ماضٍ آخر"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I arrived at eight.",
+          "right": "The bus had left before I arrived."
+        }
+      ],
+      "keyDifference": "حدث ماضٍ؛ بينما حدث وقع قبل حدث ماضٍ آخر."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-25-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: When I arrived, he has left.",
+      "options": [],
+      "correctAnswer": "When I arrived, he had left.",
+      "acceptedAnswers": [
+        "When I arrived, he had left.",
+        "When I arrived, he had left",
+        "When I arrived, he had left.",
+        "When I arrived, he had left."
+      ],
+      "explanationAr": "السياق ماضٍ.",
+      "lessonId": "lesson-25",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-25-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: had been work",
+      "options": [],
+      "correctAnswer": "had been working",
+      "acceptedAnswers": [
+        "had been working",
+        "had been working",
+        "had been working",
+        "had been working"
+      ],
+      "explanationAr": "استخدم ing.",
+      "lessonId": "lesson-25",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-25-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: The meeting had ___ before I arrived.",
+      "options": [],
+      "correctAnswer": "started",
+      "acceptedAnswers": [
+        "started",
+        "started",
+        "Started"
+      ],
+      "explanationAr": "أسبق",
+      "lessonId": "lesson-25",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-25-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة صيغ الماضي التام؟ «I had been working for hours when she called.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مدة",
+      "lessonId": "lesson-25",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-25-fix-err-01",
+      "answer": "When I arrived, he had left.",
+      "explanationAr": "السياق ماضٍ."
+    },
+    {
+      "exerciseId": "lesson-25-fix-err-02",
+      "answer": "had been working",
+      "explanationAr": "استخدم ing."
+    },
+    {
+      "exerciseId": "lesson-25-fix-fill-01",
+      "answer": "started",
+      "explanationAr": "أسبق"
+    },
+    {
+      "exerciseId": "lesson-25-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مدة"
+    }
+  ],
+  "relatedLessons": [
+    "present-perfect-continuous",
+    "advanced-future-tenses",
+    "past-simple"
+  ],
+  "estimatedMinutes": 17
+}

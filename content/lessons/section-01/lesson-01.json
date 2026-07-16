@@ -1,0 +1,212 @@
+{
+  "id": "lesson-01",
+  "slug": "sentence-structure",
+  "sectionId": "section-01",
+  "order": 1,
+  "titleAr": "بنية الجملة وترتيب الكلمات",
+  "titleEn": "Sentence Structure",
+  "level": "beginner",
+  "ruleType": "بناء لغوي",
+  "goal": "أن تبني جملة خبرية صحيحة وتعرف موضع الفاعل والفعل والمفعول والظروف.",
+  "shortDefinition": "أن تبني جملة خبرية صحيحة وتعرف موضع الفاعل والفعل والمفعول والظروف.",
+  "uses": [
+    "الفاعل يأتي عادة قبل الفعل في الجملة الخبرية.",
+    "الصفة تأتي قبل الاسم، أما الظرف فيصف الفعل أو الصفة.",
+    "ترتيب الظروف الشائع: الكيفية ثم المكان ثم الزمان."
+  ],
+  "formula": "Subject + Verb + Object/Complement + Place + Time",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "Sara writes neat notes every day.",
+      "arabic": "تكتب سارة ملاحظات مرتبة كل يوم.",
+      "reason": "مثال",
+      "highlight": "Sara"
+    },
+    {
+      "english": "The chef prepared dinner quickly at home yesterday.",
+      "arabic": "حضّر الطاهي العشاء بسرعة في المنزل أمس.",
+      "reason": "مثال",
+      "highlight": "chef"
+    },
+    {
+      "english": "The room is quiet.",
+      "arabic": "الغرفة هادئة.",
+      "reason": "مع فعل be",
+      "highlight": "room"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I every day study English.",
+      "correct": "I study English every day.",
+      "explanationAr": "ضع ظرف الزمن غالبًا في النهاية."
+    },
+    {
+      "wrong": "She very likes music.",
+      "correct": "She likes music very much.",
+      "explanationAr": "لا نضع very مباشرة قبل الفعل."
+    }
+  ],
+  "memoryTip": "رتّب الجملة دائمًا: فاعل ← فعل ← مفعول/تكملة ← مكان ← زمن.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-01-ex-01",
+      "type": "sentence-order",
+      "question": "رتّب: every day / English / I / practice",
+      "options": [],
+      "correctAnswer": "I practice English every day",
+      "acceptedAnswers": [
+        "I practice English every day",
+        "i practice english every day"
+      ],
+      "correctOrder": [
+        "I",
+        "practice",
+        "English",
+        "every day"
+      ],
+      "explanationAr": "الترتيب الشائع: فاعل + فعل + مفعول + زمن.",
+      "lessonId": "lesson-01",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "1. رتّب: every day / English / I / practice",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-01-ex-02",
+      "type": "error-correction",
+      "question": "صحح: He quickly the race finished.",
+      "options": [],
+      "correctAnswer": "He finished the race quickly.",
+      "acceptedAnswers": [
+        "He finished the race quickly.",
+        "He finished the race quickly"
+      ],
+      "explanationAr": "الظرف يأتي غالبًا بعد الفعل أو في نهاية الجملة.",
+      "lessonId": "lesson-01",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "2. صحح: He quickly the race finished.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-01-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I every day study English.",
+      "options": [],
+      "correctAnswer": "I study English every day.",
+      "acceptedAnswers": [
+        "I study English every day.",
+        "I study English every day",
+        "I study English every day.",
+        "I study English every day."
+      ],
+      "explanationAr": "ضع ظرف الزمن غالبًا في النهاية.",
+      "lessonId": "lesson-01",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-01-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: She very likes music.",
+      "options": [],
+      "correctAnswer": "She likes music very much.",
+      "acceptedAnswers": [
+        "She likes music very much.",
+        "She likes music very much",
+        "She likes music very much.",
+        "She likes music very much."
+      ],
+      "explanationAr": "لا نضع very مباشرة قبل الفعل.",
+      "lessonId": "lesson-01",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-01-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: ___ writes neat notes every day.",
+      "options": [],
+      "correctAnswer": "Sara",
+      "acceptedAnswers": [
+        "Sara",
+        "sara",
+        "Sara"
+      ],
+      "explanationAr": "مثال",
+      "lessonId": "lesson-01",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-01-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة بنية الجملة وترتيب الكلمات؟ «The chef prepared dinner quickly at home yesterday.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مثال",
+      "lessonId": "lesson-01",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-01-ex-01",
+      "answer": "I practice English every day",
+      "explanationAr": "الترتيب الشائع: فاعل + فعل + مفعول + زمن."
+    },
+    {
+      "exerciseId": "lesson-01-ex-02",
+      "answer": "He finished the race quickly.",
+      "explanationAr": "الظرف يأتي غالبًا بعد الفعل أو في نهاية الجملة."
+    },
+    {
+      "exerciseId": "lesson-01-fix-err-01",
+      "answer": "I study English every day.",
+      "explanationAr": "ضع ظرف الزمن غالبًا في النهاية."
+    },
+    {
+      "exerciseId": "lesson-01-fix-err-02",
+      "answer": "She likes music very much.",
+      "explanationAr": "لا نضع very مباشرة قبل الفعل."
+    },
+    {
+      "exerciseId": "lesson-01-fix-fill-01",
+      "answer": "Sara",
+      "explanationAr": "مثال"
+    },
+    {
+      "exerciseId": "lesson-01-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مثال"
+    }
+  ],
+  "relatedLessons": [
+    "verb-to-be"
+  ],
+  "estimatedMinutes": 18
+}

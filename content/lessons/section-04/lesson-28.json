@@ -1,0 +1,184 @@
+{
+  "id": "lesson-28",
+  "slug": "causatives-and-subjunctive",
+  "sectionId": "section-04",
+  "order": 28,
+  "titleAr": "السببية وSubjunctive",
+  "titleEn": "Causatives and Subjunctive",
+  "level": "advanced",
+  "ruleType": "بناء لغوي",
+  "goal": "التعبير عن جعل شخص يقوم بشيء، أو ترتيب خدمة، أو توصية رسمية.",
+  "shortDefinition": "التعبير عن جعل شخص يقوم بشيء، أو ترتيب خدمة، أو توصية رسمية.",
+  "uses": [
+    "make للإجبار/التسبب، let للسماح، get + person + to للفعل بالإقناع.",
+    "have/get something done تعني ترتيب شخص آخر لتنفيذ الخدمة.",
+    "في الإنجليزية الرسمية بعد suggest/insist/essential نستخدم الفعل الأساسي."
+  ],
+  "formula": "make + object + V1 | let + object + V1 | have/get + object + V3 | suggest that + subject + V1",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "The teacher made us revise the lesson.",
+      "arabic": "جعلنا المعلم نراجع الدرس.",
+      "reason": "سببية",
+      "highlight": "teacher"
+    },
+    {
+      "english": "I had my watch repaired.",
+      "arabic": "جعلت فنيًا يصلح ساعتي.",
+      "reason": "خدمة",
+      "highlight": "had"
+    },
+    {
+      "english": "I suggest that he apply early.",
+      "arabic": "أقترح أن يقدم مبكرًا.",
+      "reason": "توصية",
+      "highlight": "suggest"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "made me to work",
+      "correct": "made me work",
+      "explanationAr": "لا to بعد make."
+    },
+    {
+      "wrong": "suggested him to apply",
+      "correct": "suggested that he apply",
+      "explanationAr": "الصياغة القياسية."
+    }
+  ],
+  "memoryTip": "have/get + object + V3 لطلب إنجاز شيء، وsuggest that + V1.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-28-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: Let me ___ (explain).",
+      "options": [],
+      "correctAnswer": "explain",
+      "acceptedAnswers": [
+        "explain",
+        "Explain"
+      ],
+      "explanationAr": "استخدم الشكل المناسب من explain",
+      "lessonId": "lesson-28",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: Let me ___ (explain).",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-28-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: made me to work",
+      "options": [],
+      "correctAnswer": "made me work",
+      "acceptedAnswers": [
+        "made me work",
+        "made me work",
+        "made me work",
+        "made me work"
+      ],
+      "explanationAr": "لا to بعد make.",
+      "lessonId": "lesson-28",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-28-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: suggested him to apply",
+      "options": [],
+      "correctAnswer": "suggested that he apply",
+      "acceptedAnswers": [
+        "suggested that he apply",
+        "suggested that he apply",
+        "suggested that he apply",
+        "suggested that he apply"
+      ],
+      "explanationAr": "الصياغة القياسية.",
+      "lessonId": "lesson-28",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-28-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: The ___ made us revise the lesson.",
+      "options": [],
+      "correctAnswer": "teacher",
+      "acceptedAnswers": [
+        "teacher",
+        "teacher",
+        "Teacher"
+      ],
+      "explanationAr": "سببية",
+      "lessonId": "lesson-28",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-28-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة السببية وSubjunctive؟ «I had my watch repaired.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "خدمة",
+      "lessonId": "lesson-28",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-28-ex-01",
+      "answer": "explain",
+      "explanationAr": "استخدم الشكل المناسب من explain"
+    },
+    {
+      "exerciseId": "lesson-28-fix-err-01",
+      "answer": "made me work",
+      "explanationAr": "لا to بعد make."
+    },
+    {
+      "exerciseId": "lesson-28-fix-err-02",
+      "answer": "suggested that he apply",
+      "explanationAr": "الصياغة القياسية."
+    },
+    {
+      "exerciseId": "lesson-28-fix-fill-01",
+      "answer": "teacher",
+      "explanationAr": "سببية"
+    },
+    {
+      "exerciseId": "lesson-28-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "خدمة"
+    }
+  ],
+  "relatedLessons": [
+    "reported-speech",
+    "advanced-determiners-and-agreement"
+  ],
+  "estimatedMinutes": 18
+}

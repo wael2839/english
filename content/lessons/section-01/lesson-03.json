@@ -1,0 +1,265 @@
+{
+  "id": "lesson-03",
+  "slug": "present-simple",
+  "sectionId": "section-01",
+  "order": 3,
+  "titleAr": "المضارع البسيط",
+  "titleEn": "Present Simple",
+  "level": "beginner",
+  "ruleType": "زمن",
+  "goal": "التحدث عن العادات والحقائق والجداول والحالات الثابتة.",
+  "shortDefinition": "التحدث عن العادات والحقائق والجداول والحالات الثابتة.",
+  "uses": [
+    "العادات والتكرار مع always, usually, often, sometimes, never.",
+    "الحقائق العامة.",
+    "الجداول الثابتة.",
+    "أفعال الحالة مثل know, like, need, understand."
+  ],
+  "formula": "S + V1(s/es) | Negative: do/does not + V1 | Question: Do/Does + S + V1?",
+  "affirmative": "",
+  "negative": "She does not work. — إضافة أداة النفي المناسبة.",
+  "question": "Does she work? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "always",
+    "usually",
+    "often",
+    "every day",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "────",
+    "now": "●",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "I study English for two hours every day.",
+      "arabic": "أدرس الإنجليزية ساعتين يوميًا.",
+      "reason": "عادة",
+      "highlight": "study"
+    },
+    {
+      "english": "She walks to school.",
+      "arabic": "هي تمشي إلى المدرسة.",
+      "reason": "مع he/she/it",
+      "highlight": "walks"
+    },
+    {
+      "english": "Does he play tennis?",
+      "arabic": "هل يلعب التنس؟",
+      "reason": "سؤال",
+      "highlight": "play"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "He work every day.",
+      "correct": "He works every day.",
+      "explanationAr": "أضف s مع المفرد الغائب."
+    },
+    {
+      "wrong": "She does not works.",
+      "correct": "She does not work.",
+      "explanationAr": "بعد does يعود الفعل إلى V1."
+    },
+    {
+      "wrong": "I am know the answer.",
+      "correct": "I know the answer.",
+      "explanationAr": "know لا يحتاج be."
+    }
+  ],
+  "memoryTip": "للعادات والحقائق: أضف s/es مع he/she/it، واستخدم do/does في النفي والسؤال.",
+  "comparisons": [
+    {
+      "leftLabel": "Present Simple",
+      "rightLabel": "Present Continuous",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "عادة أو حقيقة ثابتة",
+          "right": "حدث يجري الآن أو وضع مؤقت"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I walk every day.",
+          "right": "I am walking now."
+        }
+      ],
+      "keyDifference": "عادة أو حقيقة ثابتة؛ بينما حدث يجري الآن أو وضع مؤقت."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-03-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: Ahmed ___ (read) books.",
+      "options": [],
+      "correctAnswer": "reads",
+      "acceptedAnswers": [
+        "reads",
+        "Reads"
+      ],
+      "explanationAr": "الفعل المطلوب: reads",
+      "lessonId": "lesson-03",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: Ahmed ___ (read) books.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-03-ex-02",
+      "type": "transform-sentence",
+      "question": "حوّل إلى سؤال: You need help.",
+      "options": [],
+      "correctAnswer": "Do you need help?",
+      "acceptedAnswers": [
+        "Do you need help?",
+        "Do you need help"
+      ],
+      "explanationAr": "ضع الفعل المساعد قبل الفاعل لتكوين السؤال.",
+      "lessonId": "lesson-03",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "2. حوّل إلى سؤال: You need help.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-03-ex-03",
+      "type": "error-correction",
+      "question": "صحح: She don’t like delays.",
+      "options": [],
+      "correctAnswer": "She doesn’t like delays.",
+      "acceptedAnswers": [
+        "She doesn’t like delays.",
+        "She doesn’t like delays"
+      ],
+      "explanationAr": "مع she نستخدم doesn’t وليس don’t.",
+      "lessonId": "lesson-03",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "3. صحح: She don’t like delays.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-03-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: He work every day.",
+      "options": [],
+      "correctAnswer": "He works every day.",
+      "acceptedAnswers": [
+        "He works every day.",
+        "He works every day",
+        "He works every day.",
+        "He works every day."
+      ],
+      "explanationAr": "أضف s مع المفرد الغائب.",
+      "lessonId": "lesson-03",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-03-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: She does not works.",
+      "options": [],
+      "correctAnswer": "She does not work.",
+      "acceptedAnswers": [
+        "She does not work.",
+        "She does not work",
+        "She does not work.",
+        "She does not work."
+      ],
+      "explanationAr": "بعد does يعود الفعل إلى V1.",
+      "lessonId": "lesson-03",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-03-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ English for two hours every day.",
+      "options": [],
+      "correctAnswer": "study",
+      "acceptedAnswers": [
+        "study",
+        "study",
+        "Study"
+      ],
+      "explanationAr": "عادة",
+      "lessonId": "lesson-03",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-03-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المضارع البسيط؟ «She walks to school.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مع he/she/it",
+      "lessonId": "lesson-03",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-03-ex-01",
+      "answer": "reads",
+      "explanationAr": "الفعل المطلوب: reads"
+    },
+    {
+      "exerciseId": "lesson-03-ex-02",
+      "answer": "Do you need help?",
+      "explanationAr": "ضع الفعل المساعد قبل الفاعل لتكوين السؤال."
+    },
+    {
+      "exerciseId": "lesson-03-ex-03",
+      "answer": "She doesn’t like delays.",
+      "explanationAr": "مع she نستخدم doesn’t وليس don’t."
+    },
+    {
+      "exerciseId": "lesson-03-fix-err-01",
+      "answer": "He works every day.",
+      "explanationAr": "أضف s مع المفرد الغائب."
+    },
+    {
+      "exerciseId": "lesson-03-fix-err-02",
+      "answer": "She does not work.",
+      "explanationAr": "بعد does يعود الفعل إلى V1."
+    },
+    {
+      "exerciseId": "lesson-03-fix-fill-01",
+      "answer": "study",
+      "explanationAr": "عادة"
+    },
+    {
+      "exerciseId": "lesson-03-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مع he/she/it"
+    }
+  ],
+  "relatedLessons": [
+    "verb-to-be",
+    "present-continuous"
+  ],
+  "estimatedMinutes": 18
+}

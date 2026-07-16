@@ -1,0 +1,161 @@
+{
+  "id": "lesson-31",
+  "slug": "punctuation-and-writing",
+  "sectionId": "section-05",
+  "order": 31,
+  "titleAr": "علامات الترقيم والكتابة",
+  "titleEn": "Punctuation and Writing",
+  "level": "advanced",
+  "ruleType": "بناء لغوي",
+  "goal": "كتابة جمل وفقرات واضحة وتجنب fragments وrun-ons.",
+  "shortDefinition": "كتابة جمل وفقرات واضحة وتجنب fragments وrun-ons.",
+  "uses": [
+    "ابدأ الجملة والحرف الأول من الأسماء العلم بحرف كبير.",
+    "استخدم الفاصلة بعد عبارة افتتاحية طويلة وقبل coordinator بين جملتين مستقلتين.",
+    "الفاصلة المنقوطة تربط جملتين مستقلتين وثيقتي المعنى.",
+    "الفاصلة العليا للملكية والاختصارات، لا للجمع."
+  ],
+  "formula": "Sentence = complete thought + correct punctuation",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "After I finished dinner, I washed the dishes.",
+      "arabic": "بعد إنهاء العشاء، غسلت الأطباق.",
+      "reason": "فاصلة",
+      "highlight": "After"
+    },
+    {
+      "english": "The deadline was close; we worked faster.",
+      "arabic": "كان الموعد قريبًا؛ فعملنا أسرع.",
+      "reason": "فاصلة منقوطة",
+      "highlight": "deadline"
+    },
+    {
+      "english": "The neighbor’s garden is beautiful.",
+      "arabic": "حديقة الجار جميلة.",
+      "reason": "ملكية",
+      "highlight": "neighbor"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "The car stopped we called a mechanic.",
+      "correct": "The car stopped, so we called a mechanic.",
+      "explanationAr": "تجنب run-on."
+    },
+    {
+      "wrong": "three student’s",
+      "correct": "three students",
+      "explanationAr": "لا apostrophe للجمع."
+    }
+  ],
+  "memoryTip": "الجملة الكاملة تحتاج فكرة مكتملة وعلامة ترقيم صحيحة.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-31-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: The car stopped we called a mechanic.",
+      "options": [],
+      "correctAnswer": "The car stopped, so we called a mechanic.",
+      "acceptedAnswers": [
+        "The car stopped, so we called a mechanic.",
+        "The car stopped, so we called a mechanic",
+        "The car stopped, so we called a mechanic.",
+        "The car stopped, so we called a mechanic."
+      ],
+      "explanationAr": "تجنب run-on.",
+      "lessonId": "lesson-31",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-31-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: three student’s",
+      "options": [],
+      "correctAnswer": "three students",
+      "acceptedAnswers": [
+        "three students",
+        "three students",
+        "three students",
+        "three students"
+      ],
+      "explanationAr": "لا apostrophe للجمع.",
+      "lessonId": "lesson-31",
+      "difficulty": "advanced",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-31-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: ___ I finished dinner, I washed the dishes.",
+      "options": [],
+      "correctAnswer": "After",
+      "acceptedAnswers": [
+        "After",
+        "after",
+        "After"
+      ],
+      "explanationAr": "فاصلة",
+      "lessonId": "lesson-31",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-31-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة علامات الترقيم والكتابة؟ «The deadline was close; we worked faster.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "فاصلة منقوطة",
+      "lessonId": "lesson-31",
+      "difficulty": "advanced",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-31-fix-err-01",
+      "answer": "The car stopped, so we called a mechanic.",
+      "explanationAr": "تجنب run-on."
+    },
+    {
+      "exerciseId": "lesson-31-fix-err-02",
+      "answer": "three students",
+      "explanationAr": "لا apostrophe للجمع."
+    },
+    {
+      "exerciseId": "lesson-31-fix-fill-01",
+      "answer": "After",
+      "explanationAr": "فاصلة"
+    },
+    {
+      "exerciseId": "lesson-31-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "فاصلة منقوطة"
+    }
+  ],
+  "relatedLessons": [
+    "inversion-emphasis-and-ellipsis"
+  ],
+  "estimatedMinutes": 18
+}

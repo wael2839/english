@@ -1,0 +1,173 @@
+{
+  "id": "lesson-02",
+  "slug": "verb-to-be",
+  "sectionId": "section-01",
+  "order": 2,
+  "titleAr": "فعل الكينونة",
+  "titleEn": "Verb to Be",
+  "level": "beginner",
+  "ruleType": "بناء لغوي",
+  "goal": "استخدام be للوصف والهوية والمكان والعمر، مع النفي والسؤال.",
+  "shortDefinition": "استخدام be للوصف والهوية والمكان والعمر، مع النفي والسؤال.",
+  "uses": [
+    "قبل صفة: The train is fast.",
+    "قبل اسم أو مهنة: She is a teacher.",
+    "للمكان: They are in Riyadh.",
+    "للعمر بالإنجليزية: I am 26 years old."
+  ],
+  "formula": "I am | He/She/It is | You/We/They are",
+  "affirmative": "",
+  "negative": "",
+  "question": "Are you ready? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "am",
+    "is",
+    "are",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "I am ready.",
+      "arabic": "أنا مستعد.",
+      "reason": "إثبات",
+      "highlight": "am"
+    },
+    {
+      "english": "He is not busy.",
+      "arabic": "هو غير مشغول.",
+      "reason": "نفي",
+      "highlight": "is"
+    },
+    {
+      "english": "Are they available?",
+      "arabic": "هل هم متاحون؟",
+      "reason": "سؤال",
+      "highlight": "Are"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I is a student.",
+      "correct": "I am a student.",
+      "explanationAr": "استخدم am مع I."
+    },
+    {
+      "wrong": "She not ready.",
+      "correct": "She is not ready.",
+      "explanationAr": "يلزم فعل be."
+    },
+    {
+      "wrong": "Do you are busy?",
+      "correct": "Are you busy?",
+      "explanationAr": "لا نستخدم do مع be."
+    }
+  ],
+  "memoryTip": "فعل be يتغيّر مع الفاعل: am / is / are، وهو الأساس لكثير من التراكيب.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-02-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I is a student.",
+      "options": [],
+      "correctAnswer": "I am a student.",
+      "acceptedAnswers": [
+        "I am a student.",
+        "I am a student",
+        "I am a student.",
+        "I am a student."
+      ],
+      "explanationAr": "استخدم am مع I.",
+      "lessonId": "lesson-02",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-02-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: She not ready.",
+      "options": [],
+      "correctAnswer": "She is not ready.",
+      "acceptedAnswers": [
+        "She is not ready.",
+        "She is not ready",
+        "She is not ready.",
+        "She is not ready."
+      ],
+      "explanationAr": "يلزم فعل be.",
+      "lessonId": "lesson-02",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-02-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ ready.",
+      "options": [],
+      "correctAnswer": "am",
+      "acceptedAnswers": [
+        "am",
+        "am",
+        "Am"
+      ],
+      "explanationAr": "إثبات",
+      "lessonId": "lesson-02",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-02-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة فعل الكينونة؟ «He is not busy.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "نفي",
+      "lessonId": "lesson-02",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-02-fix-err-01",
+      "answer": "I am a student.",
+      "explanationAr": "استخدم am مع I."
+    },
+    {
+      "exerciseId": "lesson-02-fix-err-02",
+      "answer": "She is not ready.",
+      "explanationAr": "يلزم فعل be."
+    },
+    {
+      "exerciseId": "lesson-02-fix-fill-01",
+      "answer": "am",
+      "explanationAr": "إثبات"
+    },
+    {
+      "exerciseId": "lesson-02-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "نفي"
+    }
+  ],
+  "relatedLessons": [
+    "sentence-structure",
+    "present-simple"
+  ],
+  "estimatedMinutes": 18
+}

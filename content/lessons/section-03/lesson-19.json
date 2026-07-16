@@ -1,0 +1,156 @@
+{
+  "id": "lesson-19",
+  "slug": "comparison-and-superlative",
+  "sectionId": "section-03",
+  "order": 19,
+  "titleAr": "المقارنة والتفضيل",
+  "titleEn": "Comparison and Superlative",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "المقارنة بين شيئين أو أكثر والتعبير عن التساوي والاختلاف.",
+  "shortDefinition": "المقارنة بين شيئين أو أكثر والتعبير عن التساوي والاختلاف.",
+  "uses": [
+    "صفة قصيرة: faster, the fastest.",
+    "صفة طويلة: more reliable, the most reliable.",
+    "غير منتظمة: good/better/best؛ bad/worse/worst.",
+    "less/least للنقص، وthe more...the more للعلاقة المتزايدة."
+  ],
+  "formula": "short adj + -er/-est | more/most + long adj | as + adj + as",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "This is the most useful book.",
+      "arabic": "هذا أكثر كتاب فائدة.",
+      "reason": "تفضيل",
+      "highlight": "most"
+    },
+    {
+      "english": "The blue car is as fast as the red car.",
+      "arabic": "السيارة الزرقاء سريعة مثل السيارة الحمراء.",
+      "reason": "تساوٍ",
+      "highlight": "as"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "more easier",
+      "correct": "easier",
+      "explanationAr": "لا تجمع more و-er."
+    },
+    {
+      "wrong": "the most fastest",
+      "correct": "the fastest",
+      "explanationAr": "لا تجمع most و-est."
+    }
+  ],
+  "memoryTip": "قصير: -er/-est، طويل: more/most، ولا تجمع الصيغتين معًا.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-19-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: more easier",
+      "options": [],
+      "correctAnswer": "easier",
+      "acceptedAnswers": [
+        "easier",
+        "easier",
+        "easier",
+        "easier"
+      ],
+      "explanationAr": "لا تجمع more و-er.",
+      "lessonId": "lesson-19",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-19-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: the most fastest",
+      "options": [],
+      "correctAnswer": "the fastest",
+      "acceptedAnswers": [
+        "the fastest",
+        "the fastest",
+        "the fastest",
+        "the fastest"
+      ],
+      "explanationAr": "لا تجمع most و-est.",
+      "lessonId": "lesson-19",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-19-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: This is the ___ useful book.",
+      "options": [],
+      "correctAnswer": "most",
+      "acceptedAnswers": [
+        "most",
+        "most",
+        "Most"
+      ],
+      "explanationAr": "تفضيل",
+      "lessonId": "lesson-19",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-19-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المقارنة والتفضيل؟ «The blue car is as fast as the red car.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "تساوٍ",
+      "lessonId": "lesson-19",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-19-fix-err-01",
+      "answer": "easier",
+      "explanationAr": "لا تجمع more و-er."
+    },
+    {
+      "exerciseId": "lesson-19-fix-err-02",
+      "answer": "the fastest",
+      "explanationAr": "لا تجمع most و-est."
+    },
+    {
+      "exerciseId": "lesson-19-fix-fill-01",
+      "answer": "most",
+      "explanationAr": "تفضيل"
+    },
+    {
+      "exerciseId": "lesson-19-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "تساوٍ"
+    }
+  ],
+  "relatedLessons": [
+    "verb-patterns-and-phrasal-verbs",
+    "conditionals"
+  ],
+  "estimatedMinutes": 17
+}

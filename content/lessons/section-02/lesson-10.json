@@ -1,0 +1,161 @@
+{
+  "id": "lesson-10",
+  "slug": "wh--questions",
+  "sectionId": "section-02",
+  "order": 10,
+  "titleAr": "أدوات السؤال",
+  "titleEn": "Wh- Questions",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "اختيار أداة السؤال والمحافظة على ترتيب صحيح.",
+  "shortDefinition": "اختيار أداة السؤال والمحافظة على ترتيب صحيح.",
+  "uses": [
+    "who للشخص، what للشيء، where للمكان، when للزمن، why للسبب، how للطريقة.",
+    "How many للمعدود وHow much لغير المعدود/السعر.",
+    "إذا كانت who هي الفاعل لا نستخدم do: Who called you?"
+  ],
+  "formula": "Wh-word + auxiliary + subject + main verb?",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "Why do you want this job?",
+      "arabic": "لماذا تريد هذه الوظيفة؟",
+      "reason": "سبب",
+      "highlight": "Why"
+    },
+    {
+      "english": "How long have you studied English?",
+      "arabic": "منذ متى تدرس الإنجليزية؟",
+      "reason": "مدة",
+      "highlight": "How"
+    },
+    {
+      "english": "Who opened the window?",
+      "arabic": "من فتح النافذة؟",
+      "reason": "فاعل",
+      "highlight": "Who"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Who did call you?",
+      "correct": "Who called you?",
+      "explanationAr": "لا نستخدم did عندما who هي الفاعل."
+    },
+    {
+      "wrong": "How many books?",
+      "correct": "How many books?",
+      "explanationAr": "books اسم معدود."
+    }
+  ],
+  "memoryTip": "ابدأ بأداة السؤال المناسبة، ثم حافظ على ترتيب: مساعد + فاعل + فعل.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-10-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Who did call you?",
+      "options": [],
+      "correctAnswer": "Who called you?",
+      "acceptedAnswers": [
+        "Who called you?",
+        "Who called you?",
+        "Who called you?",
+        "Who called you?"
+      ],
+      "explanationAr": "لا نستخدم did عندما who هي الفاعل.",
+      "lessonId": "lesson-10",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-10-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: How many books?",
+      "options": [],
+      "correctAnswer": "How many books?",
+      "acceptedAnswers": [
+        "How many books?",
+        "How many books?",
+        "How many books?",
+        "How many books?"
+      ],
+      "explanationAr": "books اسم معدود.",
+      "lessonId": "lesson-10",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-10-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: ___ do you want this job?",
+      "options": [],
+      "correctAnswer": "Why",
+      "acceptedAnswers": [
+        "Why",
+        "why",
+        "Why"
+      ],
+      "explanationAr": "سبب",
+      "lessonId": "lesson-10",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-10-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة أدوات السؤال؟ «How long have you studied English?»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مدة",
+      "lessonId": "lesson-10",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-10-fix-err-01",
+      "answer": "Who called you?",
+      "explanationAr": "لا نستخدم did عندما who هي الفاعل."
+    },
+    {
+      "exerciseId": "lesson-10-fix-err-02",
+      "answer": "How many books?",
+      "explanationAr": "books اسم معدود."
+    },
+    {
+      "exerciseId": "lesson-10-fix-fill-01",
+      "answer": "Why",
+      "explanationAr": "سبب"
+    },
+    {
+      "exerciseId": "lesson-10-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مدة"
+    }
+  ],
+  "relatedLessons": [
+    "negatives-and-questions",
+    "pronouns-and-possessives"
+  ],
+  "estimatedMinutes": 18
+}

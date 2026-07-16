@@ -1,0 +1,161 @@
+{
+  "id": "lesson-22",
+  "slug": "relative-clauses",
+  "sectionId": "section-03",
+  "order": 22,
+  "titleAr": "الجمل الوصفية",
+  "titleEn": "Relative Clauses",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "ربط معلومات تصف شخصًا أو شيئًا أو مكانًا دون تكرار.",
+  "shortDefinition": "ربط معلومات تصف شخصًا أو شيئًا أو مكانًا دون تكرار.",
+  "uses": [
+    "Defining ضرورية للمعنى ولا توضع بين فواصل.",
+    "Non-defining إضافية وتوضع بين فواصل ولا نستخدم that فيها.",
+    "يمكن حذف الضمير إذا كان مفعولًا في defining: The tool (that) I use."
+  ],
+  "formula": "person: who/that | thing: which/that | possession: whose | place: where",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "The doctor who called me is experienced.",
+      "arabic": "الطبيب الذي اتصل بي خبير.",
+      "reason": "شخص",
+      "highlight": "doctor"
+    },
+    {
+      "english": "The cake that I made is delicious.",
+      "arabic": "الكعكة التي صنعتها لذيذة.",
+      "reason": "شيء",
+      "highlight": "cake"
+    },
+    {
+      "english": "Riyadh, which is the capital, is a large city.",
+      "arabic": "الرياض، وهي العاصمة، مدينة كبيرة.",
+      "reason": "إضافية",
+      "highlight": "Riyadh"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "The man which called",
+      "correct": "The man who called",
+      "explanationAr": "who للأشخاص."
+    },
+    {
+      "wrong": "My bicycle, that is new,",
+      "correct": "My bicycle, which is new,",
+      "explanationAr": "لا that في non-defining."
+    }
+  ],
+  "memoryTip": "who للشخص، which للشيء، that عامة، وwhose للملكية.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-22-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: The man which called",
+      "options": [],
+      "correctAnswer": "The man who called",
+      "acceptedAnswers": [
+        "The man who called",
+        "The man who called",
+        "The man who called",
+        "The man who called"
+      ],
+      "explanationAr": "who للأشخاص.",
+      "lessonId": "lesson-22",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-22-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: My bicycle, that is new,",
+      "options": [],
+      "correctAnswer": "My bicycle, which is new,",
+      "acceptedAnswers": [
+        "My bicycle, which is new,",
+        "My bicycle, which is new,",
+        "My bicycle, which is new,",
+        "My bicycle, which is new,"
+      ],
+      "explanationAr": "لا that في non-defining.",
+      "lessonId": "lesson-22",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-22-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: The ___ who called me is experienced.",
+      "options": [],
+      "correctAnswer": "doctor",
+      "acceptedAnswers": [
+        "doctor",
+        "doctor",
+        "Doctor"
+      ],
+      "explanationAr": "شخص",
+      "lessonId": "lesson-22",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-22-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الجمل الوصفية؟ «The cake that I made is delicious.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "شيء",
+      "lessonId": "lesson-22",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-22-fix-err-01",
+      "answer": "The man who called",
+      "explanationAr": "who للأشخاص."
+    },
+    {
+      "exerciseId": "lesson-22-fix-err-02",
+      "answer": "My bicycle, which is new,",
+      "explanationAr": "لا that في non-defining."
+    },
+    {
+      "exerciseId": "lesson-22-fix-fill-01",
+      "answer": "doctor",
+      "explanationAr": "شخص"
+    },
+    {
+      "exerciseId": "lesson-22-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "شيء"
+    }
+  ],
+  "relatedLessons": [
+    "passive-voice",
+    "linking-words-and-compound-sentences"
+  ],
+  "estimatedMinutes": 18
+}

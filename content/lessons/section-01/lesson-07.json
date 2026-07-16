@@ -1,0 +1,197 @@
+{
+  "id": "lesson-07",
+  "slug": "future-forms",
+  "sectionId": "section-01",
+  "order": 7,
+  "titleAr": "صيغ المستقبل",
+  "titleEn": "Future Forms",
+  "level": "beginner",
+  "ruleType": "زمن",
+  "goal": "اختيار صيغة المستقبل حسب القرار والتوقع والخطة والترتيب.",
+  "shortDefinition": "اختيار صيغة المستقبل حسب القرار والتوقع والخطة والترتيب.",
+  "uses": [
+    "will: قرار لحظي، وعد، عرض، أو توقع رأي.",
+    "going to: خطة سابقة أو توقع بدليل حاضر.",
+    "Present Continuous: ترتيب شخصي محدد بوقت/مكان.",
+    "Present Simple: جدول رسمي ثابت."
+  ],
+  "formula": "will + V1 | am/is/are going to + V1 | am/is/are + V-ing",
+  "affirmative": "",
+  "negative": "S + will + not + V1 | S + am/is/are + not + going to + V1 — إضافة أداة النفي المناسبة.",
+  "question": "Will + S + V1? | Am/Is/Are + S + going to + V1? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "tomorrow",
+    "next",
+    "soon",
+    "by",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "────",
+    "now": "────",
+    "future": "●"
+  },
+  "examples": [
+    {
+      "english": "I will open the door now.",
+      "arabic": "سأفتح الباب الآن.",
+      "reason": "قرار لحظي",
+      "highlight": "will"
+    },
+    {
+      "english": "I am going to learn Spanish.",
+      "arabic": "سأتعلم الإسبانية وفق خطة.",
+      "reason": "خطة",
+      "highlight": "going"
+    },
+    {
+      "english": "I am meeting my cousin at 5.",
+      "arabic": "سأقابل ابن عمي الساعة الخامسة.",
+      "reason": "ترتيب",
+      "highlight": "am"
+    },
+    {
+      "english": "The course starts on Sunday.",
+      "arabic": "تبدأ الدورة يوم الأحد.",
+      "reason": "جدول",
+      "highlight": "course"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I will to call you.",
+      "correct": "I will call you.",
+      "explanationAr": "بعد will استخدم V1 دون to."
+    },
+    {
+      "wrong": "I going to study.",
+      "correct": "I am going to study.",
+      "explanationAr": "يلزم be."
+    }
+  ],
+  "memoryTip": "will قرار لحظي، going to نية/دليل، وcontinuous لترتيب مؤكد.",
+  "comparisons": [
+    {
+      "leftLabel": "will",
+      "rightLabel": "going to",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "قرار لحظي أو وعد أو توقع رأي",
+          "right": "خطة سابقة أو توقع بدليل"
+        },
+        {
+          "aspect": "مثال",
+          "left": "I will answer the phone.",
+          "right": "It is going to rain."
+        }
+      ],
+      "keyDifference": "قرار لحظي أو وعد أو توقع رأي؛ بينما خطة سابقة أو توقع بدليل."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-07-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I will to call you.",
+      "options": [],
+      "correctAnswer": "I will call you.",
+      "acceptedAnswers": [
+        "I will call you.",
+        "I will call you",
+        "I will call you.",
+        "I will call you."
+      ],
+      "explanationAr": "بعد will استخدم V1 دون to.",
+      "lessonId": "lesson-07",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-07-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I going to study.",
+      "options": [],
+      "correctAnswer": "I am going to study.",
+      "acceptedAnswers": [
+        "I am going to study.",
+        "I am going to study",
+        "I am going to study.",
+        "I am going to study."
+      ],
+      "explanationAr": "يلزم be.",
+      "lessonId": "lesson-07",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-07-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ open the door now.",
+      "options": [],
+      "correctAnswer": "will",
+      "acceptedAnswers": [
+        "will",
+        "will",
+        "Will"
+      ],
+      "explanationAr": "قرار لحظي",
+      "lessonId": "lesson-07",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-07-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة صيغ المستقبل؟ «I am going to learn Spanish.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "خطة",
+      "lessonId": "lesson-07",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-07-fix-err-01",
+      "answer": "I will call you.",
+      "explanationAr": "بعد will استخدم V1 دون to."
+    },
+    {
+      "exerciseId": "lesson-07-fix-err-02",
+      "answer": "I am going to study.",
+      "explanationAr": "يلزم be."
+    },
+    {
+      "exerciseId": "lesson-07-fix-fill-01",
+      "answer": "will",
+      "explanationAr": "قرار لحظي"
+    },
+    {
+      "exerciseId": "lesson-07-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "خطة"
+    }
+  ],
+  "relatedLessons": [
+    "past-continuous",
+    "present-perfect"
+  ],
+  "estimatedMinutes": 19
+}

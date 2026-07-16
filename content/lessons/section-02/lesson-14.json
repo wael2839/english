@@ -1,0 +1,190 @@
+{
+  "id": "lesson-14",
+  "slug": "adjectives-and-adverbs",
+  "sectionId": "section-02",
+  "order": 14,
+  "titleAr": "الصفات والظروف",
+  "titleEn": "Adjectives and Adverbs",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "تمييز الصفة عن الظرف وترتيب الصفات واستخدام -ed/-ing.",
+  "shortDefinition": "تمييز الصفة عن الظرف وترتيب الصفات واستخدام -ed/-ing.",
+  "uses": [
+    "الصفة تصف اسمًا؛ الظرف يصف فعلًا أو صفة أو ظرفًا آخر.",
+    "صفات -ing تصف الشيء المسبب للشعور، و-ed تصف شعور الشخص.",
+    "ترتيب شائع: opinion, size, age, shape, color, origin, material, purpose + noun."
+  ],
+  "formula": "adjective + noun / be + adjective | verb + adverb",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "The horse is fast.",
+      "arabic": "الحصان سريع.",
+      "reason": "صفة",
+      "highlight": "horse"
+    },
+    {
+      "english": "The horse runs quickly.",
+      "arabic": "يركض الحصان بسرعة.",
+      "reason": "ظرف",
+      "highlight": "horse"
+    },
+    {
+      "english": "I am interested in this interesting course.",
+      "arabic": "أنا مهتم بهذه الدورة الممتعة.",
+      "reason": "شعور",
+      "highlight": "am"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "She speaks English good.",
+      "correct": "She speaks English well.",
+      "explanationAr": "well ظرف."
+    },
+    {
+      "wrong": "I am boring.",
+      "correct": "I am bored.",
+      "explanationAr": "bored تصف شعورك."
+    }
+  ],
+  "memoryTip": "الصفة تصف الاسم، والظرف يصف الفعل أو الصفة أو ظرفًا آخر.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-14-ex-03",
+      "type": "sentence-order",
+      "question": "رتّب: wooden / old / beautiful / table.",
+      "options": [],
+      "correctAnswer": "wooden old beautiful table.",
+      "acceptedAnswers": [
+        "wooden old beautiful table.",
+        "wooden old beautiful table."
+      ],
+      "correctOrder": [
+        "wooden",
+        "old",
+        "beautiful",
+        "table."
+      ],
+      "explanationAr": "الترتيب الشائع: فاعل + فعل + مفعول + زمن.",
+      "lessonId": "lesson-14",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "docx+answered+answered",
+      "raw": "3. رتّب: wooden / old / beautiful / table.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-14-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: She speaks English good.",
+      "options": [],
+      "correctAnswer": "She speaks English well.",
+      "acceptedAnswers": [
+        "She speaks English well.",
+        "She speaks English well",
+        "She speaks English well.",
+        "She speaks English well."
+      ],
+      "explanationAr": "well ظرف.",
+      "lessonId": "lesson-14",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-14-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I am boring.",
+      "options": [],
+      "correctAnswer": "I am bored.",
+      "acceptedAnswers": [
+        "I am bored.",
+        "I am bored",
+        "I am bored.",
+        "I am bored."
+      ],
+      "explanationAr": "bored تصف شعورك.",
+      "lessonId": "lesson-14",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-14-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: The ___ is fast.",
+      "options": [],
+      "correctAnswer": "horse",
+      "acceptedAnswers": [
+        "horse",
+        "horse",
+        "Horse"
+      ],
+      "explanationAr": "صفة",
+      "lessonId": "lesson-14",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-14-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الصفات والظروف؟ «The horse runs quickly.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "ظرف",
+      "lessonId": "lesson-14",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-14-ex-03",
+      "answer": "wooden old beautiful table.",
+      "explanationAr": "الترتيب الشائع: فاعل + فعل + مفعول + زمن."
+    },
+    {
+      "exerciseId": "lesson-14-fix-err-01",
+      "answer": "She speaks English well.",
+      "explanationAr": "well ظرف."
+    },
+    {
+      "exerciseId": "lesson-14-fix-err-02",
+      "answer": "I am bored.",
+      "explanationAr": "bored تصف شعورك."
+    },
+    {
+      "exerciseId": "lesson-14-fix-fill-01",
+      "answer": "horse",
+      "explanationAr": "صفة"
+    },
+    {
+      "exerciseId": "lesson-14-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "ظرف"
+    }
+  ],
+  "relatedLessons": [
+    "quantifiers-and-determiners",
+    "prepositions"
+  ],
+  "estimatedMinutes": 18
+}

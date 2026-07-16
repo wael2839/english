@@ -1,0 +1,161 @@
+{
+  "id": "lesson-18",
+  "slug": "verb-patterns-and-phrasal-verbs",
+  "sectionId": "section-03",
+  "order": 18,
+  "titleAr": "أنماط الأفعال والأفعال المركبة",
+  "titleEn": "Verb Patterns and Phrasal Verbs",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "فهم الأفعال ذات مفعولين، والأفعال المركبة القابلة للفصل وغير القابلة.",
+  "shortDefinition": "فهم الأفعال ذات مفعولين، والأفعال المركبة القابلة للفصل وغير القابلة.",
+  "uses": [
+    "give/send/show يمكن أن تأخذ شخصًا ثم شيئًا: Send me the photo.",
+    "في phrasal verbs القابلة للفصل يأتي الضمير في الوسط: turn it off.",
+    "غير القابلة للفصل يبقى حرفها مع الفعل: look after him."
+  ],
+  "formula": "give + person + thing | phrasal verb + object",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "She sent me a postcard.",
+      "arabic": "أرسلت لي بطاقة بريدية.",
+      "reason": "مفعولان",
+      "highlight": "sent"
+    },
+    {
+      "english": "Please turn it off.",
+      "arabic": "يرجى إطفاؤه.",
+      "reason": "قابل للفصل",
+      "highlight": "Please"
+    },
+    {
+      "english": "I am looking for a job.",
+      "arabic": "أبحث عن وظيفة.",
+      "reason": "غير قابل",
+      "highlight": "am"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "Turn off it.",
+      "correct": "Turn it off.",
+      "explanationAr": "الضمير في الوسط."
+    },
+    {
+      "wrong": "Explain me the rule.",
+      "correct": "Explain the rule to me.",
+      "explanationAr": "explain لا يأخذ شخصًا مباشرة."
+    }
+  ],
+  "memoryTip": "لاحظ ترتيب المفعول مع الفعل المركب: قابل للفصل أم لا.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-18-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Turn off it.",
+      "options": [],
+      "correctAnswer": "Turn it off.",
+      "acceptedAnswers": [
+        "Turn it off.",
+        "Turn it off",
+        "Turn it off.",
+        "Turn it off."
+      ],
+      "explanationAr": "الضمير في الوسط.",
+      "lessonId": "lesson-18",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-18-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: Explain me the rule.",
+      "options": [],
+      "correctAnswer": "Explain the rule to me.",
+      "acceptedAnswers": [
+        "Explain the rule to me.",
+        "Explain the rule to me",
+        "Explain the rule to me.",
+        "Explain the rule to me."
+      ],
+      "explanationAr": "explain لا يأخذ شخصًا مباشرة.",
+      "lessonId": "lesson-18",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-18-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: She ___ me a postcard.",
+      "options": [],
+      "correctAnswer": "sent",
+      "acceptedAnswers": [
+        "sent",
+        "sent",
+        "Sent"
+      ],
+      "explanationAr": "مفعولان",
+      "lessonId": "lesson-18",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-18-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة أنماط الأفعال والأفعال المركبة؟ «Please turn it off.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "قابل للفصل",
+      "lessonId": "lesson-18",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-18-fix-err-01",
+      "answer": "Turn it off.",
+      "explanationAr": "الضمير في الوسط."
+    },
+    {
+      "exerciseId": "lesson-18-fix-err-02",
+      "answer": "Explain the rule to me.",
+      "explanationAr": "explain لا يأخذ شخصًا مباشرة."
+    },
+    {
+      "exerciseId": "lesson-18-fix-fill-01",
+      "answer": "sent",
+      "explanationAr": "مفعولان"
+    },
+    {
+      "exerciseId": "lesson-18-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "قابل للفصل"
+    }
+  ],
+  "relatedLessons": [
+    "infinitive-and-gerund",
+    "comparison-and-superlative"
+  ],
+  "estimatedMinutes": 18
+}

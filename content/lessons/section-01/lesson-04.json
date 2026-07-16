@@ -1,0 +1,218 @@
+{
+  "id": "lesson-04",
+  "slug": "present-continuous",
+  "sectionId": "section-01",
+  "order": 4,
+  "titleAr": "المضارع المستمر",
+  "titleEn": "Present Continuous",
+  "level": "beginner",
+  "ruleType": "زمن",
+  "goal": "وصف ما يحدث الآن أو حالة مؤقتة أو ترتيب مستقبلي مؤكد.",
+  "shortDefinition": "وصف ما يحدث الآن أو حالة مؤقتة أو ترتيب مستقبلي مؤكد.",
+  "uses": [
+    "حدث يجري الآن.",
+    "حالة مؤقتة هذه الفترة.",
+    "تغيّر تدريجي: The market is growing.",
+    "ترتيب مستقبلي محدد: I am visiting my aunt tomorrow."
+  ],
+  "formula": "S + am/is/are + V-ing",
+  "affirmative": "",
+  "negative": "S + am/is/are + not + V-ing — إضافة أداة النفي المناسبة.",
+  "question": "Am/Is/Are + S + V-ing? — تقديم الفعل المساعد على الفاعل.",
+  "keywords": [
+    "now",
+    "at the moment",
+    "currently",
+    "ملاحظة مهمة  هذه الكلمات إشارات مفيدة",
+    "لكنها ليست بديلًا عن فهم معنى الجملة."
+  ],
+  "timeline": {
+    "past": "────",
+    "now": "●",
+    "future": "────"
+  },
+  "examples": [
+    {
+      "english": "I am reading a story now.",
+      "arabic": "أقرأ قصة الآن.",
+      "reason": "الآن",
+      "highlight": "reading"
+    },
+    {
+      "english": "She is staying with her grandmother this week.",
+      "arabic": "تقيم مع جدتها هذا الأسبوع.",
+      "reason": "مؤقت",
+      "highlight": "staying"
+    },
+    {
+      "english": "We are traveling on Monday.",
+      "arabic": "سنسافر يوم الاثنين.",
+      "reason": "ترتيب",
+      "highlight": "traveling"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "I am work now.",
+      "correct": "I am working now.",
+      "explanationAr": "بعد be استخدم ing."
+    },
+    {
+      "wrong": "He working today.",
+      "correct": "He is working today.",
+      "explanationAr": "لا تحذف be."
+    },
+    {
+      "wrong": "I am knowing JavaScript.",
+      "correct": "I know JavaScript.",
+      "explanationAr": "أفعال الحالة لا تأتي عادة مستمرة."
+    }
+  ],
+  "memoryTip": "إذا رأيت now أو at the moment فكّر أولًا في am/is/are + V-ing.",
+  "comparisons": [
+    {
+      "leftLabel": "Present Continuous",
+      "rightLabel": "Present Simple",
+      "aspects": [
+        {
+          "aspect": "الاستخدام",
+          "left": "حدث جارٍ أو مؤقت",
+          "right": "عادة أو حقيقة"
+        },
+        {
+          "aspect": "مثال",
+          "left": "She is studying now.",
+          "right": "She studies every evening."
+        }
+      ],
+      "keyDifference": "حدث جارٍ أو مؤقت؛ بينما عادة أو حقيقة."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lesson-04-ex-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل: They ___ (watch) a film now.",
+      "options": [],
+      "correctAnswer": "watching",
+      "acceptedAnswers": [
+        "watching",
+        "Watching"
+      ],
+      "explanationAr": "صيغة المضارع المستمر: watching",
+      "lessonId": "lesson-04",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "docx+answered+answered",
+      "raw": "1. أكمل: They ___ (watch) a film now.",
+      "needsAnswerKey": false
+    },
+    {
+      "id": "lesson-04-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: I am work now.",
+      "options": [],
+      "correctAnswer": "I am working now.",
+      "acceptedAnswers": [
+        "I am working now.",
+        "I am working now",
+        "I am working now.",
+        "I am working now."
+      ],
+      "explanationAr": "بعد be استخدم ing.",
+      "lessonId": "lesson-04",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-04-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: He working today.",
+      "options": [],
+      "correctAnswer": "He is working today.",
+      "acceptedAnswers": [
+        "He is working today.",
+        "He is working today",
+        "He is working today.",
+        "He is working today."
+      ],
+      "explanationAr": "لا تحذف be.",
+      "lessonId": "lesson-04",
+      "difficulty": "beginner",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-04-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I am ___ a story now.",
+      "options": [],
+      "correctAnswer": "reading",
+      "acceptedAnswers": [
+        "reading",
+        "reading",
+        "Reading"
+      ],
+      "explanationAr": "الآن",
+      "lessonId": "lesson-04",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-04-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة المضارع المستمر؟ «She is staying with her grandmother this week.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "مؤقت",
+      "lessonId": "lesson-04",
+      "difficulty": "beginner",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-04-ex-01",
+      "answer": "watching",
+      "explanationAr": "صيغة المضارع المستمر: watching"
+    },
+    {
+      "exerciseId": "lesson-04-fix-err-01",
+      "answer": "I am working now.",
+      "explanationAr": "بعد be استخدم ing."
+    },
+    {
+      "exerciseId": "lesson-04-fix-err-02",
+      "answer": "He is working today.",
+      "explanationAr": "لا تحذف be."
+    },
+    {
+      "exerciseId": "lesson-04-fix-fill-01",
+      "answer": "reading",
+      "explanationAr": "الآن"
+    },
+    {
+      "exerciseId": "lesson-04-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "مؤقت"
+    }
+  ],
+  "relatedLessons": [
+    "present-simple",
+    "past-simple"
+  ],
+  "estimatedMinutes": 18
+}

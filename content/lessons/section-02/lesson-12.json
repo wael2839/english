@@ -1,0 +1,166 @@
+{
+  "id": "lesson-12",
+  "slug": "nouns-and-articles",
+  "sectionId": "section-02",
+  "order": 12,
+  "titleAr": "الأسماء وأدوات التعريف",
+  "titleEn": "Nouns and Articles",
+  "level": "intermediate",
+  "ruleType": "بناء لغوي",
+  "goal": "استخدام المفرد والجمع والمعدود وغير المعدود وأدوات التعريف بدقة.",
+  "shortDefinition": "استخدام المفرد والجمع والمعدود وغير المعدود وأدوات التعريف بدقة.",
+  "uses": [
+    "a/an لشيء مفرد غير محدد؛ الاختيار حسب الصوت لا الحرف.",
+    "the لشيء محدد أو ذُكر سابقًا أو فريد.",
+    "لا أداة مع الجمع أو غير المعدود عند التعميم."
+  ],
+  "formula": "a/an + singular countable | the + specific/unique | zero article + general plural/uncountable",
+  "affirmative": "",
+  "negative": "",
+  "question": "",
+  "keywords": [],
+  "timeline": null,
+  "examples": [
+    {
+      "english": "I need a taxi.",
+      "arabic": "أحتاج سيارة أجرة.",
+      "reason": "غير محدد",
+      "highlight": "need"
+    },
+    {
+      "english": "It took an hour.",
+      "arabic": "استغرق ساعة.",
+      "reason": "صوت متحرك",
+      "highlight": "took"
+    },
+    {
+      "english": "Information is important.",
+      "arabic": "المعلومات مهمة.",
+      "reason": "تعميم",
+      "highlight": "Information"
+    }
+  ],
+  "notes": [],
+  "commonMistakes": [
+    {
+      "wrong": "an university",
+      "correct": "a university",
+      "explanationAr": "الصوت /y/ ساكن."
+    },
+    {
+      "wrong": "informations",
+      "correct": "information",
+      "explanationAr": "اسم غير معدود."
+    },
+    {
+      "wrong": "The life is difficult.",
+      "correct": "Life is difficult.",
+      "explanationAr": "لا the مع التعميم."
+    }
+  ],
+  "memoryTip": "a/an لغير المحدد، the للمحدد، ولا أداة مع التعميم في الجمع/غير المعدود.",
+  "comparisons": [],
+  "exercises": [
+    {
+      "id": "lesson-12-fix-err-01",
+      "type": "error-correction",
+      "question": "صحّح الجملة: an university",
+      "options": [],
+      "correctAnswer": "a university",
+      "acceptedAnswers": [
+        "a university",
+        "a university",
+        "a university",
+        "a university"
+      ],
+      "explanationAr": "الصوت /y/ ساكن.",
+      "lessonId": "lesson-12",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-12-fix-err-02",
+      "type": "error-correction",
+      "question": "صحّح الجملة: informations",
+      "options": [],
+      "correctAnswer": "information",
+      "acceptedAnswers": [
+        "information",
+        "information",
+        "information",
+        "information"
+      ],
+      "explanationAr": "اسم غير معدود.",
+      "lessonId": "lesson-12",
+      "difficulty": "intermediate",
+      "points": 2,
+      "source": "fixed-from-mistakes"
+    },
+    {
+      "id": "lesson-12-fix-fill-01",
+      "type": "fill-in-the-blank",
+      "question": "أكمل الفراغ: I ___ a taxi.",
+      "options": [],
+      "correctAnswer": "need",
+      "acceptedAnswers": [
+        "need",
+        "need",
+        "Need"
+      ],
+      "explanationAr": "غير محدد",
+      "lessonId": "lesson-12",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    },
+    {
+      "id": "lesson-12-fix-tf-01",
+      "type": "true-false",
+      "question": "هل الجملة صحيحة وفق قاعدة الأسماء وأدوات التعريف؟ «It took an hour.»",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "correctAnswer": "صحيح",
+      "acceptedAnswers": [
+        "صحيح",
+        "true",
+        "True",
+        "yes"
+      ],
+      "explanationAr": "صوت متحرك",
+      "lessonId": "lesson-12",
+      "difficulty": "intermediate",
+      "points": 1,
+      "source": "fixed-from-examples"
+    }
+  ],
+  "answers": [
+    {
+      "exerciseId": "lesson-12-fix-err-01",
+      "answer": "a university",
+      "explanationAr": "الصوت /y/ ساكن."
+    },
+    {
+      "exerciseId": "lesson-12-fix-err-02",
+      "answer": "information",
+      "explanationAr": "اسم غير معدود."
+    },
+    {
+      "exerciseId": "lesson-12-fix-fill-01",
+      "answer": "need",
+      "explanationAr": "غير محدد"
+    },
+    {
+      "exerciseId": "lesson-12-fix-tf-01",
+      "answer": "صحيح",
+      "explanationAr": "صوت متحرك"
+    }
+  ],
+  "relatedLessons": [
+    "pronouns-and-possessives",
+    "quantifiers-and-determiners"
+  ],
+  "estimatedMinutes": 18
+}
