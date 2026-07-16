@@ -19,6 +19,17 @@ function getSecret() {
   return new TextEncoder().encode(secret);
 }
 
+/** Secure cookies in production unless COOKIE_SECURE=false (HTTP behind some proxies). */
+function cookieSecure(): boolean {
+  if (process.env.COOKIE_SECURE === 'false' || process.env.COOKIE_SECURE === '0') {
+    return false;
+  }
+  if (process.env.COOKIE_SECURE === 'true' || process.env.COOKIE_SECURE === '1') {
+    return true;
+  }
+  return process.env.NODE_ENV === 'production';
+}
+
 export async function createSessionToken(
   payload: SessionPayload,
   rememberMe = true,
@@ -48,7 +59,7 @@ export async function setSessionCookie(token: string, rememberMe = true): Promis
   const base = {
     httpOnly: true,
     sameSite: 'lax' as const,
-    secure: process.env.NODE_ENV === 'production',
+    secure: cookieSecure(),
     path: '/',
   };
 
@@ -65,7 +76,7 @@ export async function clearSessionCookie(): Promise<void> {
   jar.set(SESSION_COOKIE, '', {
     httpOnly: true,
     sameSite: 'lax',
-    secure: process.env.NODE_ENV === 'production',
+    secure: cookieSecure(),
     path: '/',
     maxAge: 0,
   });

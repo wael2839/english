@@ -2,9 +2,13 @@ import { NextResponse } from 'next/server';
 import { loginSchema } from '@/lib/auth/schemas';
 import { authenticateUser } from '@/lib/auth/users';
 import { createSessionToken, setSessionCookie } from '@/lib/auth/session';
+import { mapServerError } from '@/lib/auth/server-errors';
+import { ensureDatabaseUrl } from '@/lib/db/build-database-url';
 
 export async function POST(request: Request) {
   try {
+    ensureDatabaseUrl();
+
     const body: unknown = await request.json();
     const parsed = loginSchema.safeParse(body);
     if (!parsed.success) {
@@ -38,9 +42,13 @@ export async function POST(request: Request) {
     });
   } catch (error) {
     console.error('login error', error);
+    const mapped = mapServerError(error);
     return NextResponse.json(
-      { error: 'تعذّر تسجيل الدخول. تحقق من اتصال قاعدة البيانات.' },
-      { status: 500 },
+      {
+        error: mapped.message,
+        detail: mapped.detail?.slice(0, 240) ?? null,
+      },
+      { status: mapped.status },
     );
   }
 }

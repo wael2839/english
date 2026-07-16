@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Include lesson JSON so Hostinger/standalone deploys don't miss content/
+  outputFileTracingIncludes: {
+    '/*': ['./content/**/*'],
+  },
 };
 
 export default nextConfig;

@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs';
+import path from 'node:path';
 import { NextResponse } from 'next/server';
 import { ensureDatabaseUrl } from '@/lib/db/build-database-url';
 import { prisma } from '@/lib/db/prisma';
@@ -40,15 +42,21 @@ export async function GET() {
     }
   }
 
-  const ok = authSecret && database === 'ok' && tables === 'ok';
+  const contentFolder = existsSync(path.join(process.cwd(), 'content', 'sections.json'))
+    ? 'ok'
+    : 'missing';
+
+  const ok = authSecret && database === 'ok' && tables === 'ok' && contentFolder === 'ok';
 
   return NextResponse.json({
     ok,
+    node: process.version,
     authSecret,
     hasDatabaseUrl,
     hasDbParts,
     database,
     tables,
+    contentFolder,
     databaseError,
     hint: !ok
       ? [
@@ -59,10 +67,11 @@ export async function GET() {
             ? '2) متغيرات DB ناقصة — أضف: DB_HOST وDB_USER وDB_PASSWORD وDB_NAME.'
             : null,
           database === 'error'
-            ? '3) فشل اتصال MySQL — على الاستضافة ضع المضيف الحقيقي وDB_SSL=true (ليس 127.0.0.1).'
+            ? '3) فشل اتصال MySQL — تحقق من بيانات القاعدة. مع localhost جرّب DB_SSL=false، ومع شهادة خاطئة جرّب DB_SSL=true.'
             : null,
-          tables === 'missing'
-            ? '4) الجداول غير موجودة — نفّذ: npm run db:push'
+          tables === 'missing' ? '4) الجداول غير موجودة — نفّذ: npm run db:push' : null,
+          contentFolder === 'missing'
+            ? '5) مجلد content/ غير موجود بجانب التطبيق — ارفعه مع النشر.'
             : null,
         ].filter(Boolean)
       : ['كل شيء جاهز.'],
