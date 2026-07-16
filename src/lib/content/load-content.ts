@@ -14,21 +14,7 @@ import { searchContentIndex, type SearchableLesson } from './client-content';
 import fs from 'node:fs';
 import path from 'node:path';
 
-function resolveContentRoot(): string {
-  const candidates = [
-    path.join(process.cwd(), 'content'),
-    path.join(process.cwd(), 'web', 'content'),
-    path.resolve(__dirname, '../../../content'),
-  ];
-  for (const candidate of candidates) {
-    if (fs.existsSync(path.join(candidate, 'sections.json'))) {
-      return candidate;
-    }
-  }
-  return candidates[0];
-}
-
-const CONTENT_ROOT = resolveContentRoot();
+const CONTENT_ROOT = path.join(process.cwd(), 'content');
 
 function readJsonFile<T>(relativePath: string): T {
   const fullPath = path.join(CONTENT_ROOT, relativePath);

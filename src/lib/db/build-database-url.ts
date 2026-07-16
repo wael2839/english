@@ -31,18 +31,23 @@ export function getDbConnectionInfo(env: NodeJS.ProcessEnv = process.env): {
   user: string;
   name: string;
   passwordSet: boolean;
+  passwordLength: number;
+  passwordHasSpecialChars: boolean;
   ssl: string;
   source: 'DATABASE_URL' | 'DB_*';
 } {
   const hasParts = Boolean(readEnv(env, 'DB_USER') || readEnv(env, 'DB_NAME'));
   // Prefer explicit DB_* on Hostinger so a stale DATABASE_URL cannot keep a wrong password.
   if (hasParts || !readEnv(env, 'DATABASE_URL')) {
+    const password = readEnv(env, 'DB_PASSWORD');
     return {
       host: readEnv(env, 'DB_HOST') || '127.0.0.1',
       port: readEnv(env, 'DB_PORT') || '3306',
       user: readEnv(env, 'DB_USER') || 'root',
       name: readEnv(env, 'DB_NAME') || 'english_grammar',
-      passwordSet: readEnv(env, 'DB_PASSWORD').length > 0,
+      passwordSet: password.length > 0,
+      passwordLength: password.length,
+      passwordHasSpecialChars: /[^A-Za-z0-9]/.test(password),
       ssl: readEnv(env, 'DB_SSL').toLowerCase() || 'false',
       source: 'DB_*',
     };
@@ -50,12 +55,15 @@ export function getDbConnectionInfo(env: NodeJS.ProcessEnv = process.env): {
 
   try {
     const url = new URL(readEnv(env, 'DATABASE_URL').replace(/^mysql:\/\//, 'http://'));
+    const password = decodeURIComponent(url.password || '');
     return {
       host: url.hostname || 'unknown',
       port: url.port || '3306',
       user: decodeURIComponent(url.username || ''),
       name: decodeURIComponent(url.pathname.replace(/^\//, '')),
-      passwordSet: Boolean(url.password),
+      passwordSet: password.length > 0,
+      passwordLength: password.length,
+      passwordHasSpecialChars: /[^A-Za-z0-9]/.test(password),
       ssl: url.search.includes('sslaccept') ? 'true' : 'false',
       source: 'DATABASE_URL',
     };
@@ -66,6 +74,8 @@ export function getDbConnectionInfo(env: NodeJS.ProcessEnv = process.env): {
       user: 'unknown',
       name: 'unknown',
       passwordSet: false,
+      passwordLength: 0,
+      passwordHasSpecialChars: false,
       ssl: 'false',
       source: 'DATABASE_URL',
     };

@@ -2,18 +2,16 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { registerSchema, type RegisterInput } from '@/lib/auth/schemas';
 import { useAuthStore } from '@/store/auth-store';
-import { useProgressStore } from '@/store/progress-store';
 import { Button } from '@/components/ui/button';
-import { useState } from 'react';
 
 export function RegisterForm() {
   const router = useRouter();
   const setUser = useAuthStore((s) => s.setUser);
-  const hydrate = useProgressStore((s) => s.hydrate);
   const [error, setError] = useState<string | null>(null);
 
   const {
@@ -35,16 +33,13 @@ export function RegisterForm() {
     });
     const data = (await res.json()) as {
       error?: string;
-      detail?: string | null;
       user?: { id: string; email: string; name: string };
     };
     if (!res.ok || !data.user) {
-      const extra = data.detail ? `\n(${data.detail})` : '';
-      setError(`${data.error ?? 'تعذّر إنشاء الحساب'}${extra}`);
+      setError(data.error ?? 'تعذّر إنشاء الحساب');
       return;
     }
     setUser(data.user);
-    await hydrate();
     router.push('/sections');
     router.refresh();
   }
@@ -82,10 +77,7 @@ export function RegisterForm() {
         {errors.password ? <p className="mt-1 text-xs text-incorrect">{errors.password.message}</p> : null}
       </label>
       {error ? (
-        <p
-          className="whitespace-pre-line rounded-xl bg-incorrect-bg px-3 py-2 text-sm text-incorrect"
-          role="alert"
-        >
+        <p className="rounded-xl bg-incorrect-bg px-3 py-2 text-sm text-incorrect" role="alert">
           {error}
         </p>
       ) : null}

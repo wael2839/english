@@ -1,10 +1,5 @@
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  // Include lesson JSON so Hostinger/standalone deploys don't miss content/
-  outputFileTracingIncludes: {
-    '/*': ['./content/**/*'],
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

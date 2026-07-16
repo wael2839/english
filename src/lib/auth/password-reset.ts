@@ -2,6 +2,7 @@ import { createHash, randomBytes } from 'node:crypto';
 import { prisma } from '@/lib/db/prisma';
 import { hashPassword } from '@/lib/auth/users';
 import { sendMail } from '@/lib/mail/smtp';
+import { revokeUserSessions } from '@/lib/auth/session';
 
 const RESET_TTL_MS = 1000 * 60 * 60; // 1 hour
 const DEFAULT_RESET_COOLDOWN_MINUTES = 10;
@@ -14,12 +15,21 @@ function siteUrl(): string {
   return (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(/\/$/, '');
 }
 
-function resetCooldownMs(): number {
+export function resetCooldownMs(): number {
   const minutes = Number(process.env.PASSWORD_RESET_COOLDOWN_MINUTES);
   if (!Number.isFinite(minutes) || minutes <= 0) {
     return DEFAULT_RESET_COOLDOWN_MINUTES * 60 * 1000;
   }
   return minutes * 60 * 1000;
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 export async function requestPasswordReset(emailRaw: string): Promise<{
@@ -28,8 +38,6 @@ export async function requestPasswordReset(emailRaw: string): Promise<{
 } | {
   ok: false;
   error: string;
-  code?: 'rate_limited';
-  retryAfterMinutes?: number;
 }> {
   const email = emailRaw.trim().toLowerCase();
   const genericMessage =
@@ -39,33 +47,6 @@ export async function requestPasswordReset(emailRaw: string): Promise<{
   // Always return the same message to avoid email enumeration.
   if (!user) {
     return { ok: true, message: genericMessage };
-  }
-
-  const cooldownMs = resetCooldownMs();
-  const cooldownSince = new Date(Date.now() - cooldownMs);
-  const recentToken = await prisma.passwordResetToken.findFirst({
-    where: {
-      userId: user.id,
-      usedAt: null,
-      createdAt: { gte: cooldownSince },
-    },
-    orderBy: { createdAt: 'desc' },
-    select: { createdAt: true },
-  });
-
-  if (recentToken) {
-    const elapsedMs = Date.now() - recentToken.createdAt.getTime();
-    const remainingMs = Math.max(cooldownMs - elapsedMs, 60_000);
-    const retryAfterMinutes = Math.max(1, Math.ceil(remainingMs / 60_000));
-    return {
-      ok: false,
-      code: 'rate_limited',
-      retryAfterMinutes,
-      error:
-        retryAfterMinutes === 1
-          ? 'لقد طلبت رابط استعادة مؤخرًا. يرجى الانتظار دقيقة واحدة ثم المحاولة مجددًا.'
-          : `لقد طلبت رابط استعادة مؤخرًا. يرجى الانتظار ${retryAfterMinutes} دقائق ثم المحاولة مجددًا.`,
-    };
   }
 
   const token = randomBytes(32).toString('hex');
@@ -85,6 +66,8 @@ export async function requestPasswordReset(emailRaw: string): Promise<{
   });
 
   const resetUrl = `${siteUrl()}/reset-password?token=${encodeURIComponent(token)}`;
+  const safeName = escapeHtml(user.name);
+  const safeResetUrl = escapeHtml(resetUrl);
 
   const mailed = await sendMail({
     to: user.email,
@@ -101,15 +84,15 @@ export async function requestPasswordReset(emailRaw: string): Promise<{
     html: `
       <div dir="rtl" style="font-family:Tahoma,Arial,sans-serif;line-height:1.7;color:#1a2332">
         <h2>استعادة كلمة المرور</h2>
-        <p>مرحبًا ${user.name},</p>
+        <p>مرحبًا ${safeName},</p>
         <p>طلبت استعادة كلمة المرور لحسابك في <strong>المرجع التفاعلي لقواعد اللغة الإنجليزية</strong>.</p>
         <p>
-          <a href="${resetUrl}" style="display:inline-block;background:#0d9488;color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:bold">
+          <a href="${safeResetUrl}" style="display:inline-block;background:#0d9488;color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:bold">
             تعيين كلمة مرور جديدة
           </a>
         </p>
         <p style="font-size:13px;color:#5a6a7e">الرابط صالح لمدة ساعة واحدة. إذا لم تطلب ذلك، تجاهل الرسالة.</p>
-        <p style="font-size:12px;word-break:break-all;color:#5a6a7e">${resetUrl}</p>
+        <p style="font-size:12px;word-break:break-all;color:#5a6a7e">${safeResetUrl}</p>
       </div>
     `,
   });
@@ -139,7 +122,7 @@ export async function resetPasswordWithToken(input: {
   await prisma.$transaction([
     prisma.user.update({
       where: { id: row.userId },
-      data: { passwordHash },
+      data: { passwordHash, passwordChangedAt: new Date() },
     }),
     prisma.passwordResetToken.update({
       where: { id: row.id },
@@ -153,6 +136,7 @@ export async function resetPasswordWithToken(input: {
       },
     }),
   ]);
+  await revokeUserSessions(row.userId);
 
   return { ok: true };
 }

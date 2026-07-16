@@ -1,5 +1,6 @@
-import { SignJWT, jwtVerify } from 'jose';
+import { createHash, randomBytes } from 'node:crypto';
 import { cookies } from 'next/headers';
+import { prisma } from '@/lib/db/prisma';
 
 export const SESSION_COOKIE = 'eg_session';
 export const SESSION_REMEMBER_MAX_AGE = 60 * 60 * 24 * 30;
@@ -9,14 +10,7 @@ export interface SessionPayload {
   userId: string;
   email: string;
   name: string;
-}
-
-function getSecret() {
-  const secret = process.env.AUTH_SECRET;
-  if (!secret || secret.length < 16) {
-    throw new Error('AUTH_SECRET must be set (at least 16 characters).');
-  }
-  return new TextEncoder().encode(secret);
+  sessionId: string;
 }
 
 /** Secure cookies in production unless COOKIE_SECURE=false (HTTP behind some proxies). */
@@ -30,31 +24,19 @@ function cookieSecure(): boolean {
   return process.env.NODE_ENV === 'production';
 }
 
-export async function createSessionToken(
-  payload: SessionPayload,
-  rememberMe = true,
-): Promise<string> {
-  return new SignJWT({ ...payload })
-    .setProtectedHeader({ alg: 'HS256' })
-    .setIssuedAt()
-    .setExpirationTime(rememberMe ? '30d' : '1d')
-    .sign(getSecret());
+function hashToken(token: string): string {
+  return createHash('sha256').update(token).digest('hex');
 }
 
-export async function verifySessionToken(token: string): Promise<SessionPayload | null> {
-  try {
-    const { payload } = await jwtVerify(token, getSecret());
-    const userId = typeof payload.userId === 'string' ? payload.userId : null;
-    const email = typeof payload.email === 'string' ? payload.email : null;
-    const name = typeof payload.name === 'string' ? payload.name : null;
-    if (!userId || !email || !name) return null;
-    return { userId, email, name };
-  } catch {
-    return null;
-  }
+function newSessionToken(): string {
+  return randomBytes(32).toString('base64url');
 }
 
-export async function setSessionCookie(token: string, rememberMe = true): Promise<void> {
+function sessionMaxAge(rememberMe: boolean): number {
+  return rememberMe ? SESSION_REMEMBER_MAX_AGE : SESSION_SHORT_MAX_AGE;
+}
+
+async function setSessionCookie(token: string, rememberMe = true): Promise<void> {
   const jar = await cookies();
   const base = {
     httpOnly: true,
@@ -69,6 +51,32 @@ export async function setSessionCookie(token: string, rememberMe = true): Promis
   }
 
   jar.set(SESSION_COOKIE, token, { ...base, maxAge: SESSION_SHORT_MAX_AGE });
+}
+
+export async function createUserSession(input: {
+  userId: string;
+  rememberMe?: boolean;
+  userAgent?: string | null;
+  ip?: string | null;
+}): Promise<string> {
+  const rememberMe = input.rememberMe ?? false;
+  const token = newSessionToken();
+  const tokenHash = hashToken(token);
+  const expiresAt = new Date(Date.now() + sessionMaxAge(rememberMe) * 1000);
+  const ipHash = input.ip ? hashToken(input.ip) : null;
+
+  await prisma.userSession.create({
+    data: {
+      userId: input.userId,
+      tokenHash,
+      userAgent: input.userAgent?.slice(0, 255) ?? null,
+      ipHash,
+      expiresAt,
+    },
+  });
+
+  await setSessionCookie(token, rememberMe);
+  return token;
 }
 
 export async function clearSessionCookie(): Promise<void> {
@@ -86,5 +94,44 @@ export async function getSession(): Promise<SessionPayload | null> {
   const jar = await cookies();
   const token = jar.get(SESSION_COOKIE)?.value;
   if (!token) return null;
-  return verifySessionToken(token);
+  const tokenHash = hashToken(token);
+  const row = await prisma.userSession.findUnique({
+    where: { tokenHash },
+    include: { user: { select: { id: true, email: true, name: true } } },
+  });
+  if (!row || row.revokedAt || row.expiresAt.getTime() <= Date.now()) {
+    if (row && !row.revokedAt) {
+      await prisma.userSession.update({
+        where: { id: row.id },
+        data: { revokedAt: new Date() },
+      }).catch(() => undefined);
+    }
+    await clearSessionCookie();
+    return null;
+  }
+  return {
+    sessionId: row.id,
+    userId: row.user.id,
+    email: row.user.email,
+    name: row.user.name,
+  };
+}
+
+export async function revokeCurrentSession(): Promise<void> {
+  const jar = await cookies();
+  const token = jar.get(SESSION_COOKIE)?.value;
+  if (token) {
+    await prisma.userSession.updateMany({
+      where: { tokenHash: hashToken(token), revokedAt: null },
+      data: { revokedAt: new Date() },
+    });
+  }
+  await clearSessionCookie();
+}
+
+export async function revokeUserSessions(userId: string): Promise<void> {
+  await prisma.userSession.updateMany({
+    where: { userId, revokedAt: null },
+    data: { revokedAt: new Date() },
+  });
 }

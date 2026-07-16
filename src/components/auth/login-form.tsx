@@ -2,21 +2,18 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { loginSchema, type LoginInput } from '@/lib/auth/schemas';
 import { getSavedLoginEmail, persistSavedLoginEmail } from '@/lib/auth/remember-login';
 import { useAuthStore } from '@/store/auth-store';
-import { useProgressStore } from '@/store/progress-store';
 import { Button } from '@/components/ui/button';
-import { useEffect, useState } from 'react';
 
 export function LoginForm() {
   const router = useRouter();
   const setUser = useAuthStore((s) => s.setUser);
-  const hydrate = useProgressStore((s) => s.hydrate);
   const [error, setError] = useState<string | null>(null);
-  const [savedEmailLoaded, setSavedEmailLoaded] = useState(false);
 
   const {
     register,
@@ -30,12 +27,12 @@ export function LoginForm() {
 
   useEffect(() => {
     const savedEmail = getSavedLoginEmail();
+    if (!savedEmail) return;
     reset({
-      email: savedEmail ?? '',
+      email: savedEmail,
       password: '',
-      rememberMe: Boolean(savedEmail),
+      rememberMe: true,
     });
-    setSavedEmailLoaded(true);
   }, [reset]);
 
   async function onSubmit(values: LoginInput) {
@@ -46,7 +43,10 @@ export function LoginForm() {
       credentials: 'include',
       body: JSON.stringify(values),
     });
-    const data = (await res.json()) as { error?: string; user?: { id: string; email: string; name: string } };
+    const data = (await res.json()) as {
+      error?: string;
+      user?: { id: string; email: string; name: string };
+    };
     if (!res.ok || !data.user) {
       setError(data.error ?? 'تعذّر تسجيل الدخول');
       return;
@@ -54,19 +54,8 @@ export function LoginForm() {
 
     persistSavedLoginEmail(values.rememberMe ? values.email : null);
     setUser(data.user);
-    await hydrate();
     router.push('/progress');
     router.refresh();
-  }
-
-  if (!savedEmailLoaded) {
-    return (
-      <div className="space-y-4" aria-busy="true">
-        <div className="h-11 animate-pulse rounded-xl bg-muted" />
-        <div className="h-11 animate-pulse rounded-xl bg-muted" />
-        <div className="h-11 animate-pulse rounded-xl bg-muted" />
-      </div>
-    );
   }
 
   return (
@@ -97,7 +86,7 @@ export function LoginForm() {
           className="size-4 rounded border-border accent-primary"
           {...register('rememberMe')}
         />
-        <span>تذكّرني (البقاء مسجّل الدخول لمدة 30 يومًا)</span>
+        <span>تذكّرني لمدة 30 يومًا</span>
       </label>
       {error ? (
         <p className="rounded-xl bg-incorrect-bg px-3 py-2 text-sm text-incorrect" role="alert">

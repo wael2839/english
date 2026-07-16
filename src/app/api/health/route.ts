@@ -22,7 +22,7 @@ export async function GET() {
   );
 
   let database: 'ok' | 'error' | 'skipped' = 'skipped';
-  let databaseError: string | null = null;
+  let databaseError: 'connection_failed' | 'tables_failed' | null = null;
   let tables: 'ok' | 'missing' | 'error' | 'skipped' = 'skipped';
 
   if (hasDatabaseUrl || hasDbParts) {
@@ -35,11 +35,11 @@ export async function GET() {
       } catch (error) {
         const msg = error instanceof Error ? error.message : String(error);
         tables = msg.includes('does not exist') || msg.includes('P2021') ? 'missing' : 'error';
-        databaseError = msg.slice(0, 200);
+        databaseError = 'tables_failed';
       }
-    } catch (error) {
+    } catch {
       database = 'error';
-      databaseError = (error instanceof Error ? error.message : String(error)).slice(0, 200);
+      databaseError = 'connection_failed';
     }
   }
 
@@ -59,11 +59,10 @@ export async function GET() {
     tables,
     contentFolder,
     db: {
-      host: info.host,
       port: info.port,
-      user: info.user,
-      name: info.name,
       passwordSet: info.passwordSet,
+      passwordLength: info.passwordLength,
+      passwordHasSpecialChars: info.passwordHasSpecialChars,
       ssl: info.ssl,
       source: info.source,
     },
@@ -71,17 +70,20 @@ export async function GET() {
     hint: !ok
       ? [
           !authSecret
-            ? '1) AUTH_SECRET ناقص — أضفه (16 حرفًا على الأقل) ثم أعد التشغيل.'
+            ? '1) AUTH_SECRET ناقص — أضفه (16 حرفًا على الأقل) ثم أعد تشغيل التطبيق.'
             : null,
           !info.passwordSet
-            ? '2) DB_PASSWORD فارغ — انسخ كلمة مرور MySQL من hPanel وضعها بدون علامات اقتباس.'
+            ? '2) DB_PASSWORD فارغ تمامًا — التطبيق لا يرى كلمة المرور.'
+            : null,
+          info.passwordSet && info.passwordHasSpecialChars
+            ? '3) كلمة المرور تحتوي رموزًا خاصة (# @ $ & %). على Hostinger قد تُقطع. غيّرها إلى أحرف وأرقام فقط ثم أعد التشغيل.'
             : null,
           database === 'error'
-            ? '3) فشل اتصال MySQL — غالبًا كلمة المرور أو اسم المستخدم خاطئ. غيّر كلمة المرور من اللوحة والصقها من جديد، واحذف DATABASE_URL إن وُجد.'
+            ? '4) MySQL رفض الدخول — من hPanel غيّر كلمة مرور المستخدم، ضعها في DB_PASSWORD بدون علامات اقتباس، احذف DATABASE_URL، ثم Restart.'
             : null,
-          tables === 'missing' ? '4) الجداول غير موجودة — نفّذ: npm run db:push' : null,
+          tables === 'missing' ? '5) الجداول غير موجودة — استورد prisma/schema.sql من phpMyAdmin.' : null,
           contentFolder === 'missing'
-            ? '5) مجلد content/ غير موجود بجانب التطبيق — ارفعه مع النشر.'
+            ? '6) مجلد content/ غير موجود بجانب التطبيق — ارفعه مع النشر.'
             : null,
         ].filter(Boolean)
       : ['كل شيء جاهز.'],

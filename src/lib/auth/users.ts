@@ -1,8 +1,16 @@
 import bcrypt from 'bcryptjs';
+import type { Prisma } from '@prisma/client';
 import { prisma } from '@/lib/db/prisma';
+import { createEmptyProgress } from '@/types/progress';
 import type { LoginInput, RegisterInput } from './schemas';
 
 const SALT_ROUNDS = 12;
+
+export interface AuthUser {
+  id: string;
+  email: string;
+  name: string;
+}
 
 export async function hashPassword(password: string): Promise<string> {
   return bcrypt.hash(password, SALT_ROUNDS);
@@ -14,22 +22,43 @@ export async function verifyPassword(password: string, hash: string): Promise<bo
 
 export async function registerUser(input: RegisterInput) {
   const email = input.email.toLowerCase();
-  const existing = await prisma.user.findUnique({ where: { email } });
-  if (existing) {
-    return { ok: false as const, error: 'هذا البريد مسجّل مسبقًا.' };
-  }
-
   const passwordHash = await hashPassword(input.password);
-  const user = await prisma.user.create({
-    data: {
-      email,
-      name: input.name,
-      passwordHash,
-    },
-    select: { id: true, email: true, name: true },
-  });
 
-  return { ok: true as const, user };
+  try {
+    const user = await prisma.$transaction(async (tx) => {
+      const created = await tx.user.create({
+        data: {
+          email,
+          name: input.name,
+          passwordHash,
+        },
+        select: { id: true, email: true, name: true },
+      });
+
+      await tx.userProgress.create({
+        data: {
+          userId: created.id,
+          data: createEmptyProgress() as unknown as Prisma.InputJsonValue,
+        },
+      });
+
+      return created;
+    });
+
+    return { ok: true as const, user };
+  } catch (error) {
+    const code =
+      typeof error === 'object' &&
+      error !== null &&
+      'code' in error &&
+      typeof (error as { code?: unknown }).code === 'string'
+        ? (error as { code: string }).code
+        : null;
+    if (code === 'P2002') {
+      return { ok: false as const, error: 'هذا البريد مسجّل مسبقًا.' };
+    }
+    throw error;
+  }
 }
 
 export async function authenticateUser(input: LoginInput) {

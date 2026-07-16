@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { forgotPasswordSchema } from '@/lib/auth/schemas';
-import { requestPasswordReset } from '@/lib/auth/password-reset';
+import { requestPasswordReset, resetCooldownMs } from '@/lib/auth/password-reset';
+import { checkRateLimit, getClientIp } from '@/lib/auth/rate-limit';
 
 export async function POST(request: Request) {
   try {
@@ -13,18 +14,30 @@ export async function POST(request: Request) {
       );
     }
 
-    const result = await requestPasswordReset(parsed.data.email);
+    const email = parsed.data.email.toLowerCase();
+    const limit = await checkRateLimit({
+      action: 'password-reset',
+      key: `${getClientIp(request)}:${email}`,
+      limit: 1,
+      windowMs: resetCooldownMs(),
+    });
+    if (!limit.ok) {
+      const minutes = Math.max(1, Math.ceil(limit.retryAfterSeconds / 60));
+      return NextResponse.json(
+        {
+          error:
+            minutes === 1
+              ? 'لقد طلبت رابط استعادة مؤخرًا. يرجى الانتظار دقيقة واحدة ثم المحاولة مجددًا.'
+              : `لقد طلبت رابط استعادة مؤخرًا. يرجى الانتظار ${minutes} دقائق ثم المحاولة مجددًا.`,
+          code: 'rate_limited',
+          retryAfterMinutes: minutes,
+        },
+        { status: 429 },
+      );
+    }
+
+    const result = await requestPasswordReset(email);
     if (!result.ok) {
-      if (result.code === 'rate_limited') {
-        return NextResponse.json(
-          {
-            error: result.error,
-            code: result.code,
-            retryAfterMinutes: result.retryAfterMinutes,
-          },
-          { status: 429 },
-        );
-      }
       return NextResponse.json({ error: result.error }, { status: 503 });
     }
 
