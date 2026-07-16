@@ -33,9 +33,14 @@ export function RegisterForm() {
       credentials: 'include',
       body: JSON.stringify(values),
     });
-    const data = (await res.json()) as { error?: string; user?: { id: string; email: string; name: string } };
+    const data = (await res.json()) as {
+      error?: string;
+      detail?: string | null;
+      user?: { id: string; email: string; name: string };
+    };
     if (!res.ok || !data.user) {
-      setError(data.error ?? 'تعذّر إنشاء الحساب');
+      const extra = data.detail ? `\n(${data.detail})` : '';
+      setError(`${data.error ?? 'تعذّر إنشاء الحساب'}${extra}`);
       return;
     }
     setUser(data.user);
@@ -77,7 +82,10 @@ export function RegisterForm() {
         {errors.password ? <p className="mt-1 text-xs text-incorrect">{errors.password.message}</p> : null}
       </label>
       {error ? (
-        <p className="rounded-xl bg-incorrect-bg px-3 py-2 text-sm text-incorrect" role="alert">
+        <p
+          className="whitespace-pre-line rounded-xl bg-incorrect-bg px-3 py-2 text-sm text-incorrect"
+          role="alert"
+        >
           {error}
         </p>
       ) : null}

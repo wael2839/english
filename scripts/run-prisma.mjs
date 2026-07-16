@@ -34,7 +34,12 @@ function buildDatabaseUrl() {
   const password = process.env.DB_PASSWORD ?? '';
   const name = (process.env.DB_NAME || 'english_grammar').trim();
   const auth = `${encodeURIComponent(user)}:${encodeURIComponent(password)}`;
-  return `mysql://${auth}@${host}:${port}/${name}`;
+  let url = `mysql://${auth}@${host}:${port}/${encodeURIComponent(name)}`;
+  const ssl = (process.env.DB_SSL || '').trim().toLowerCase();
+  if (ssl === 'true' || ssl === '1' || ssl === 'required') {
+    url += '?sslaccept=strict';
+  }
+  return url;
 }
 
 loadEnvFile(resolve(process.cwd(), '.env'));
