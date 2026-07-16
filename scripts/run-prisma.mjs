@@ -36,8 +36,10 @@ function buildDatabaseUrl() {
   const auth = `${encodeURIComponent(user)}:${encodeURIComponent(password)}`;
   let url = `mysql://${auth}@${host}:${port}/${encodeURIComponent(name)}`;
   const ssl = (process.env.DB_SSL || '').trim().toLowerCase();
-  if (ssl === 'true' || ssl === '1' || ssl === 'required') {
+  if (ssl === 'strict') {
     url += '?sslaccept=strict';
+  } else if (ssl === 'true' || ssl === '1' || ssl === 'required' || ssl === 'accept') {
+    url += '?sslaccept=accept_invalid_certs';
   }
   return url;
 }
@@ -47,6 +49,14 @@ loadEnvFile(resolve(process.cwd(), '.env.local'));
 
 if (!process.env.DATABASE_URL?.trim()) {
   process.env.DATABASE_URL = buildDatabaseUrl();
+} else if (
+  process.env.DATABASE_URL.includes('sslaccept=strict') &&
+  (process.env.DB_SSL || '').trim().toLowerCase() !== 'strict'
+) {
+  process.env.DATABASE_URL = process.env.DATABASE_URL.replace(
+    'sslaccept=strict',
+    'sslaccept=accept_invalid_certs',
+  );
 }
 
 const args = process.argv.slice(2);

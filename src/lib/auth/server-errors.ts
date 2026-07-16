@@ -63,6 +63,20 @@ export function mapServerError(error: unknown): {
   }
 
   if (
+    detail.includes('certificate verify failed') ||
+    detail.includes('hostname mismatch') ||
+    detail.includes('tls_post_process_server_certificate') ||
+    detail.includes('Error opening a TLS connection')
+  ) {
+    return {
+      status: 503,
+      message:
+        'فشل التحقق من شهادة SSL لقاعدة البيانات. ضع DB_SSL=true (بدون strict) أو أضف ?sslaccept=accept_invalid_certs إلى DATABASE_URL ثم أعد تشغيل التطبيق.',
+      detail,
+    };
+  }
+
+  if (
     detail.includes("Can't reach database") ||
     detail.includes('ECONNREFUSED') ||
     detail.includes('ENOTFOUND') ||

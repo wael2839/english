@@ -52,15 +52,19 @@ export async function GET() {
     databaseError,
     hint: !ok
       ? [
-          !authSecret ? 'أضف AUTH_SECRET (16 حرفًا على الأقل) في متغيرات البيئة على الاستضافة.' : null,
+          !authSecret
+            ? '1) AUTH_SECRET ناقص — أضفه (16 حرفًا على الأقل) ثم أعد التشغيل.'
+            : null,
           !hasDbParts
-            ? 'أضف DB_HOST وDB_USER وDB_PASSWORD وDB_NAME (أو DATABASE_URL) على الاستضافة.'
+            ? '2) متغيرات DB ناقصة — أضف: DB_HOST وDB_USER وDB_PASSWORD وDB_NAME.'
             : null,
           database === 'error'
-            ? 'فشل الاتصال بـ MySQL. لا تستخدم 127.0.0.1 على الاستضافة؛ ضع مضيف قاعدة البيانات الفعلي وجرّب DB_SSL=true.'
+            ? '3) فشل اتصال MySQL — على الاستضافة ضع المضيف الحقيقي وDB_SSL=true (ليس 127.0.0.1).'
             : null,
-          tables === 'missing' ? 'الجداول غير موجودة — نفّذ: npm run db:push' : null,
+          tables === 'missing'
+            ? '4) الجداول غير موجودة — نفّذ: npm run db:push'
+            : null,
         ].filter(Boolean)
-      : [],
+      : ['كل شيء جاهز.'],
   });
 }

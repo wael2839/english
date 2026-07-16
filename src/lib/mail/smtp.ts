@@ -10,24 +10,27 @@ export interface SmtpConfig {
 }
 
 /**
- * Builds a valid From header. If SMTP_FROM contains an email address
- * (either `name <email>` or a bare `email`) it is used as-is; if it is
- * just a display name, it is combined with SMTP_USER so the recipient
- * sees the name instead of the raw sending address.
+ * Builds a valid From header.
+ * Priority:
+ * 1) SMTP_FROM already as `Name <email>`
+ * 2) SMTP_FROM_NAME + SMTP_FROM/SMTP_USER email
+ * 3) SMTP_FROM display-name-only + SMTP_USER
+ * 4) SMTP_USER alone
  */
-function buildFromHeader(rawFrom: string | undefined, user: string): string {
+function buildFromHeader(
+  rawFrom: string | undefined,
+  fromName: string | undefined,
+  user: string,
+): string {
   const value = rawFrom?.trim();
-  if (!value) return user;
+  const name = fromName?.trim().replace(/"/g, '');
 
-  // Already includes an address like: الاسم <mail@domain.com>
-  if (value.includes('<') && value.includes('>')) return value;
+  if (value && value.includes('<') && value.includes('>')) return value;
 
-  // Bare email address without a display name.
-  if (value.includes('@')) return value;
-
-  // Display name only — attach the authenticated address.
-  const safeName = value.replace(/"/g, '');
-  return `"${safeName}" <${user}>`;
+  const email = value && value.includes('@') ? value : user;
+  if (name) return `"${name}" <${email}>`;
+  if (value && !value.includes('@')) return `"${value.replace(/"/g, '')}" <${user}>`;
+  return email;
 }
 
 export function getSmtpConfig(): SmtpConfig | null {
@@ -37,7 +40,11 @@ export function getSmtpConfig(): SmtpConfig | null {
 
   if (!host || !user || !pass) return null;
 
-  const from = buildFromHeader(process.env.SMTP_FROM, user);
+  const from = buildFromHeader(
+    process.env.SMTP_FROM,
+    process.env.SMTP_FROM_NAME,
+    user,
+  );
 
   const port = Number(process.env.SMTP_PORT || 587);
   const secure =
