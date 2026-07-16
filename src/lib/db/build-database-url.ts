@@ -3,17 +3,11 @@
  * Used by the app and by Prisma CLI preload.
  */
 export function buildDatabaseUrl(env: NodeJS.ProcessEnv = process.env): string {
-  const host = env.DB_HOST?.trim();
+  const host = (env.DB_HOST || '127.0.0.1').trim();
   const port = (env.DB_PORT || '3306').trim();
-  const user = env.DB_USER?.trim();
+  const user = (env.DB_USER || 'root').trim();
   const password = env.DB_PASSWORD ?? '';
-  const name = env.DB_NAME?.trim();
-
-  if (!host || !user || !name) {
-    throw new Error(
-      'Missing DB env vars. Set DB_HOST, DB_USER, DB_NAME (and DB_PASSWORD) or DATABASE_URL on the host.',
-    );
-  }
+  const name = (env.DB_NAME || 'english_grammar').trim();
 
   const auth = `${encodeURIComponent(user)}:${encodeURIComponent(password)}`;
   let url = `mysql://${auth}@${host}:${port}/${encodeURIComponent(name)}`;
