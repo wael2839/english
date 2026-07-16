@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { NextResponse } from 'next/server';
-import { ensureDatabaseUrl } from '@/lib/db/build-database-url';
+import { ensureDatabaseUrl, getDbConnectionInfo } from '@/lib/db/build-database-url';
 import { prisma } from '@/lib/db/prisma';
 
 /**
@@ -10,6 +10,7 @@ import { prisma } from '@/lib/db/prisma';
  */
 export async function GET() {
   ensureDatabaseUrl();
+  const info = getDbConnectionInfo();
 
   const authSecret = Boolean(process.env.AUTH_SECRET && process.env.AUTH_SECRET.length >= 16);
   const hasDatabaseUrl = Boolean(process.env.DATABASE_URL?.trim());
@@ -57,17 +58,26 @@ export async function GET() {
     database,
     tables,
     contentFolder,
+    db: {
+      host: info.host,
+      port: info.port,
+      user: info.user,
+      name: info.name,
+      passwordSet: info.passwordSet,
+      ssl: info.ssl,
+      source: info.source,
+    },
     databaseError,
     hint: !ok
       ? [
           !authSecret
             ? '1) AUTH_SECRET ناقص — أضفه (16 حرفًا على الأقل) ثم أعد التشغيل.'
             : null,
-          !hasDbParts
-            ? '2) متغيرات DB ناقصة — أضف: DB_HOST وDB_USER وDB_PASSWORD وDB_NAME.'
+          !info.passwordSet
+            ? '2) DB_PASSWORD فارغ — انسخ كلمة مرور MySQL من hPanel وضعها بدون علامات اقتباس.'
             : null,
           database === 'error'
-            ? '3) فشل اتصال MySQL — تحقق من بيانات القاعدة. مع localhost جرّب DB_SSL=false، ومع شهادة خاطئة جرّب DB_SSL=true.'
+            ? '3) فشل اتصال MySQL — غالبًا كلمة المرور أو اسم المستخدم خاطئ. غيّر كلمة المرور من اللوحة والصقها من جديد، واحذف DATABASE_URL إن وُجد.'
             : null,
           tables === 'missing' ? '4) الجداول غير موجودة — نفّذ: npm run db:push' : null,
           contentFolder === 'missing'

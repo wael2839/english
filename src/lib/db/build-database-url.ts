@@ -7,21 +7,85 @@
  * - strict → TLS with full certificate verification
  * - false | 0 | empty → no SSL query params
  */
+
+function stripQuotes(value: string): string {
+  const trimmed = value.trim();
+  if (
+    (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+    (trimmed.startsWith("'") && trimmed.endsWith("'"))
+  ) {
+    return trimmed.slice(1, -1);
+  }
+  return trimmed;
+}
+
+function readEnv(env: NodeJS.ProcessEnv, key: string): string {
+  const raw = env[key];
+  if (raw === undefined || raw === null) return '';
+  return stripQuotes(String(raw));
+}
+
+export function getDbConnectionInfo(env: NodeJS.ProcessEnv = process.env): {
+  host: string;
+  port: string;
+  user: string;
+  name: string;
+  passwordSet: boolean;
+  ssl: string;
+  source: 'DATABASE_URL' | 'DB_*';
+} {
+  const hasParts = Boolean(readEnv(env, 'DB_USER') || readEnv(env, 'DB_NAME'));
+  // Prefer explicit DB_* on Hostinger so a stale DATABASE_URL cannot keep a wrong password.
+  if (hasParts || !readEnv(env, 'DATABASE_URL')) {
+    return {
+      host: readEnv(env, 'DB_HOST') || '127.0.0.1',
+      port: readEnv(env, 'DB_PORT') || '3306',
+      user: readEnv(env, 'DB_USER') || 'root',
+      name: readEnv(env, 'DB_NAME') || 'english_grammar',
+      passwordSet: readEnv(env, 'DB_PASSWORD').length > 0,
+      ssl: readEnv(env, 'DB_SSL').toLowerCase() || 'false',
+      source: 'DB_*',
+    };
+  }
+
+  try {
+    const url = new URL(readEnv(env, 'DATABASE_URL').replace(/^mysql:\/\//, 'http://'));
+    return {
+      host: url.hostname || 'unknown',
+      port: url.port || '3306',
+      user: decodeURIComponent(url.username || ''),
+      name: decodeURIComponent(url.pathname.replace(/^\//, '')),
+      passwordSet: Boolean(url.password),
+      ssl: url.search.includes('sslaccept') ? 'true' : 'false',
+      source: 'DATABASE_URL',
+    };
+  } catch {
+    return {
+      host: 'unknown',
+      port: '3306',
+      user: 'unknown',
+      name: 'unknown',
+      passwordSet: false,
+      ssl: 'false',
+      source: 'DATABASE_URL',
+    };
+  }
+}
+
 export function buildDatabaseUrl(env: NodeJS.ProcessEnv = process.env): string {
-  const host = (env.DB_HOST || '127.0.0.1').trim();
-  const port = (env.DB_PORT || '3306').trim();
-  const user = (env.DB_USER || 'root').trim();
-  const password = env.DB_PASSWORD ?? '';
-  const name = (env.DB_NAME || 'english_grammar').trim();
+  const host = readEnv(env, 'DB_HOST') || '127.0.0.1';
+  const port = readEnv(env, 'DB_PORT') || '3306';
+  const user = readEnv(env, 'DB_USER') || 'root';
+  const password = readEnv(env, 'DB_PASSWORD');
+  const name = readEnv(env, 'DB_NAME') || 'english_grammar';
 
   const auth = `${encodeURIComponent(user)}:${encodeURIComponent(password)}`;
   let url = `mysql://${auth}@${host}:${port}/${encodeURIComponent(name)}`;
 
-  const ssl = (env.DB_SSL || '').trim().toLowerCase();
+  const ssl = readEnv(env, 'DB_SSL').toLowerCase();
   if (ssl === 'strict') {
     url += '?sslaccept=strict';
   } else if (ssl === 'true' || ssl === '1' || ssl === 'required' || ssl === 'accept') {
-    // Shared hosts often use a cert whose CN doesn't match the DB hostname.
     url += '?sslaccept=accept_invalid_certs';
   }
 
@@ -30,23 +94,30 @@ export function buildDatabaseUrl(env: NodeJS.ProcessEnv = process.env): string {
 
 /**
  * Ensures process.env.DATABASE_URL exists.
- * If an existing DATABASE_URL uses sslaccept=strict and still fails hostname
- * checks on shared hosting, set DB_SSL=true (without DATABASE_URL) or change
- * the URL to sslaccept=accept_invalid_certs.
+ * When DB_USER / DB_NAME are set, rebuilds from DB_* so Hostinger panel
+ * credentials always win over a stale DATABASE_URL.
  */
 export function ensureDatabaseUrl(env: NodeJS.ProcessEnv = process.env): string {
-  if (env.DATABASE_URL?.trim()) {
-    let url = env.DATABASE_URL.trim();
-    // Auto-fix common Hostinger failure when DATABASE_URL was built with strict SSL.
-    if (
-      url.includes('sslaccept=strict') &&
-      (env.DB_SSL || '').trim().toLowerCase() !== 'strict'
-    ) {
-      url = url.replace('sslaccept=strict', 'sslaccept=accept_invalid_certs');
-      env.DATABASE_URL = url;
-    }
+  const hasParts = Boolean(readEnv(env, 'DB_USER') || readEnv(env, 'DB_NAME'));
+
+  if (hasParts) {
+    const url = buildDatabaseUrl(env);
+    env.DATABASE_URL = url;
     return url;
   }
+
+  if (env.DATABASE_URL?.trim()) {
+    let url = stripQuotes(env.DATABASE_URL);
+    if (
+      url.includes('sslaccept=strict') &&
+      readEnv(env, 'DB_SSL').toLowerCase() !== 'strict'
+    ) {
+      url = url.replace('sslaccept=strict', 'sslaccept=accept_invalid_certs');
+    }
+    env.DATABASE_URL = url;
+    return url;
+  }
+
   const url = buildDatabaseUrl(env);
   env.DATABASE_URL = url;
   return url;

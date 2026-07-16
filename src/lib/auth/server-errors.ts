@@ -36,8 +36,23 @@ export function mapServerError(error: unknown): {
     };
   }
 
+  // Wrong MySQL user/password (common on Hostinger)
+  if (
+    code === 'P1000' ||
+    detail.includes('Authentication failed against database server') ||
+    detail.includes('Access denied for user') ||
+    detail.includes('credentials for')
+  ) {
+    return {
+      status: 503,
+      message:
+        'رفض MySQL اسم المستخدم أو كلمة المرور. افتح hPanel → Databases → MySQL وانسخ DB_USER وDB_PASSWORD وDB_NAME حرفيًا (بدون علامات اقتباس)، احذف DATABASE_URL إن وُجد، ثم أعد تشغيل التطبيق.',
+      detail,
+    };
+  }
+
   // Prisma connection / schema issues
-  if (code === 'P1001' || code === 'P1000' || code === 'P1017') {
+  if (code === 'P1001' || code === 'P1017') {
     return {
       status: 503,
       message:
